@@ -1,0 +1,175 @@
+%% This file is part of the submission to Nature Machine Intelligence
+%% Systematic Review: AI for Brain-to-Speech Decoding (2015-2026)
+%% Authors: Blessing Isoyiza Adeika, Onyema Osuagwu
+%% Morgan State University, Department of Electrical and Computer Engineering
+
+\documentclass[11pt,a4paper]{article}
+
+% Additional packages for tables, figures, and mathematical formatting
+\usepackage{amsmath}
+\usepackage{amssymb}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage[hidelinks]{hyperref}
+\usepackage[numbers]{natbib}
+\usepackage{rotating}
+\usepackage{geometry}
+\geometry{margin=1in, top=0.75in, bottom=0.75in}
+\bibliographystyle{IEEEtran}
+
+% Define colors for tables
+\definecolor{headerblue}{RGB}{31, 78, 121}
+\definecolor{lightblue}{RGB}{217, 225, 242}
+\definecolor{lightgreen}{RGB}{198, 224, 180}
+\definecolor{lightyellow}{RGB}{255, 242, 204}
+\definecolor{lightred}{RGB}{242, 220, 219}
+
+% TikZ configuration
+\usetikzlibrary{shapes, arrows, positioning, calc, fit}
+
+% Define keywords command for article class
+\newcommand{\keywords}[1]{\textbf{Keywords:} #1}
+
+% Import high-definition TikZ figures (requires coordinate system fixes)
+% \input{figures/figures}
+
+% Document metadata
+\title{Artificial Intelligence for Brain-to-Speech Decoding: A Systematic Review of Methods, Performance Benchmarks, and Generalization Across Neural Recording Modalities (2015-2026)}
+
+\author{Blessing Isoyiza Adeika$^{1,*}$ and Onyema Osuagwu$^{1}$}
+
+\date{}
+
+\renewcommand{\thefootnote}{\arabic{footnote}}
+\newcommand{\affiliations}{$^{1}$Department of Electrical and Computer Engineering, Morgan State University, Baltimore, MD 21251, USA \\[0.5em] $^{*}$Correspondence: blade3@morgan.edu}
+
+\begin{document}
+
+\maketitle
+
+\noindent\affiliations
+
+%% ============================================================================
+%% ABSTRACT
+%% ============================================================================
+\begin{abstract}
+Brain-to-speech decoding (the computational translation of neural signals into speech or text) has advanced from theoretical possibility to clinical reality. For millions affected by ALS, locked-in syndrome, or paralytic stroke, this technology represents a pathway to restored communication. Despite landmark results achieving 2.5\% word error rate (WER) and 78 words per minute, no PRISMA-compliant systematic review has synthesized AI methods, performance benchmarks, and generalization evidence across the full modality landscape. We searched PubMed, IEEE Xplore, Scopus, Web of Science, and arXiv for empirical studies published January 2015-April 2026, requiring human neural recording data, an AI decoding model, and quantitative performance metrics. Seventy-one studies met inclusion criteria after dual-reviewer PRISMA 2020 screening (PROSPERO registered). Twelve variables were extracted per study; findings were synthesized narratively with structured quantitative comparison across five modality groups. Invasive systems (ECoG and intracortical; $n=32$) achieved WER 2.5-25\% and up to 78 WPM. Non-invasive EEG ($n=20$) achieved 70-92.5\% closed-set accuracy and 35-45\% open-vocabulary WER. Transformer architectures and self-supervised learning dominated from 2022 onwards. Only 14/71 studies (20\%) integrated a language model, despite this being the largest single driver of WER reduction. Critically, 56\% of studies demonstrated no cross-participant generalization; long-term cross-session stability (weeks/months) appears in one study, while cross-language evidence appears in two studies. The field has achieved substantial technical milestones on narrow, single-participant benchmarks. Standardized evaluation protocols, multi-participant data infrastructure, and expanded language model integration are the priority research directions for bridging controlled demonstration and scalable clinical deployment.
+\end{abstract}
+
+%% Keywords
+\keywords{brain-computer interface, speech neuroprosthesis, neural decoding, brain-to-speech, electrocorticography, intracortical recording, EEG, MEG, fMRI, deep learning, transformer, self-supervised learning, large language model, generalization, systematic review}
+
+\section{Introduction}
+
+\subsection{The Clinical Imperative}
+
+For individuals living with amyotrophic lateral sclerosis (ALS), locked-in syndrome, severe stroke, or anarthria following spinal cord injury, speech loss is not merely a functional deficit. It eliminates a critical communication channel, as motor neuron degeneration or cortical damage can disrupt the pathway from intention to articulation whilst leaving cognition entirely intact. Conventional augmentative and alternative communication (AAC) approaches (eye-tracking interfaces, switch scanning) provide partial relief, but each requires preserved residual motor function that late-stage ALS and locked-in patients may no longer possess \cite{TaskForce2010}. Brain-computer interfaces (BCIs) offer a categorically different solution: by reading neural signals directly from the cortex, bypassing broken motor pathways entirely, a BCI can translate the intent to speak into speech itself without any muscular output. The clinical imperative is real and urgent \cite{TaskForce2010}, and the millions affected by severe dysarthria, aphasia, and paralysis represent a population for whom restored communication is transformative.
+
+What was once speculative has become demonstrably achievable. Over the past five years, several landmark studies have achieved communication rates approaching natural impaired speech and word error rates (WER) competitive with commercial automatic speech recognition for dysarthric speakers \cite{Moses2021,Willett2023,Card2024,Metzger2023}. The evidence base underpinning these achievements (spanning five neural recording modalities and eight artificial intelligence (AI) architecture classes over more than a decade) has grown faster than the field's capacity to synthesize it rigorously. The present systematic review addresses that gap.
+
+\subsection{Scope and Organization}
+
+This review covers empirical studies published between January 2015 and April 2026, identified through searches of PubMed, Scopus, IEEE Xplore, Web of Science, and arXiv. Following PRISMA 2020 screening, 71 studies were included across five modality groups: invasive (ECoG, intracortical, sEEG; n=32), non-invasive EEG (n=20), non-invasive MEG/fMRI (n=14), hybrid/peripheral (EEG+fNIRS, HD-sEMG; n=5). Section 2 describes the methodology. Sections 3 and 4 characterize the modality landscape and AI architectures. Section 5 reports performance benchmarks with comparability analysis. Section 6 evaluates generalization evidence. Section 7 discusses implications for research and clinical translation. Section 8 states conclusions.
+
+%% ============================================================================
+%% SECTION 2: METHODOLOGY (inline content from original)
+%% ============================================================================
+\section{Methodology}
+\label{sec:methodology}
+
+\subsection{Review Protocol and Registration}
+
+This review was designed and reported in accordance with the PRISMA 2020 statement \cite{Page2021} and the PRISMA-P 2015 protocol checklist \cite{Shamseer2015,Tricco2018}. A full protocol was developed and registered in the PROSPERO International Register of Systematic Reviews (Registration Number: CRD420261368521) prior to formal screening but after preliminary scoping commenced in January 2025. Formal database searches were executed on April 13, 2026. This retroactive registration relative to scoping reflects the timing of the systematic review's formal protocol development. No deviations from the registered protocol were made. Visual synthesis elements were developed using narrative synthesis approaches \cite{Popay2006} and represent presentation choices, not analytical deviations.
+
+\subsection{Eligibility Criteria and Search Strategy}
+
+Eligibility was operationalized using the PICOS framework \cite{Richardson1995}. Studies were required to meet all of the following criteria: human participants (healthy volunteers or individuals with neurological conditions including ALS, paralysis, locked-in syndrome, epilepsy, aphasia, or anarthria); an AI or machine learning computational model applied to decode or reconstruct speech-related output; at least one quantitative performance metric (WER, CER, accuracy, PCC, WPM, BLEU); and empirical studies published between January 1, 2015, and April 13, 2026. Reviews, editorials, and conference abstracts without full experimental reporting were excluded. Non-peer-reviewed preprints from bioRxiv and arXiv were included to capture early-stage research and emerging findings, and were explicitly flagged in the extraction register to enable sensitivity analyses. Approximately 5\% of the included studies (4 preprints) were non-peer-reviewed sources.
+
+Searches were executed across five databases on April 13, 2026: MEDLINE/PubMed, Scopus, IEEE Xplore, Web of Science (Core Collection), and arXiv. Three Boolean concept blocks were combined with AND. Forward and backward citation chaining was conducted on 15 landmark studies identified during protocol development. All retrieved records were imported into a deduplicated register for screening. Secondary review publications and survey papers identified during screening (e.g., Panachakel et al. 2021 and López-Bernal et al. 2022 as review syntheses of EEG studies, Zhou et al. 2025 as a cross-modality survey) were excluded; the screening process retained only empirical primary studies with original experimental data and novel AI model results. Five studies initially flagged as potential reviews were verified as empirical papers with novel experimental results and were included.
+
+\subsection{Study Selection and Data Extraction}
+
+Selection proceeded in two stages, each performed independently by both authors with consensus adjudication of discrepancies. Stage 1 involved title and abstract screening of all deduplicated records (Cohen's $\kappa$ = 0.78). Stage 2 involved full-text assessment of all records classified as Include or Uncertain by either reviewer (Cohen's $\kappa$ = 0.85). Inter-rater reliability was quantified using Cohen's kappa \cite{Cohen1960} at each stage, with values indicating substantial agreement.
+
+A structured extraction form was developed a priori and pilot-tested on five randomly selected studies. Twelve variables were extracted for each included study: bibliographic details; neural recording modality; participant count and clinical status; decoding task type; vocabulary type; output type; AI architecture class; language model integration; primary performance metric and value; generalization type; real-time evaluation; and open code or data availability.
+
+\subsection{Quality Assessment}
+
+An adapted seven-item methodological quality checklist was developed, drawing on criteria for evaluating AI-based biomedical studies \cite{Sterne2019}. Each item was scored as met (1), partially met (0.5), or not met (0). Scores ranged from 0 to 7; studies were classified as high ($\geq 5.5$), moderate (3.5-5.0), or low (<3.5) quality. No studies were excluded solely on quality grounds. GRADE certainty of evidence ratings were not applied to this review due to the narrative synthesis design and high heterogeneity across modalities, populations, metrics, and AI architectures; GRADE is designed for pairwise comparisons and meta-analyses and does not accommodate the multi-dimensional heterogeneity present across these 71 studies. Instead, risk of bias was assessed at the study level using the adapted checklist, with results aggregated descriptively in Appendix B.
+
+\subsection{Data Synthesis Approach}
+
+The heterogeneity of modalities, architectures, tasks, populations, and metrics across the 71 included studies precluded statistical meta-analysis. Findings were synthesized using structured narrative synthesis, supplemented by: a modality comparison matrix; core performance benchmarks; AI architecture summary; generalization evidence summary; and benchmark comparability analysis.
+
+%% ============================================================================
+%% FIGURES AND TABLES (PRISMA DIAGRAM + DATA TABLES)
+%% ============================================================================
+\input{sections/figures_and_tables}
+
+%% ============================================================================
+%% SECTION 3: NEURAL RECORDING MODALITIES
+%% ============================================================================
+\input{sections/section3_modalities}
+
+%% ============================================================================
+%% SECTION 4: AI ARCHITECTURES AND METHODS
+%% ============================================================================
+\input{sections/section4_architectures}
+
+%% ============================================================================
+%% SECTION 5: PERFORMANCE BENCHMARKS
+%% ============================================================================
+\input{sections/section5_benchmarks}
+
+%% ============================================================================
+%% SECTION 6: GENERALIZATION EVIDENCE
+%% ============================================================================
+\input{sections/section6_generalization}
+
+%% ============================================================================
+%% SECTION 7: DISCUSSION
+%% ============================================================================
+\input{sections/section7_discussion}
+
+%% ============================================================================
+%% SECTION 8: CONCLUSIONS
+%% ============================================================================
+\section{Limitations of the Systematic Review}
+
+This systematic review has several important limitations that warrant explicit acknowledgment. First, the dual-reviewer screening design (only two authors) is leaner than the three-to-four reviewers typical in large systematic reviews, potentially introducing reviewer bias; however, inter-rater reliability met consensus thresholds. Second, the English-language restriction excluded non-English-published research, potentially missing contributions from the Chinese, Japanese, Korean, and European brain-to-speech communities. Third, the inclusion of non-peer-reviewed preprints from bioRxiv and arXiv introduces lower evidentiary standards compared to peer-reviewed benchmarks; however, preprints were explicitly identified and represent approximately 5\% of the included set. Fourth, single extraction of variables (one author per study) without dual verification introduces transcription error risk, though spot-checks on 10\% of studies showed zero discrepancies. Fifth, the high heterogeneity in methods, metrics, and populations precluded statistical meta-analysis, limiting the certainty of synthesized effect estimates. Sixth, publication bias likely favors positive results and large performance gains, potentially overstating field progress on readily-publishable single-participant studies. Seventh, late protocol registration (after scoping commenced) relative to full database searching introduces sequencing bias, though the registered protocol was finalized before formal screening. Finally, the rapidly evolving nature of brain-to-speech technology means this review's findings are time-sensitive; studies published after April 2026 are not captured and may shift the findings substantially, particularly in transformer and foundation model categories.
+
+\section{Conclusions}
+
+This systematic review of 71 empirical studies published between 2015 and 2026 has synthesized the AI methods, performance benchmarks, and generalization evidence underpinning brain-to-speech decoding research. The field has achieved substantial technical milestones on narrow, single-participant benchmarks, with invasive systems now reaching 2.5\% word error rate and 78 words per minute communication rates. However, progress is concentrated in proof-of-concept demonstrations rather than clinical-grade deployment. Three critical gaps limit translation to clinical practice. First, generalization remains fundamentally limited: 56\% of studies show no cross-participant or cross-session generalization, and only two studies demonstrate multi-month stability. Second, the field lacks standardized evaluation infrastructure, making cross-study performance comparisons incommensurable and obscuring whether observed progress reflects true capability gains or task definition changes. Third, language model integration, the highest-leverage technical lever available, remains adopted by only 20\% of the field due to infrastructure barriers rather than scientific disagreement.
+
+The path forward requires coordinated action across three dimensions. Research priority should focus on long-horizon generalization studies (6-12 month tracking per participant across modalities), standardized benchmarking initiatives with shared data infrastructure, and systematic investigation of domain adaptation approaches for cross-participant transfer. Methodological priority should establish a minimum reporting standard for all future studies, including eight benchmark comparability dimensions, explicit generalization methodology, and code and data release. Translational priority should leverage public pretraining on multi-participant datasets and federated learning approaches to enable privacy-preserving multisite clinical trials, particularly for invasive modalities where data sharing has been restricted. The intellectual core of brain-to-speech is solid; what is needed now is the infrastructure will and cross-team coordination to build this knowledge at scale toward genuine clinical deployment.
+
+\section*{Funding}
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+\section*{Competing Interests}
+The authors declare no competing financial or personal interests.
+
+\section*{Author Contributions}
+B.I.A. designed the systematic review, conducted study screening and data extraction, performed analysis and synthesis, and wrote the manuscript. O.O. conducted independent screening verification, verified data extraction on a subset of studies, and edited the manuscript for critical intellectual content. Both authors approved the final version and agree to be accountable for all aspects of the work.
+
+\section*{Data Availability}
+The extraction register containing detailed characteristics of all 71 included studies is available from the corresponding author upon request. Code for the systematic review analysis is available at [GitHub repository URL to be provided]. The PRISMA 2020 checklist and completed screening forms are available in the supplementary materials.
+
+\bibliography{references}
+
+%% ============================================================================
+%% APPENDICES (AFTER BIBLIOGRAPHY)
+%% ============================================================================
+\input{sections/appendices}
+
+\end{document}

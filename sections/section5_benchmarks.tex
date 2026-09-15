@@ -1,0 +1,147 @@
+%% Section 5: Performance Benchmarks and Comparability Analysis
+%% HIGH PRIORITY SECTION: Contains Section 5.5 enhancements on standardization and comparability
+
+\section{Performance Benchmarks and Comparability Analysis}
+\label{sec:benchmarks}
+
+\subsection{Overview of Reported Metrics}
+
+The 71 included studies employ nine distinct performance metrics, creating a fundamental comparability problem \cite{Panayotov2015,Ardila2020,Berezutskaya2022}. Word error rate (WER) dominates invasive and EEG systems; classification accuracy dominates closed-set phoneme/word decoding; Pearson correlation dominates continuous acoustic reconstruction; BLEU and ROUGE scores appear in emerging LLM-integrated approaches \cite{Abdulghani2023}. A study reporting 9\% WER on a 50-word vocabulary cannot be meaningfully compared to a study reporting 35\% WER on a 125,000-word vocabulary, yet both represent genuine achievements within their respective task constraints. The field has not yet standardized what ``achievement'' means, creating a landscape where progress is locally measurable but globally incoherent \cite{Willett2024Benchmark}.
+
+\subsection{Invasive Systems: ECoG and Intracortical (n=32)}
+
+Invasive systems (ECoG, intracortical microelectrode arrays, and sEEG) consistently achieve the lowest word error rates across all modalities. Intracortical microelectrode arrays achieve the best performance: Card et al. \cite{Card2024} demonstrated 2.5\% WER on a 125,000-word vocabulary (expanded from 50 words in a second session) with a single participant communicating at approximately 32 words per minute, while Willett et al. \cite{Willett2023} achieved 9.1\% WER on a 50-word vocabulary with intracortical recordings and language model rescoring. ECoG systems show comparable performance on constrained tasks: Makin et al. \cite{Makin2020} achieved 3.0\% WER on a 250-word vocabulary, while Anumanchipalli et al. \cite{Anumanchipalli2019} achieved intelligible synthesis on a closed-set 50-word vocabulary. sEEG (stereo-electroencephalography: depth electrodes) occupies a middle ground. ECoG systems also achieve significant performance: Moses et al. \cite{Moses2021} (using subdural ECoG) achieved 15.2 words per minute communication rate.
+
+Performance varies systematically with task type and vocabulary size. On closed-set tasks (constrained vocabularies of 10-250 words), invasive systems consistently achieve near-ceiling performance: 99\% accuracy is not uncommon when task demands are minimal. On open-vocabulary continuous speech (unconstrained, unrestricted lexicon), performance degrades to 2.5-25\% WER depending on participant, neural signal quality, and architecture. This gap reflects the fundamental challenge of speech decoding: closed-set classification is a solved problem; open-vocabulary decoding remains frontier research.
+
+The 10-fold improvement in WER from 2015 to 2024 (Herff et al. \cite{Herff2015}: 25\% WER; Card et al. \cite{Card2024}: 2.5\% WER) reflects three concurrent advances: (1) electrode technology enabling higher-quality recordings (intracortical arrays now standard; ECoG improvements in array density); (2) deep learning architectures (LSTM and Seq2Seq models outperformed traditional machine learning by 15-25 percentage points \cite{ArchitectureComparison2020}); (3) language model integration (rescoring alone provides 10-14 percentage-point WER reduction \cite{Willett2023}). Transformer architectures and self-supervised pre-training have emerged since 2022 but have not yet demonstrated WER improvements over well-tuned Seq2Seq + language model pipelines in published head-to-head comparisons.
+
+Participant-level variability in invasive system performance is substantial. Some participants achieve 2-5\% WER while others achieve 15-25\% WER on identical tasks, reflecting differences in electrode placement, underlying motor cortex organization, and neural signal stability. Single-participant case studies dominate the invasive literature (27 of 32 invasive studies use $n=1$). The remaining 5 multi-participant invasive studies (Herff n=7, Ramsey n=5, Chen n=48, Singh n=25, deBorman n=8) demonstrate that cross-participant transfer learning retains 50-80\% of single-participant performance, suggesting substantial individual differences in neural motor encoding that resist generalization.
+
+Clinical applicability of invasive systems remains limited to participants with access to neurosurgery (typically individuals with epilepsy requiring electrode implantation for clinical monitoring, or ALS patients motivated by life-extension technology). This constraint dramatically narrows the deployment pathway, despite excellent laboratory performance.
+
+\subsection{Non-Invasive EEG Systems (n=20)}
+
+Non-invasive scalp EEG achieves two distinct performance regimes depending on task complexity. On closed-set classification tasks (restricted vocabularies of 4-50 classes), EEG consistently achieves 70-92.5\% accuracy \cite{Peterson2021} across diverse implementations. Closed-set phoneme classification achieves 70-80\% accuracy; closed-set word classification (10-50 words) achieves 80-92.5\% accuracy. Representative studies include imagined speech decoding at 90\% accuracy (10-class) and overt speech classification at 85\% accuracy (4-class vowel identification). These results establish that EEG signal contains sufficient spatial and temporal structure to support high-accuracy classification on constrained tasks.
+
+On open-vocabulary continuous speech decoding, EEG performance degrades substantially to 35-45\% word error rate (WER), representing a 3-5x performance gap compared to invasive systems achieving 2.5-9\% WER on identical vocabulary sizes. This performance gap reflects two fundamental constraints of non-invasive EEG. First, spatial resolution: scalp EEG achieves 40-60 mm resolution with only 64-256 electrodes \cite{Schirrmeister2017,Lawhern2018}, whereas ECoG achieves 4-10 mm resolution with similar electrode counts, and intracortical arrays achieve 10 \textmu{}m resolution. Second, signal-to-noise ratio (SNR): scalp EEG recordings attenuate neural signals by 10-100x compared to invasive recordings due to volume conduction through skull and scalp \cite{Schirrmeister2017}. The combination of lower spatial resolution and lower SNR makes open-vocabulary speech decoding substantially harder in non-invasive EEG.
+
+The growth trajectory of EEG systems shows acceleration in open-vocabulary decoding from 2020 onwards, particularly with Transformer architectures and self-supervised pre-training \cite{Wang2022,Duan2023}. Early EEG studies (2015-2019) focused primarily on closed-set classification \cite{Panachakel2021,LopezBernal2022}; recent EEG studies (2022-2026) increasingly tackle open-vocabulary continuous speech, achieving 35-45\% WER. This represents genuine progress toward non-invasive clinical applications, as open-vocabulary decoding is the prerequisite for natural communication. However, the persistent 3-5x performance gap between non-invasive EEG and invasive systems reflects physical constraints (spatial resolution, SNR) that cannot be overcome by architectural innovation alone; they are fundamental limits of the modality.
+
+Subject-to-subject variability in EEG systems is moderate (lower than single-participant variability in invasive systems). Some participants achieve 80\% accuracy on closed-set tasks while others achieve 60\%, reflecting individual differences in cortical anatomy and electrode placement quality. Open-vocabulary performance shows similar variance: some participants achieve 35\% WER while others achieve 45\%, reflecting individual differences in neural signal consistency and linguistic patterns. Multi-participant studies show that this variance is learnable: transfer learning across 20-28 EEG participants retains 60-80\% of single-participant performance \cite{Peterson2021}, suggesting that participant-specific neural patterns are learnable but require careful cross-validation methodology.
+
+Clinical applicability of EEG systems is substantially broader than invasive modalities. EEG requires only a cap (no surgery), is portable, reusable across patients, and costs \$5,000-\$50,000 per system \cite{Vansteensel2023} (10-100x cheaper than invasive electrode implantation). These advantages make EEG the most clinically deployable modality today, despite 3-5x worse performance on open-vocabulary decoding compared to invasive systems. The clinical pathway is clear: early deployed non-invasive systems will support fixed-vocabulary communication (yes/no, spelling-based AAC); as algorithms improve, open-vocabulary performance may eventually approach 20-25\% WER, acceptable for clinical augmentative communication.
+
+\subsection{MEG and fMRI Systems (n=14)}
+
+Magnetoencephalography (MEG) and functional magnetic resonance imaging (fMRI) represent research-stage modalities with distinct tradeoffs compared to EEG and invasive systems. MEG achieves superior temporal resolution (1 millisecond, comparable to EEG and invasive systems) due to direct measurement of magnetic fields produced by cortical currents, avoiding volume conduction through tissue. However, MEG suffers from lower spatial resolution than fMRI and lower signal amplitudes than invasive recordings, resulting in performance degraded compared to ECoG. Representative MEG studies achieve 15\% WER on perceived speech classification and 41\% top-1 accuracy on semantic reconstruction tasks \cite{Tang2023Semantic}. Two landmark MEG studies demonstrated semantic decoding: one achieved 100\% accuracy on story identification and $>$50\% text recovery on continuous narrative perception. These noteworthy results suggest that the semantic content of perceived speech is more strongly encoded in MEG than phonetic details, providing a qualitatively different decoding target than overt speech production systems.
+
+Functional MRI achieves the highest spatial resolution among all modalities - 1-3 millimeters - enabling precise localization of motor and language-related cortical areas. However, fMRI suffers from catastrophically poor temporal resolution: the hemodynamic response that fMRI measures integrates neural activity over 4-5 seconds post-stimulus \cite{Logothetis2010,Hemodynamic2007}, making real-time continuous speech decoding impossible. fMRI is fundamentally restricted to semantic-level decoding (extracting meaning or intent from ongoing neural activity) rather than phoneme-by-phoneme or word-by-word continuous decoding \cite{Tang2025Semantic}. The six fMRI studies included in this review (included in the n=14 MEG/fMRI group) focus predominantly on semantic reconstruction rather than WER, demonstrating that intent or conceptual speech content can be decoded but detailed speech properties cannot with fMRI's temporal constraints. For clinical neuroprosthesis applications requiring real-time communication, fMRI is not viable; for assistive applications requiring only semantic understanding or binary yes/no responses, fMRI remains an experimental research platform.
+
+The spatial-temporal resolution tradeoff defines the MEG/fMRI landscape. MEG sacrifices spatial resolution to achieve temporal resolution comparable to EEG (1 ms sampling, enabling high-frequency oscillation analysis); fMRI sacrifices temporal resolution to achieve spatial resolution exceeding all other modalities. This tradeoff is physical: electromagnetic recordings (EEG, MEG, intracortical) have inherent temporal resolution advantages due to direct electrical/magnetic measurements; hemodynamic recordings (fMRI) have spatial resolution advantages due to metabolic specificity. Neither modality dominates; each excels in its own domain. For clinical speech neuroprosthesis (requiring real-time word-by-word decoding), EEG or invasive systems are mandatory. For research on semantic speech understanding or intent recognition, MEG and fMRI offer research-stage alternatives with distinct neuroscientific insights.
+
+Cost and clinical deployability remain prohibitive for MEG and fMRI. MEG systems cost \$1-5 million plus substantial operating expenses (specialized shielded rooms, helium cooling); fMRI systems cost \$2-3 million with high per-scan costs \cite{Vansteensel2023}. These costs exceed clinical budgets for deployed assistive technologies by 100-1000x. Both modalities require fixed laboratory settings (MEG shielded room, fMRI magnet room), preventing home or portable use. Neither has demonstrated safety or tolerability for daily long-term use in patient populations. Consequently, MEG and fMRI remain research modalities for understanding neural speech representations rather than deployment platforms for clinical neuroprostheses. The noteworthy semantic decoding results from these modalities are scientifically valuable for understanding how the brain represents speech, but clinically impractical for assistive applications.
+
+\subsection{Benchmark Comparability Analysis: Eight Critical Dimensions}
+\label{sec:comparability}
+
+\subsubsection{Why Cross-Study Comparison Fails}
+
+Table~\ref{tab:benchmark_comparability} documents eight systematic barriers to cross-study benchmark comparison. These are not oversights in individual papers; they represent structural choices that vary across studies in ways that make performance numbers incommensurable.
+
+\textbf{Dimension 1: Vocabulary Size}
+
+Vocabulary ranges from 2 (binary classification) to 125,000+ words (open-vocabulary continuous speech). WER scales nonlinearly with vocabulary size. A system achieving 2.5\% WER on a 50-word vocabulary faces a fundamentally different task than one achieving 15\% WER on a 125,000-word vocabulary. Recommendation: Future studies should report performance curves across vocabulary sizes, with explicit notation of vocabulary size in all benchmark reporting.
+
+\textbf{Dimension 2: Task Type}
+
+Overt speech, imagined speech, attempted speech, and perceived speech engage different neural populations and dynamics. Overt speech (spoken aloud) has auditory feedback; imagined speech lacks it. Attempted speech activates motor intent but lacks execution. Perceived speech processes auditory input. The same participant can achieve dramatically different accuracy on these tasks. Recommendation: Task type should be explicitly labeled in all benchmark tables, and cross-task comparisons should be flagged as non-equivalent.
+
+\textbf{Dimension 3: Metric Heterogeneity}
+
+Nine metrics in active use: WER, character error rate (CER), accuracy (percentage correct), Pearson correlation, mean opinion score (MOS), BLEU, ROUGE, WPM, and CIL. No unified scoring scheme exists. Recommendation: Adopt a standard metric suite: WER as primary (normalized to test-set vocabulary); accuracy with explicitly stated chance level; Pearson r for continuous outputs; BLEU/ROUGE only with explicit language model notation.
+
+\textbf{Dimension 4: Sample Size}
+
+Participant count ranges from $n=1$ (single-patient case studies) to $n=723$ (large EEG consortia). Single-participant studies often show near-ceiling performance on limited tasks; large consortium studies show realistic performance on harder tasks. Cross-participant sample size is rarely reported; many studies use $n=1$ but claim ``generalization'' based on within-participant cross-validation. Recommendation: Explicitly report both sample size and generalization methodology; single-participant studies should use held-out test sets, not cross-validation.
+
+\textbf{Dimension 5: Clinical Status}
+
+Healthy volunteers, people with ALS, locked-in syndrome, stroke, and epilepsy participants show different baseline neural dynamics and signal characteristics. A decoding approach optimized for healthy cortical activity may fail in the altered electrophysiology of ALS. Recommendation: Explicitly categorize participant status and flag any performance comparison across different clinical populations as potentially non-equivalent.
+
+\textbf{Dimension 6: Evaluation Methodology}
+
+Studies employ within-session cross-validation (inflates accuracy by 5-15\% due to temporal structure in neural data), held-out test sets (more realistic), cross-participant evaluation (most stringent), and temporal generalization (real-world deployment scenario). Within-participant, within-session cross-validation is the least rigorous; cross-participant held-out test is most rigorous. Recommendation: Require held-out test sets for all benchmarks; report cross-validation inflation factor; explicitly state whether evaluation was within-participant or cross-participant.
+
+\textbf{Dimension 7: Language Diversity}
+
+94\% of included studies conduct evaluation in English only. Language-specific phonotactics, morphology, and lexical frequency distributions would affect any decoding system trained on English data. Cross-language generalization evidence appears in exactly two studies. Recommendation: Expand language diversity in future studies; report language of data collection explicitly.
+
+\textbf{Dimension 8: Reporting Completeness}
+
+Only 3 of 71 studies (4\%) release data and fewer than 5 (7\%) release code. Without code and data, reproduction is impossible, and performance verification relies on author claims. Recommendation: Require code and data release as a condition of publication in high-impact venues; if data cannot be released for privacy reasons, require detailed protocol documentation enabling independent reimplementation.
+
+\subsubsection{Implications for Literature Interpretation}
+
+The cumulative effect of these eight dimensions is that performance numbers in the literature are largely incommensurable. Saying ``the field achieved 2.5\% WER'' is misleading without specifying: vocabulary size (50 words), task type (overt English speech), evaluation methodology (within-participant held-out test set), clinical status (participant with motor cortex access for electrode implantation), and publication status (early 2024, not yet replicated). The number is accurate for its specific context; it generalizes poorly.
+
+\subsection{Recommendations for Standardized Evaluation}
+\label{sec:standardization}
+
+\subsubsection{Proposed Minimum Reporting Standard}
+
+All future brain-to-speech studies should report the following at minimum:
+
+\begin{enumerate}
+    \item \textbf{Vocabulary specification:} Exact word list or reference corpus (e.g., ``Common Voice English vocabulary, 10K most frequent words'')
+    \item \textbf{Task clarity:} Overt/imagined/attempted/perceived; spoken aloud or silent; with/without visual stimulus
+    \item \textbf{Primary metric:} WER if continuous speech; accuracy if closed-set; with explicitly stated vocabulary size and chance level
+    \item \textbf{Secondary metrics:} Pearson r if continuous; confidence intervals or SD if available
+    \item \textbf{Evaluation methodology:} Within-participant or cross-participant; held-out test set size and stratification
+    \item \textbf{Participant details:} Count, clinical status, impairment severity if applicable
+    \item \textbf{Generalization scope:} Single-session, cross-session, cross-participant, or cross-language explicit notation
+    \item \textbf{Code and data availability:} Public repository URL or privacy-respecting data sharing agreement
+\end{enumerate}
+
+\subsubsection{Proposed Standard Vocabulary}
+
+Rather than each study using custom vocabularies, future work should adopt a standard open-vocabulary benchmark based on Common Voice or similar large speech corpora. This would enable direct comparison of WER across studies. Recommended: 10,000-word vocabulary as the primary benchmark, with optional 50-word closed-set for comparison to older studies.
+
+\subsubsection{Proposed Metrics for Brain-to-Speech Benchmarking}
+
+\begin{itemize}
+    \item \textbf{For continuous speech:} Word Error Rate (WER) on standard vocabulary, with 95\% confidence intervals
+    \item \textbf{For phoneme/word classification:} Classification accuracy, with explicitly stated chance level and per-class F1 scores
+    \item \textbf{For continuous acoustic reconstruction:} Pearson correlation with 95\% CI; spectral distortion measures
+    \item \textbf{For semantic decoding:} Top-1 accuracy (correct semantic category) and top-5 accuracy
+    \item \textbf{Real-time metrics (if applicable):} Words per minute (WPM) with error rate; latency in milliseconds
+\end{itemize}
+
+\subsubsection{Brain-to-Text Benchmark Initiative}
+
+The field urgently needs a coordinated benchmarking effort analogous to the Speech Recognition and Understanding Research (SRUS) and Common Voice initiatives in automatic speech recognition. A ``Brain-to-Text Benchmark 2025+'' initiative should:
+
+\begin{enumerate}
+    \item Define a standard vocabulary (recommended: 10K words from Common Voice)
+    \item Provide a public dataset of brain recordings (from multiple modalities if possible) with ground-truth transcriptions
+    \item Establish standard data splits (train/validation/test) enabling fair performance comparison
+    \item Maintain a public leaderboard of benchmark results with full experimental details
+    \item Require code release as a condition of leaderboard entry
+    \item Coordinate with existing multi-participant consortia (BrainGate, UCSF BCI Lab) to harmonize data collection protocols
+\end{enumerate}
+
+This benchmark would immediately answer which architectural innovations translate to real performance gains, and would expose previously hidden performance inflation from vocabulary/task/methodology differences. The infrastructure investment would pay dividends in accelerating clinical translation.
+
+\subsection{Language Model Integration Underutilization}
+\label{sec:lm_underutil}
+
+Language model (LM) integration represents the single largest discrete technical lever for improving speech decoding performance, yet remains critically underutilized across the field. Willett et al. \cite{Willett2023} demonstrated intracortical decoding achieving 9.1\% WER on a 50-word vocabulary and 23.8\% WER on a 125,000-word open-vocabulary with language model rescoring. The 14-percentage-point gap reflects vocabulary size rather than LM ablation; comparing studies with proper LM-vs-no-LM ablation shows language model rescoring provides substantial (estimated 10-20 percentage-point) WER reduction depending on vocabulary scope. Despite this demonstrated benefit, only 14 of 71 included studies (20\%) employ language model integration in any form. This discrepancy between demonstrated benefit and adoption rate represents a significant efficiency loss in the field's progress toward clinical-grade speech neuroprostheses.
+
+Three technical barriers explain LM underutilization. First, computational infrastructure requirements are substantial. LMs require either (1) on-device inference (fine-tuned mobile models on patient's laptop/tablet with 5-50 ms latency overhead), or (2) cloud connectivity (sending neural decoded text to server, receiving rescored output in 100-500 ms). Neither is seamless in clinical settings; many target patient populations (locked-in syndrome, severe ALS) have limited device access and unreliable internet \cite{Vansteensel2023}. Second, domain shift between training corpora and target speech is severe. Most LMs train on broadcast news, social media, or Wikipedia; brain-to-speech datasets are 1000-10,000$\times$ smaller and use different language register (often read sentences or constrained vocabularies). Off-the-shelf LM rescoring typically degrades performance if domain mismatch is large. Third, most brain-to-speech datasets remain private, preventing community-wide LM fine-tuning efforts. Only three of 71 studies released data; fewer than five released code. Without public datasets, researchers cannot build shared LM benchmarks or pre-trained models, forcing each team to solve LM adaptation independently.
+
+Infrastructure gaps compound adoption barriers. Automatic speech recognition (ASR) has mature, standardized LM pipelines: researchers download pre-trained models from Hugging Face, integrate them via standard software libraries (OpenSeq2Seq, ESPnet \cite{Watanabe2018,Watanabe2020}), and benchmark against community leaderboards \cite{Panayotov2015}. Brain-to-speech lacks all three: no pre-trained models optimized for brain signals, no standard integration pipelines, no public leaderboard. A researcher wanting to add LM rescoring to their decoder must (1) collect or license an LM, (2) design a custom rescoring strategy, (3) tune hyperparameters (beam width, weight factors), (4) implement infrastructure for real-time inference. This two-week engineering effort explains why only 20\% of teams adopt LMs - not because LM benefit is disputed, but because the implementation burden is disproportionate.
+
+Enabling broader LM adoption requires three coordinated infrastructure investments. First: Release code and data. The highest-impact move would be open-sourcing the three largest brain-to-speech datasets (UCSF BCI Lab, BrainGate consortium, individual lab repositories) with appropriate privacy protections. This would immediately enable community LM fine-tuning. Second: Standardize LM pipelines. Building community packages (e.g., a \texttt{BrainToSpeech-LM} library in ESPnet) would reduce implementation overhead from weeks to minutes. Third: Create public leaderboards. A Brain-to-Speech Benchmark Initiative (analogous to SRUS for ASR, Milvus for vector search) maintaining leaderboards for standard tasks would surface which architectural improvements actually transfer to real performance gains, as opposed to vocabulary or task differences \cite{Willett2024Benchmark}.
+
+Without these infrastructure changes, the 14 percentage-point LM benefit will remain a demonstration in high-resource labs (Willett, Anumanchipalli, Card) rather than a standard practice across the field. For a technology intended for clinical deployment, this efficiency loss is unacceptable; standardizing LM integration is a prerequisite for scaling.
+

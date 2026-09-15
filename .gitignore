@@ -1,0 +1,31 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.blg
+*.bbl
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Office files (not needed in git, keep in project folder)
+*.docx
+*.xlsx
+~$*
+
+# Temporary/backup files
+*.tmp
+*~
+*.swp
+
+# Compiled LaTeX (keep only main.pdf)
+*.pdf~
+
+# User prompts and conversation logs
+prompts.txt
+conversation_log.txt
+prompt_history.md

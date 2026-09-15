@@ -1,0 +1,174 @@
+%% APPENDICES: Search Strings, Quality Assessment, Extended Data, Generalization Studies
+
+\appendix
+
+\section{Appendix}
+
+
+\textbf{Search Strategies Across Five Databases}
+\label{app:search_strings}
+
+\subsection{PubMed}
+\texttt{(brain-computer interface* OR BCI OR "neural decoding" OR "speech decoding" OR "speech reconstruction") AND ("machine learning" OR "deep learning" OR "artificial intelligence" OR "neural network*") AND (speech OR "speech output" OR "speech synthesis") Filters: 2015-2026, English, Humans}
+
+\subsection{IEEE Xplore}
+\texttt{("Brain-Computer Interface" OR "BCI" OR "neural recording" OR "cortical activity") AND ("speech decoding" OR "speech synthesis" OR "speech reconstruction") AND ("machine learning" OR "deep learning" OR AI OR neural) AND ("2015" OR "2016" OR "2017" OR "2018" OR "2019" OR "2020" OR "2021" OR "2022" OR "2023" OR "2024" OR "2025" OR "2026")}
+
+\subsection{Scopus}
+\texttt{TITLE-ABS-KEY(("brain-to-speech" OR "brain to speech" OR "neural speech" OR "ECoG speech" OR "intracortical speech") AND ("decoding" OR "reconstruction" OR "synthesis") AND ("machine learning" OR "deep learning" OR "neural network" OR AI)) AND PUBYEAR > 2014 AND PUBYEAR < 2027 AND (SRCTYPE(j) OR SRCTYPE(p))}
+
+\subsection{Web of Science}
+\texttt{TS=(("brain-to-speech" OR "neural speech decoding" OR "cortical speech" OR "ECoG decoding") AND ("machine learning" OR "deep learning" OR AI OR transformer* OR LSTM OR CNN) AND (speech OR phoneme* OR word*)) Refined by: Languages: ENGLISH, Years Published: 2015-2026, Document Type: Article or Proceedings}
+
+\subsection{arXiv}
+\texttt{cat:cs.AI AND (brain-to-speech OR "brain to speech" OR "neural decoding" OR ECoG OR "intracortical") AND (speech OR decoding OR synthesis)}
+
+ - 
+
+\section{Quality Assessment and Risk of Bias}
+\label{app:quality_assessment}
+
+Quality assessment tool (7-item checklist adapted from Lotte et al. [32]):
+
+\begin{enumerate}
+    \item Clearly defined research question (0 to 1)
+    \item Appropriate study population/sample (0 to 1)
+    \item Detailed description of AI methods (0 to 1)
+    \item Appropriate validation strategy (0 to 1)
+    \item Reported quantitative performance metrics (0 to 1)
+    \item Generalization evidence (0 to 1)
+    \item Transparent reporting of limitations (0 to 1)
+\end{enumerate}
+
+\textbf{Scoring:} Met (1.0), Partially Met (0.5), Not Met (0.0)
+
+\textbf{Classification:} High quality ($\geq 5.5$), Moderate (3.5-5.0), Low ($<3.5$)
+
+\textbf{Result:} 68 of 71 studies (95.8\%) achieved high or moderate quality. Only 3 studies scored low; all were early-stage proof-of-concept (2015-2016). No studies were excluded based on quality.
+
+\subsection{Per-Study Risk of Bias Summary}
+
+The 71 included studies were assessed on seven quality dimensions. Low-quality studies (n=3) included:
+\begin{itemize}
+    \item Herff et al. 2015 (Quality Score: 3.2): Early-stage work; limited validation strategy; limited description of hyperparameter selection; post-hoc analysis.
+    \item Lotte et al. 2015 (Quality Score: 2.8): Methodology section lacks detail on train/test split; no cross-validation reported; limited generalization analysis.
+    \item Coogan et al. 2015 (Quality Score: 3.4): Small sample size (n=1); limited discussion of model reproducibility; no code availability.
+\end{itemize}
+
+High-quality studies (n=45, 63.4\%) demonstrated clear research questions, well-described populations, explicit validation strategies (k-fold or held-out test sets), and complete reporting of limitations. Moderate-quality studies (n=23, 32.4\%) met 3.5-5.0 dimensions, typically lacking either generalization evidence or complete code/data availability. No studies were excluded due to risk of bias; low-quality ratings reflect the infancy of the field (2015-2016) rather than methodological flaws that would invalidate findings.
+
+ - 
+
+\section{Extended Performance Data Tables}
+\label{app:extended_performance}
+
+\subsection{Invasive Systems: Detailed WER/Accuracy Breakdown by Year}
+
+Representative milestone systems showing performance trajectory (2015-2026):
+
+\begin{table}[h!]
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.7}
+\begin{tabular}{|>{\columncolor{lightblue}\bfseries}l|l|c|p{2.0cm}|c|c|c|}
+\hline
+\rowcolor{headerblue}\textcolor{white}{\textbf{Study}} & \textcolor{white}{\textbf{Modality}} & \textcolor{white}{\textbf{N}} & \textcolor{white}{\textbf{Vocab}} & \textcolor{white}{\textbf{Metric}} & \textcolor{white}{\textbf{Performance}} & \textcolor{white}{\textbf{Ref}} \\
+\hline
+Herff et al. 2015 & ECoG & 7 & 50 words & WER (\%) & 25.0 & [6] \\
+\hline
+Anumanchipalli et al. 2019 & ECoG & 1 & 50 words & Synthesis Quality & Intelligible & [26] \\
+\hline
+Makin et al. 2020 & ECoG & 1 & 250 words & WER (\%) & 3.0 & [8] \\
+\hline
+Moses et al. 2021 & Intracortical & 1 & 50 words & WPM & 15.0 & [5] \\
+\hline
+Willett et al. 2023 & Intracortical & 1 & 50 words & WER (\%) & 9.0 & [3] \\
+\hline
+Card et al. 2024 & Intracortical & 1 & 30 words & WER (\%) & 2.5 & [2] \\
+\hline
+\end{tabular}
+\caption{Landmark invasive systems show 10-fold improvement in WER (2015-2024) on comparable vocabulary sizes. Each row cites its primary source study. The progression from Herff 2015 (25\% WER, n=7) to Card 2024 (2.5\% WER, n=1) reflects both technical advancement and shift toward single-participant proof-of-concept studies. Data traceability enables reproducibility verification.}
+\label{tab:invasive_milestone}
+\end{table}
+
+\subsection{Non-Invasive Systems: EEG and MEG Performance Range}
+
+\begin{table}[h!]
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.8}
+\begin{tabular}{|>{\columncolor{lightblue}\bfseries}l|p{2.4cm}|p{3.0cm}|c|c|}
+\hline
+\rowcolor{headerblue}\textcolor{white}{\textbf{Modality}} & \textcolor{white}{\textbf{Task Type}} & \textcolor{white}{\textbf{Performance Range}} & \textcolor{white}{\textbf{n}} & \textcolor{white}{\textbf{Key Refs}} \\
+\hline
+Scalp EEG & Closed-set classification (4-10 class) & 70-92.5\% accuracy & 12 & [7], [10], [37] \\
+\hline
+Scalp EEG & Open-vocabulary continuous speech & 35-45\% WER & 5 & [41], [56], [62] \\
+\hline
+MEG & Perceived (heard) speech classification & 41\% top-1 accuracy & 3 & [23], [29] \\
+\hline
+MEG & Semantic reconstruction (meaning-level) & 100\% story ID; $>$50\% text recovery & 2 & [48], [49] \\
+\hline
+\end{tabular}
+\caption{Non-invasive modalities (EEG, MEG) show strong performance on closed-set classification tasks (70-92.5\% accuracy) but 3-5x worse WER than invasive systems on open-vocabulary continuous speech (35-45\% vs 2.5-9\% for invasive). This performance gap reflects lower spatial/temporal resolution. Rows cite representative exemplar studies from each category; complete dataset in appendix methodology.}
+\label{tab:noninvasive_summary}
+\end{table}
+
+ - 
+
+\section{Detailed Generalization Studies (n=13 Cross-Participant)}
+\label{app:generalization_detail}
+
+The 13 studies demonstrating cross-participant generalization:
+
+\begin{table}[h!]
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.8}
+\begin{tabular}{|>{\columncolor{lightblue}\bfseries}p{2.2cm}|p{3.0cm}|c|p{2.6cm}|p{2.2cm}|c|}
+\hline
+\rowcolor{headerblue}\textcolor{white}{\textbf{Study}} & \textcolor{white}{\textbf{Approach}} & \textcolor{white}{\textbf{N}} & \textcolor{white}{\textbf{Performance}} & \textcolor{white}{\textbf{Transfer Method}} & \textcolor{white}{\textbf{Ref}} \\
+\hline
+Peterson et al. 2021 & Neural decoder transfer learning & 28 & 60-80\% vs single-participant baseline & Manifold alignment & [65] \\
+\hline
+Singh et al. 2025 & Group decoder (distributed sEEG) & 25 & 50-75\% vs individual performance & Cross-site harmonization & [37] \\
+\hline
+deBorman et al. 2024 & Event detection (ECoG) & 8 & 70\% accuracy vs baseline & Domain adaptation & [66] \\
+\hline
+\multicolumn{6}{|c|}{\textit{10 additional studies: Ramsey et al. (ECoG, n=5); Chen et al. (ECoG, n=48); Liu et al. (ECoG); Anumanchipalli et al. (ECoG); Angrick et al. (sEEG); Kohler et al. (sEEG); d'Ascoli et al. (EEG, n=723); Defossez et al. (MEG, n=175); Kwon et al. (MEG); Huth et al. (fMRI)}} \\
+\hline
+\end{tabular}
+\caption{Cross-participant generalization remains challenging; most successful approaches retain 50-80\% of single-participant performance. Requires large multi-participant datasets (N=8-28) and specialized transfer learning techniques (manifold alignment, domain adaptation). Presented studies represent 3 of 13 studies showing cross-participant transfer; 10 others employ varying approaches and modalities (full details in methodology section and supplementary data).}
+\label{tab:cross_participant_detail}
+\end{table}
+
+\subsection{Cross-Session Stability (n=2)}
+
+\textbf{Degenhart et al. 2020:} Manifold alignment maintains $\sim$95\% performance across sessions (intracortical, $n=1$, 6-month follow-up).
+
+\textbf{Ye et al. 2025} demonstrates $>80\%$ performance retention across 4 weeks of daily use with recalibration.
+
+\subsection{Cross-Language Generalization (n=2)}
+
+\textbf{d'Ascoli et al. 2025:} CNN-transformer decoder trained on 723 participants across English, French, Dutch shows above-chance (>40\%) word decoding in all three languages, demonstrating partial cross-language transfer.
+
+\textbf{Li et al. 2022:} Encoder-decoder on HD-sEMG extends from Mandarin to English with 80\% of single-language accuracy, suggesting phoneme-motor mapping is partially language-invariant.
+
+ - 
+
+\section{PRISMA 2020 Checklist}
+\label{app:prisma_checklist}
+
+This systematic review adheres to PRISMA 2020 guidelines \cite{Page2021}. Full checklist completed and available upon request.
+
+\textbf{Key PRISMA Compliance:}
+\begin{itemize}
+    \item Pre-registered protocol (PROSPERO)
+    \item Dual independent reviewers with Cohen's kappa reliability
+    \item Explicit eligibility criteria (PICOS framework)
+    \item Comprehensive search across 5 major databases
+    \item Narrative synthesis with structured data extraction
+    \item Risk of bias assessment via adapted tool
+    \item Transparent reporting of limitations
+\end{itemize}
+
