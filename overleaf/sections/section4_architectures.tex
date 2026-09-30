@@ -1,0 +1,78 @@
+%% Section 4: Artificial Intelligence Architectures
+%% Complete content on all architecture classes with mathematical grounding and NO EM DASHES
+
+\section{Artificial Intelligence Architectures and Methods}
+\label{sec:architectures}
+
+\subsection{The AI Decoder as the Bottleneck}
+
+The AI decoder is the engine of every brain-to-speech system. Its architecture determines not only the performance ceiling but also the data requirements, the computational cost, and the degree of generalization achievable across participants and sessions. This section traces the eight architecture classes identified across the 71 included studies, from classical statistical models through to large language model-integrated pipelines, situating each in the mathematical framework that defines its inductive bias. The evolution is summarized in Table 3 and Figure 3.
+
+\subsection{Traditional Machine Learning (2015-2018)}
+
+Prior to the deep learning transition, brain-to-speech decoders relied on handcrafted spectrotemporal features: high-gamma band power, mel-frequency cepstral coefficients, phase-amplitude coupling measures. These features were fed into support vector machines (SVM), linear discriminant analysis (LDA), or hidden Markov models (HMM) \cite{Lotte2018}. These approaches required domain expertise to engineer informative features, and their representational capacity was bounded by the quality of those features.
+
+The word error rate (WER) is defined as:
+\begin{equation}
+\text{WER} = \frac{S + D + I}{N}
+\end{equation}
+where $S$, $D$, and $I$ denote substitution, deletion, and insertion errors respectively, and $N$ is the total number of reference words. The Brain-to-Text system \cite{Herff2015} achieved WER of approximately 25 percent using HMM-based acoustic models on ECoG signals, establishing the benchmark against which subsequent deep learning architectures would be measured. Traditional ML studies account for approximately 8 of the 71 included studies and remain relevant as baseline comparators.
+
+\subsection{Convolutional Neural Networks (2017-2022)}
+
+CNNs brought automatic spatial and spectrotemporal feature learning, replacing manual engineering with hierarchical convolutional filters. In the brain-to-speech context, a 1-D temporal CNN applies learned filter banks $h \in \mathbb{R}^{F \times L}$ across the input signal $x(t)$, producing feature maps via:
+\begin{equation}
+y[t] = \sigma(W * x[t] + b), \quad W \in \mathbb{R}^{F \times L}
+\end{equation}
+where $*$ denotes convolution, $\sigma$ is a nonlinear activation, $F$ is the number of filters, and $L$ is the filter length. Angrick and colleagues \cite{Angrick2019} mapped ECoG spectrograms to acoustic parameters using DenseNet-style 3-D CNNs. Chen and colleagues \cite{Chen2024Neural} ResNet-based cross-subject decoder scaled to 48 participants achieving PCC of 0.804. EEGNet \cite{Lawhern2018} established a compact separable-CNN baseline architecture widely adopted across EEG classification tasks. CNNs account for approximately 13 of the 71 included studies.
+
+\subsection{Recurrent Networks and LSTM (2018-2023)}
+
+Recurrent architectures address the sequential temporal structure of speech through gated memory cells. The LSTM unit was introduced \cite{Hochreiter1997} and maintains a cell state $c_t$ updated by forget ($f$), input ($i$), and output ($o$) gates:
+\begin{align}
+f_t &= \sigma(W_f \cdot [h_{t-1}, x_t] + b_f) \label{eq:forget} \\
+i_t &= \sigma(W_i \cdot [h_{t-1}, x_t] + b_i) \\
+c_t &= f_t \odot c_{t-1} + i_t \odot \tanh(W_c \cdot [h_{t-1}, x_t] + b_c) \\
+h_t &= o_t \odot \tanh(c_t)
+\end{align}
+The gating mechanism enables selective retention of long-range temporal context, well-suited to capturing the dynamics of speech production across phoneme and syllable timescales. The clinical neuroprosthesis systems achieving the highest reported performance in this review, Card and colleagues \cite{Card2024} (WER 2.5 percent) and Willett and colleagues \cite{Willett2023} (62 WPM), both employ RNN decoders combined with language model rescoring. RNN/LSTM architectures account for approximately 10 of the 71 included studies.
+
+\subsection{Encoder-Decoder Architectures (2019-2022)}
+
+Sequence-to-sequence encoder-decoder networks map variable-length neural input sequences $x_{1:T}$ to variable-length output sequences $y_{1:S}$ by maximizing the conditional likelihood \cite{Sutskever2014}:
+\begin{equation}
+\mathcal{L}_{\text{seq}} = -\log P(y|x) = -\sum_{s=1}^{S} \log P(y_s | y_{<s}, x_{1:T})
+\end{equation}
+Makin and colleagues \cite{Makin2020} applied this framework to ECoG-to-text decoding at WER of approximately 3 percent on constrained corpora, the first genuinely end-to-end brain-to-text system. Anumanchipalli and colleagues \cite{Anumanchipalli2019} introduced an articulatory intermediate representation within a two-stage encoder-decoder, mapping neural signals first to vocal tract kinematics and then to speech waveforms, producing the most intelligible ECoG-synthesized speech at the time of publication. Seven studies in this review employ encoder-decoder architectures as their primary decoding framework.
+
+\subsection{Transformer Architecture (2022-present)}
+
+The transformer \cite{Vaswani2017} replaces recurrence with scaled dot-product self-attention, enabling global dependency modeling across the full input sequence in parallel. For query $Q$, key $K$, and value $V$ matrices derived from the input representation:
+\begin{align}
+\text{Attention}(Q, K, V) &= \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right) V \\
+\text{MultiHead}(Q, K, V) &= \text{Concat}(\text{head}_1, \ldots, \text{head}_h) W^O
+\end{align}
+where $d_k$ is the key dimension and $h$ is the number of attention heads. The attention mechanism allows the decoder to selectively integrate neural signal features from any temporal location, regardless of distance, a critical advantage for speech decoding, where phonological planning operates across windows of hundreds of milliseconds.
+
+Transformers are the dominant architecture in non-invasive EEG and MEG decoding post-2022. Wang and Ji \cite{Wang2022} demonstrated an EEG-to-text system, and d'Ascoli and colleagues \cite{dAscoli2025} CNN-transformer decoder achieved top 1 accuracy across 723 participants and three languages, both demonstrating the scalability of transformer-based approaches. Approximately 10 of the 71 included studies employ transformer-based decoders.
+
+\subsection{Self-Supervised Learning (2021-present)}
+
+Self-supervised learning (SSL) addresses the fundamental bottleneck of labeled neural data by pre-training on large unlabeled corpora. Contrastive approaches \cite{Chen2020}, following the NT-Xent objective, maximize agreement between augmented views $z_i$ and $z_j$ of the same sample whilst repelling negatives:
+\begin{equation}
+\ell_i = -\log \frac{\exp(\text{sim}(z_i, z_j) / \tau)}{\sum_{k \neq i} \exp(\text{sim}(z_i, z_k) / \tau)}
+\end{equation}
+where $\text{sim}(\cdot, \cdot)$ denotes cosine similarity and $\tau$ is a temperature hyperparameter. Applied to EEG, the BENDR architecture \cite{Kostas2021} achieved 5-15 percent accuracy improvement over supervised baselines across multiple downstream tasks. Défossez and colleagues \cite{Defossez2023} extended this to MEG and EEG across 175 participants achieving top 1 accuracy of 41 percent. Wang and colleagues \cite{Wang2023BrainBERT} applied BERT-style masked pre-training to intracranial EEG. SSL approaches account for approximately 8 included studies and underpin the foundation model direction discussed below.
+
+\subsection{LLM-Integrated Decoding and Foundation Models (2022-present)}
+
+Only 14 of 71 studies (20 percent) in this review integrate a language model into the decoding pipeline, a finding that stands in sharp contrast to the volume of recent commentary on LLM integration in neural decoding. In these systems, a neural decoder $p_{\text{neural}}(y|x)$ is combined with a language model prior $p_{\text{LM}}(y)$ via log-linear interpolation during decoding:
+\begin{equation}
+y^* = \argmax_y \left[ \log p_{\text{neural}}(y|x) + \lambda \log p_{\text{LM}}(y) \right]
+\end{equation}
+where $\lambda$ is a tunable interpolation weight. This simple post-hoc integration yields substantial WER reductions \cite{Kaplan2020}: Willett and colleagues \cite{Willett2023} achieved 9.1\% WER on 50-word vocabulary and 23.8\% WER on 125k-word vocabulary, both with language model rescoring, demonstrating the vocabulary-size dependency of performance metrics. More deeply integrated approaches \cite{Tang2023Semantic,Ye2025} align neural encoder representations directly with LLM latent spaces, enabling continuous semantic reconstruction from fMRI. Foundation models applying SSL pre-training across large multi-participant neural corpora \cite{Wang2023BrainBERT,Yuan2024} represent the nascent but growing trajectory towards modality-agnostic neural decoders.
+
+\subsection{Architecture Evolution and Key Observations}
+
+Figure 3 illustrates the chronological transition across architecture classes. Three observations emerge directly from Table 3. First, the architecture that currently delivers the best clinical performance (RNN combined with language model) is not the most technically recent. Transformers and SSL approaches are dominant in the literature but have not yet eclipsed RNNs in deployed clinical neuroprostheses, likely because clinical datasets are too small to saturate RNN capacity and too scarce to support transformer pre-training without SSL. Second, architecture class alone is insufficient to explain performance variation. Vocabulary size, participant sample, and evaluation methodology confound any architecture-to-performance mapping (see Section 5). Third, LLM integration is the single largest driver of WER reduction in open-vocabulary systems, yet it applies to only 20 percent of included studies, representing a clear opportunity for the field to exploit.
+
