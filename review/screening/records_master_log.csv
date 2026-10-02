@@ -1,0 +1,996 @@
+source,source_id,title,year,doi,unique_record_id,duplicate_of_earlier
+PubMed,PMID:39957214,An efficient deep learning approach for automatic speech recognition using EEG signals,2026,10.1080/10255842.2025.2456982,R0001,no
+PubMed,PMID:41979006,Benchmarking speech biomarkers of Alzheimer's against cognitive and neural measures,2026,10.1002/alz.71365,R0002,no
+PubMed,PMID:41781649,Time-frequency-spatial channel attention network for semantic decoding: an exploratory EEG study,2026,10.1007/s11517-026-03539-7,R0003,no
+PubMed,PMID:41912561,EEG imagined speech neuro-signal preprocessing and deep learning classification,2026,10.1038/s41598-026-39395-6,R0004,no
+PubMed,PMID:41784218,High-fidelity neural speech reconstruction through an efficient acoustic-linguistic dual-pathway framework,2026,10.7554/elife.109400,R0005,no
+PubMed,PMID:41145052,Neuro-oscillatory models of cortical speech processing,2026,10.1016/j.neunet.2025.108194,R0006,no
+PubMed,PMID:41678839,Decoding inner speech with functional connectivity,2026,10.1088/2057-1976/ae451b,R0007,no
+PubMed,PMID:41621103,Initial experience with the precision neuroscience Layer 7 micro-electrocorticography interface for real-time intraoperative neural decoding,2026,10.3171/2025.11.focus25908,R0008,no
+PubMed,PMID:40960388,"Implantable Neural Speech Decoders: Recent Advances, Future Challenges",2026,10.1177/15459683251369468,R0009,no
+PubMed,PMID:42284173,A Conversational Brain-Artificial Intelligence Interface,2026,10.1109/tnsre.2026.3703091,R0010,no
+PubMed,PMID:42048207,Hierarchical Decoding of Perceived Speech From Non-Invasive Brain Recordings,2026,10.1109/tnsre.2026.3688564,R0011,no
+PubMed,PMID:41466537,Dynamic graph representation of EEG signals for speech imagery recognition,2025,10.1088/1741-2552/ae2ccb,R0012,no
+PubMed,PMID:41360823,"3M-CPSEED, An EEG-based Dataset for Chinese Pinyin Production in Overt, Mouthed, and Imagined Speech",2025,10.1038/s41597-025-06346-1,R0013,no
+PubMed,PMID:41345432,ReHA-Net: a ReVIN-hybrid attention network with multiscale convolution for robust EEG artifact removal in brain-computer interfaces,2025,10.1038/s41598-025-28855-0,R0014,no
+PubMed,PMID:41231687,"A 40-nm 3.9mW, 200words/Min Neural Signal Processor in Speech Decoding for Brain-Machine Interface",2025,10.1109/tbcas.2025.3625650,R0015,no
+PubMed,PMID:41248548,P(2)CSL: cross-subject EEG classification by subspace class prototype-based progressive confident target sample labeling,2025,10.1088/1741-2552/ae204c,R0016,no
+PubMed,PMID:41342337,Artificial Intelligence for Detection of Parkinson's Disease From Speech Signals-A Comprehensive Review,2025,10.1002/biof.70065,R0017,no
+PubMed,PMID:41177674,Inner Speech Decoding: A Comprehensive Review,2025,10.1002/wcs.70016,R0018,no
+PubMed,PMID:40914541,Predicting infant vocabulary from neural connectivity and maternal speech: A machine learning approach,2025,10.1016/j.brainres.2025.149892,R0019,no
+PubMed,PMID:41228763,STCCA: Spatial-Temporal Coupled Cross-Attention Through Hierarchical Network for EEG-Based Speech Recognition,2025,10.3390/s25216541,R0020,no
+PubMed,PMID:41120372,CIRE: A Chinese EEG Dataset for decoding speech intention modulated by prosodic emotion,2025,10.1038/s41597-025-05957-y,R0021,no
+PubMed,PMID:41105708,Hierarchical dynamic coding coordinates speech comprehension in the human brain,2025,10.1073/pnas.2422097122,R0022,no
+PubMed,PMID:40795874,Brain-to-text decoding with context-aware neural representations and large language models,2025,10.1088/1741-2552/adfab1,R0023,no
+PubMed,PMID:41094990,Sentence-Level Silent Speech Recognition Using a Wearable EMG/EEG Sensor System with AI-Driven Sensor Fusion and Language Model,2025,10.3390/s25196168,R0024,no
+PubMed,PMID:41034198,Transfer learning via distributed brain recordings enables reliable speech decoding,2025,10.1038/s41467-025-63825-0,R0025,no
+PubMed,PMID:40769034,Emergent technologies in clinical neurophysiology to study the central nervous system: IFCN handbook chapter,2025,10.1016/j.clinph.2025.2110942,R0026,no
+PubMed,PMID:40925395,Machine learning based classification of imagined speech electroencephalogram data from the amplitude and phase spectrum of frequency domain EEG signal,2025,10.1088/2057-1976/ae04ee,R0027,no
+PubMed,PMID:40482972,An EEG-based imagined speech recognition using CSP-TP feature fusion for enhanced BCI communication,2025,10.1016/j.bbr.2025.115652,R0028,no
+PubMed,PMID:40825359,Towards stimulation-free automatic electrocorticographic speech mapping in neurosurgery patients,2025,10.1088/1741-2552/adfc9c,R0029,no
+PubMed,PMID:40476694,"Speaking from the heart: a story about innovation, resilience, and infinite possibilities with AAC",2025,10.1080/07434618.2025.2508491,R0030,no
+PubMed,PMID:40830488,Don't put words in my mouth: speech perception can falsely activate a brain-computer interface,2025,10.1186/s12984-025-01689-7,R0031,no
+PubMed,PMID:40408200,A Wearable Ultra-Low-Power System for EEG-Based Speech-Imagery Interfaces,2025,10.1109/tbcas.2025.3573027,R0032,no
+PubMed,PMID:40695313,Speech mode classification from electrocorticography: transfer between electrodes and participants,2025,10.1088/1741-2552/adf2de,R0033,no
+PubMed,PMID:40645212,EEG-based speech imagery decoding by dynamic hypergraph learning within projected and selected feature subspaces,2025,10.1088/1741-2552/adeec8,R0034,no
+PubMed,PMID:41336488,Geo-GCN: Geometric-Graphical Convolutional Network for EEG-based Auditory Attention Detection,2025,10.1109/embc58623.2025.11251825,R0035,no
+PubMed,PMID:41335877,EEG-Translator: A Cross-Modality Framework for Subject-Specific EEG and Voice Reconstruction from Imagined Speech,2025,10.1109/embc58623.2025.11254826,R0036,no
+PubMed,PMID:40081275,Ternary spike-based neuromorphic signal processing system,2025,10.1016/j.neunet.2025.107333,R0037,no
+PubMed,PMID:40490003,Speech imagery brain-computer interfaces: a systematic literature review,2025,10.1088/1741-2552/ade28e,R0038,no
+PubMed,PMID:40492267,AI-powered remote monitoring of brain responses to clear and incomprehensible speech via speckle pattern analysis,2025,10.1117/1.jbo.30.6.067001,R0039,no
+PubMed,PMID:40413201,Exploring voice as a digital phenotype in adults with ADHD,2025,10.1038/s41598-025-01989-x,R0040,no
+PubMed,PMID:40374900,fNIRS experimental study on the impact of AI-synthesized familiar voices on brain neural responses,2025,10.1038/s41598-025-92702-5,R0041,no
+PubMed,PMID:40280149,Single-microphone deep envelope separation based auditory attention decoding for competing speech and music,2025,10.1088/1741-2552/add0e7,R0042,no
+PubMed,PMID:40164740,A streaming brain-to-voice neuroprosthesis to restore naturalistic communication,2025,10.1038/s41593-025-01905-6,R0043,no
+PubMed,PMID:39476487,Continuous and discrete decoding of overt speech with scalp electroencephalography (EEG),2025,10.1088/1741-2552/ad8d0a,R0044,no
+PubMed,PMID:40083285,Multimodal depression detection based on an attention graph convolution and transformer,2025,10.3934/mbe.2025024,R0045,no
+PubMed,PMID:39960058,Statistical learning beyond words in human neonates,2025,10.7554/elife.101802,R0046,no
+PubMed,PMID:39428037,Towards imagined speech: Identification of brain states from EEG signals for BCI-based communication systems,2025,10.1016/j.bbr.2024.115295,R0047,no
+PubMed,PMID:39873797,Classification of Imagined Speech Signals Using Functional Connectivity Graphs and Machine Learning Models,2025,10.1007/s10548-025-01100-7,R0048,no
+PubMed,PMID:39819752,Transformer-based neural speech decoding from surface and depth electrode signals,2025,10.1088/1741-2552/adab21,R0049,no
+PubMed,PMID:39481863,Imagining alternative futures with augmentative and alternative communication: a manifesto,2025,10.1136/medhum-2024-013022,R0050,no
+PubMed,PMID:40705590,Imagined Speech Detection Using Multi-Receptive CNN for Asynchronous BCI Communication and Neurorehabilitation,2025,10.1109/tnsre.2025.3592312,R0051,no
+PubMed,PMID:40633040,AADNet: An End-to-End Deep Learning Model for Auditory Attention Decoding,2025,10.1109/tnsre.2025.3587637,R0052,no
+PubMed,PMID:39665785,Ultrathin Bioelectrode Array with Improved Electrochemical Performance for Electrophysiological Sensing and Modulation,2024,10.1021/acsnano.4c13325,R0053,no
+PubMed,PMID:39771903,Systematic Review of EEG-Based Imagined Speech Classification Methods,2024,10.3390/s24248168,R0054,no
+PubMed,PMID:39485790,A brain-to-text framework for decoding natural tonal sentences,2024,10.1016/j.celrep.2024.114924,R0055,no
+PubMed,PMID:39572577,Chisco: An EEG-based BCI dataset for decoding of imagined speech,2024,10.1038/s41597-024-04114-1,R0056,no
+PubMed,PMID:39527649,Deep-learning models reveal how context and listener attention shape electrophysiological correlates of speech-to-language transformation,2024,10.1371/journal.pcbi.1012537,R0057,no
+PubMed,PMID:39106199,Neural Decoding of Spontaneous Overt and Intended Speech,2024,10.1044/2024_jslhr-24-00046,R0058,no
+PubMed,PMID:39248654,Brain-Controlled Augmented Hearing for Spatially Moving Conversations in Multi-Talker Environments,2024,10.1002/advs.202401379,R0059,no
+PubMed,PMID:39423829,Identification of perceived sentences using deep neural networks in EEG,2024,10.1088/1741-2552/ad88a3,R0060,no
+PubMed,PMID:39397036,The structure and statistics of language jointly shape cross-frequency neural dynamics during spoken language comprehension,2024,10.1038/s41467-024-53128-1,R0061,no
+PubMed,PMID:39121709,EEG based depression detection by machine learning: Does inner or overt speech condition provide better biomarkers when using emotion words as experimental cues?,2024,10.1016/j.jpsychires.2024.08.002,R0062,no
+PubMed,PMID:39284848,Cortical sites critical to language function act as connectors between language subnetworks,2024,10.1038/s41467-024-51839-z,R0063,no
+PubMed,PMID:38261272,Decoding Single and Paired Phonemes Using 7T Functional MRI,2024,10.1007/s10548-024-01034-6,R0064,no
+PubMed,PMID:39194182,Iterative alignment discovery of speech-associated neural activity,2024,10.1088/1741-2552/ad663c,R0065,no
+PubMed,PMID:39095091,Neural Tracking of Speech Acoustics in Noise Is Coupled with Lexical Predictability as Estimated by Large Language Models,2024,10.1523/eneuro.0507-23.2024,R0066,no
+PubMed,PMID:39143297,Classifying coherent versus nonsense speech perception from EEG using linguistic speech features,2024,10.1038/s41598-024-69568-0,R0067,no
+PubMed,PMID:39122409,Perplexity of utterances in untreated first-episode psychosis: an ultra-high field MRI dynamic causal modelling study of the semantic network,2024,10.1503/jpn.240031,R0068,no
+PubMed,PMID:38769157,A bilingual speech neuroprosthesis driven by cortical articulatory representations shared between languages,2024,10.1038/s41551-024-01207-5,R0069,no
+PubMed,PMID:38632207,Imagined speech classification exploiting EEG power spectrum features,2024,10.1007/s11517-024-03083-2,R0070,no
+PubMed,PMID:38470574,A Complete Scheme for Multi-Character Classification Using EEG Signals From Speech Imagery,2024,10.1109/tbme.2024.3376603,R0071,no
+PubMed,PMID:38924389,Electroencephalographic Classification Reveals Atypical Speech Motor Planning in Stuttering Adults,2024,10.1044/2024_jslhr-23-00635,R0072,no
+PubMed,PMID:40039757,Detecting Post-Stroke Aphasia Via Brain Responses to Speech in a Deep Learning Framework,2024,10.1109/embc53108.2024.10781830,R0073,no
+PubMed,PMID:40039596,A Vision Transformer Architecture For Overt Speech Decoding From ECoG Data,2024,10.1109/embc53108.2024.10781877,R0074,no
+PubMed,PMID:40039096,Improving inner speech decoding by hybridisation of bimodal EEG and fMRI data,2024,10.1109/embc53108.2024.10781692,R0075,no
+PubMed,PMID:40038925,Towards Speech Synthesis of Unconstrained Sentences from Speech-related Biosignals,2024,10.1109/embc53108.2024.10782977,R0076,no
+PubMed,PMID:40031461,Enhancing Word-Level Imagined Speech BCI Through Heterogeneous Transfer Learning,2024,10.1109/embc53108.2024.10782407,R0077,no
+PubMed,PMID:38885688,Speech decoding from stereo-electroencephalography (sEEG) signals using advanced deep learning methods,2024,10.1088/1741-2552/ad593a,R0078,no
+PubMed,PMID:38589232,Impaired Cortical Tracking of Speech in Children with Developmental Language Disorder,2024,10.1523/jneurosci.2048-23.2024,R0079,no
+PubMed,PMID:38769115,Feasibility of decoding covert speech in ECoG with a Transformer trained on overt speech,2024,10.1038/s41598-024-62230-9,R0080,no
+PubMed,PMID:38648783,Machine learning decoding of single neurons in the thalamus for speech brain-machine interfaces,2024,10.1088/1741-2552/ad4179,R0081,no
+PubMed,PMID:38648782,Considerations for implanting speech brain computer interfaces based on functional magnetic resonance imaging,2024,10.1088/1741-2552/ad4178,R0082,no
+PubMed,PMID:37971416,Language and gesture neural correlates: A meta-analysis of functional magnetic resonance imaging studies,2024,10.1111/1460-6984.12987,R0083,no
+PubMed,PMID:38626760,Exploring inter-trial coherence for inner speech classification in EEG-based brain-computer interface,2024,10.1088/1741-2552/ad3f50,R0084,no
+PubMed,PMID:38219680,Subject-independent meta-learning framework towards optimal training of EEG-based classifiers,2024,10.1016/j.neunet.2024.106108,R0085,no
+PubMed,PMID:37947235,Decoding speech sounds from neurophysiological data: Practical considerations and theoretical implications,2024,10.1111/psyp.14475,R0086,no
+PubMed,PMID:38128783,"Decoding speech information from EEG data with 4-, 7- and 11-month-old infants: Using convolutional neural network, mutual information-based and backward linear models",2024,10.1016/j.jneumeth.2023.110036,R0087,no
+PubMed,PMID:38342686,Brain activity supporting alternating speech for semantic words: simultaneous magnetoencephalographic recording,2024,10.1093/cercor/bhae031,R0088,no
+PubMed,PMID:38205849,The role of vowel and consonant onsets in neural tracking of natural speech,2024,10.1088/1741-2552/ad1784,R0089,no
+PubMed,PMID:39397786,ADT Network: A Novel Nonlinear Method for Decoding Speech Envelopes From EEG Signals,2024,10.1177/23312165241282872,R0090,no
+PubMed,PMID:39255187,Effective Phoneme Decoding With Hyperbolic Neural Networks for High-Performance Speech BCIs,2024,10.1109/tnsre.2024.3457313,R0091,no
+PubMed,PMID:39074028,Iteratively Calibratable Network for Reliable EEG-Based Robotic Arm Control,2024,10.1109/tnsre.2024.3434983,R0092,no
+PubMed,PMID:37931162,Semantic Categorization of Naming Responses Based on Prearticulatory Electrical Brain Activity,2023,10.1097/wnp.0000000000000933,R0093,no
+PubMed,PMID:34788177,Strategies for highlighting items within visual scene displays to support augmentative and alternative communication access for those with physical impairments,2023,10.1080/17483107.2021.2003455,R0094,no
+PubMed,PMID:37819985,Distributed feedforward and feedback cortical processing supports human speech production,2023,10.1073/pnas.2300255120,R0095,no
+PubMed,PMID:37836869,A Deep Learning Model for Correlation Analysis between Electroencephalography Signal and Speech Stimuli,2023,10.3390/s23198039,R0096,no
+PubMed,PMID:37467739,Direct speech reconstruction from sensorimotor brain activity with optimized deep learning models,2023,10.1088/1741-2552/ace8be,R0097,no
+PubMed,PMID:37270028,"Speech comprehension across time, space, frequency, and age: MEG-MVPA classification of intertrial phase coherence",2023,10.1016/j.neuropsychologia.2023.108602,R0098,no
+PubMed,PMID:37522623,Online Ternary Classification of Covert Speech by Leveraging the Passive Perception of Speech,2023,10.1142/s012906572350048x,R0099,no
+PubMed,PMID:37487829,Artificial intelligence based multimodal language decoding from brain activity: A review,2023,10.1016/j.brainresbull.2023.110713,R0100,no
+PubMed,PMID:37595606,Robust neural tracking of linguistic speech representations using a convolutional neural network,2023,10.1088/1741-2552/acf1ce,R0101,no
+PubMed,PMID:37442115,Relating EEG to continuous speech using deep neural networks: a review,2023,10.1088/1741-2552/ace73f,R0102,no
+PubMed,PMID:38083559,Improved Decoding of Attentional Selection in Multi-Talker Environments with Self-Supervised Learned Speech Representation,2023,10.1109/embc40787.2023.10340191,R0103,no
+PubMed,PMID:38083171,Predicting EEG Responses to Attended Speech via Deep Neural Networks for Speech,2023,10.1109/embc40787.2023.10340027,R0104,no
+PubMed,PMID:37420741,Machine-Learning Methods for Speech and Handwriting Detection Using Neural Signals: A Review,2023,10.3390/s23125575,R0105,no
+PubMed,PMID:37294753,Decoding and synthesizing tonal language speech from brain activity,2023,10.1126/sciadv.adh0478,R0106,no
+PubMed,PMID:37004829,Increased top-down semantic processing in natural speech linked to better reading in dyslexia,2023,10.1016/j.neuroimage.2023.120072,R0107,no
+PubMed,PMID:37001511,EEG-based classification of imagined digits using a recurrent neural network,2023,10.1088/1741-2552/acc976,R0108,no
+PubMed,PMID:37081119,Encoding of speech in convolutional layers and the brain stem based on language experience,2023,10.1038/s41598-023-33384-9,R0109,no
+PubMed,PMID:36646740,Decoding of the speech envelope from EEG using the VLAAI deep neural network,2023,10.1038/s41598-022-27332-2,R0110,no
+PubMed,PMID:37079422,Speech2EEG: Leveraging Pretrained Speech Model for EEG Signal Recognition,2023,10.1109/tnsre.2023.3268751,R0111,no
+PubMed,PMID:36356309,Speech decoding from a small set of spatially segregated minimally invasive intracranial EEG electrodes with a compact and interpretable neural network,2022,10.1088/1741-2552/aca1e1,R0112,no
+PubMed,PMID:36347863,Generalizable spelling using a speech neuroprosthesis in an individual with severe limb and vocal paralysis,2022,10.1038/s41467-022-33611-3,R0113,no
+PubMed,PMID:36114705,Development of executive function-relevant skills is related to both neural structure and function in infants,2022,10.1111/desc.13323,R0114,no
+PubMed,PMID:36366001,Multi-Task Learning-Based Deep Neural Network for Steady-State Visual Evoked Potential-Based Brain-Computer Interfaces,2022,10.3390/s22218303,R0115,no
+PubMed,PMID:35842096,Decoding the temporal dynamics of spoken word and nonword processing from EEG,2022,10.1016/j.neuroimage.2022.119457,R0116,no
+PubMed,PMID:36146323,The Role of Artificial Intelligence in Decoding Speech from EEG Signals: A Scoping Review,2022,10.3390/s22186975,R0117,no
+PubMed,PMID:35714555,Auditory attention decoding from EEG-based Mandarin speech envelope reconstruction,2022,10.1016/j.heares.2022.108552,R0118,no
+PubMed,PMID:35483648,Development of infants' neural speech processing and its relation to later language skills: A MEG study,2022,10.1016/j.neuroimage.2022.119242,R0119,no
+PubMed,PMID:35447360,Decoding selective auditory attention with EEG using a transformer model,2022,10.1016/j.ymeth.2022.04.009,R0120,no
+PubMed,PMID:35793349,Differential activation of a frontoparietal network explains population-level differences in statistical learning from speech,2022,10.1371/journal.pbio.3001712,R0121,no
+PubMed,PMID:35709698,Robust decoding of the speech envelope from EEG recordings through deep neural networks,2022,10.1088/1741-2552/ac7976,R0122,no
+PubMed,PMID:36085779,Towards Naturalistic Speech Decoding from Intracranial Brain Data,2022,10.1109/embc48229.2022.9871301,R0123,no
+PubMed,PMID:36085697,"Mapping Acoustics to Articulatory Gestures in Dutch: Relating Speech Gestures, Acoustics and Neural Data",2022,10.1109/embc48229.2022.9871909,R0124,no
+PubMed,PMID:35513165,Affective speech modulates a cortico-limbic network in real time,2022,10.1016/j.pneurobio.2022.102278,R0125,no
+PubMed,PMID:35808173,CNN Architectures and Feature Extraction Methods for EEG Imaginary Speech Recognition,2022,10.3390/s22134679,R0126,no
+PubMed,PMID:34874850,A Bimodal Deep Learning Architecture for EEG-fNIRS Decoding of Overt and Imagined Speech,2022,10.1109/tbme.2021.3132861,R0127,no
+PubMed,PMID:35093645,Automated emotion recognition: Current trends and future perspectives,2022,10.1016/j.cmpb.2022.106646,R0128,no
+PubMed,PMID:34871742,Functional Complex Networks Based on Operational Architectonics: Application on EEG-based Brain-computer Interface for Imagined Speech,2022,10.1016/j.neuroscience.2021.11.045,R0129,no
+PubMed,PMID:35165308,"Thinking out loud, an open-access EEG-based BCI dataset for inner speech recognition",2022,10.1038/s41597-022-01147-2,R0130,no
+PubMed,PMID:36121939,An Interpretable Deep Learning Model for Speech Activity Detection Using Electrocorticographic Signals,2022,10.1109/tnsre.2022.3207624,R0131,no
+PubMed,PMID:35099768,Brain-Computer Interface: Applications to Speech Decoding and Synthesis to Augment Communication,2022,10.1007/s13311-022-01190-2,R0132,no
+PubMed,PMID:34695815,Machine learning algorithm for decoding multiple subthalamic spike trains for speech brain-machine interfaces,2021,10.1088/1741-2552/ac3315,R0133,no
+PubMed,PMID:34706347,Predicting speech intelligibility from EEG in a non-linear classification paradigm(),2021,10.1088/1741-2552/ac33e9,R0134,no
+PubMed,PMID:34892495,Speech Synthesis from Stereotactic EEG using an Electrode Shaft Dependent Multi-Input Convolutional Neural Network Approach,2021,10.1109/embc46164.2021.9629711,R0135,no
+PubMed,PMID:34892487,"Brain Signals to Rescue Aphasia, Apraxia and Dysarthria Speech Recognition",2021,10.1109/embc46164.2021.9629802,R0136,no
+PubMed,PMID:34892469,3D CNN to Estimate Reaction Time from Multi-Channel EEG,2021,10.1109/embc46164.2021.9630748,R0137,no
+PubMed,PMID:34891729,Classification of Phonological Categories in Imagined Speech using Phase Synchronization Measure,2021,10.1109/embc46164.2021.9630699,R0138,no
+PubMed,PMID:34770340,Application of Deep Learning Models for Automated Identification of Parkinson's Disease: A Review (2011-2021),2021,10.3390/s21217034,R0139,no
+PubMed,PMID:34695956,Silent EEG-Speech Recognition Using Convolutional and Recurrent Neural Network with 85% Accuracy of 9 Words Classification,2021,10.3390/s21206744,R0140,no
+PubMed,PMID:34640824,Recognition of EEG Signals from Imagined Vowels Using Deep Learning Methods,2021,10.3390/s21196503,R0141,no
+PubMed,PMID:34383568,Neural Speech Encoding in Infancy Predicts Future Language and Communication Difficulties,2021,10.1044/2021_ajslp-21-00077,R0142,no
+PubMed,PMID:34111684,Machine learning accurately classifies neural responses to rhythmic speech vs. non-speech from 8-week-old infant EEG,2021,10.1016/j.bandl.2021.104968,R0143,no
+PubMed,PMID:34289464,Ear-EEG-based binaural speech enhancement (ee-BSE) using auditory attention detection and audiometric characteristics of hearing-impaired subjects,2021,10.1088/1741-2552/ac16b4,R0144,no
+PubMed,PMID:33825884,One Way or Another: Cortical Language Areas Flexibly Adapt Processing Strategies to Perceptual And Contextual Properties of Speech,2021,10.1093/cercor/bhab071,R0145,no
+PubMed,PMID:34437130,Brain signals 'speak' for person with paralysis,2021,10.1126/science.373.6552.263,R0146,no
+PubMed,PMID:34260835,Neuroprosthesis for Decoding Speech in a Paralyzed Person with Anarthria,2021,10.1056/nejmoa2027540,R0147,no
+PubMed,PMID:33866254,Human stress classification during public speaking using physiological signals,2021,10.1016/j.compbiomed.2021.104377,R0148,no
+PubMed,PMID:33744453,Measuring the cortical tracking of speech with optically-pumped magnetometers,2021,10.1016/j.neuroimage.2021.117969,R0149,no
+PubMed,PMID:33957606,EEG-based auditory attention decoding using speech-level-based segmented computational models,2021,10.1088/1741-2552/abfeba,R0150,no
+PubMed,PMID:33929315,EEG-based detection of the locus of auditory attention with convolutional neural networks,2021,10.7554/elife.56481,R0151,no
+PubMed,PMID:33836507,Generalizing neural signal-to-text brain-computer interfaces,2021,10.1088/2057-1976/abf6ab,R0152,no
+PubMed,PMID:33823366,Infants' neural speech discrimination predicts individual differences in grammar ability at 6 years of age and their risk of developing speech-language disorders,2021,10.1016/j.dcn.2021.100949,R0153,no
+PubMed,PMID:33372958,Deep learning approaches for neural decoding across architectures and recording modalities,2021,10.1093/bib/bbaa355,R0154,no
+PubMed,PMID:33326327,Error in the Superior Temporal Gyrus? A Systematic Review and Activation Likelihood Estimation Meta-Analysis of Speech Production Studies,2021,10.1162/jocn_a_01661,R0155,no
+PubMed,PMID:33671282,Biosignal Sensors and Deep Learning-Based Speech Recognition: A Review,2021,10.3390/s21041399,R0156,no
+PubMed,PMID:33465245,Preictal state detection using prodromal symptoms: A machine learning approach,2021,10.1111/epi.16804,R0157,no
+PubMed,PMID:34874861,Deep Correlation Analysis for Audio-EEG Decoding,2021,10.1109/tnsre.2021.3129790,R0158,no
+PubMed,PMID:34762589,Low-Frequency Entrainment to Visual Motion Underlies Sign Language Comprehension,2021,10.1109/tnsre.2021.3127724,R0159,no
+PubMed,PMID:33278802,Reliability of single-subject neural activation patterns in speech production tasks,2021,10.1016/j.bandl.2020.104881,R0160,no
+PubMed,PMID:33038540,Modelling the effects of transcranial alternating current stimulation on the neural encoding of speech in noise,2021,10.1016/j.neuroimage.2020.117427,R0161,no
+PubMed,PMID:33142282,Brain2Char: a deep architecture for decoding text from brain recordings,2020,10.1088/1741-2552/abc742,R0162,no
+PubMed,PMID:33142106,Factors influencing classification of frequency following responses to speech and music stimuli,2020,10.1016/j.heares.2020.108101,R0163,no
+PubMed,PMID:32828921,Brain-informed speech separation (BISS) for enhancement of target speaker in multitalker speech perception,2020,10.1016/j.neuroimage.2020.117282,R0164,no
+PubMed,PMID:32513662,Dynamic Time-Locking Mechanism in the Cortical Representation of Spoken Words,2020,10.1523/eneuro.0475-19.2020,R0165,no
+PubMed,PMID:32840483,Transformation of a temporal speech cue to a spatial neural code in human auditory cortex,2020,10.7554/elife.53051,R0166,no
+PubMed,PMID:32614826,Brain-optimized extraction of complex sound features that drive continuous auditory perception,2020,10.1371/journal.pcbi.1007992,R0167,no
+PubMed,PMID:32316162,NeuroVAD: Real-Time Voice Activity Detection from Non-Invasive Neuromagnetic Signals,2020,10.3390/s20082248,R0168,no
+PubMed,PMID:32142700,Constrained Structure of Ancient Chinese Poetry Facilitates Speech Content Grouping,2020,10.1016/j.cub.2020.01.059,R0169,no
+PubMed,PMID:32231340,Machine translation of cortical activity to text with an encoder-decoder framework,2020,10.1038/s41593-020-0608-8,R0170,no
+PubMed,PMID:31806493,Two Distinct Neural Timescales for Predictive Speech Processing,2020,10.1016/j.neuron.2019.10.019,R0171,no
+PubMed,PMID:31585339,Predicting naming responses based on pre-articulatory electrical activity in individuals with aphasia,2019,10.1016/j.clinph.2019.08.011,R0172,no
+PubMed,PMID:31635693,Neural tracking of speech mental imagery during rhythmic inner counting,2019,10.7554/elife.48971,R0173,no
+PubMed,PMID:31039552,Biometric identification of listener identity from frequency following responses to speech,2019,10.1088/1741-2552/ab1e01,R0174,no
+PubMed,PMID:31947107,Decoding Speech from Single Trial MEG Signals Using Convolutional Neural Networks and Transfer Learning,2019,10.1109/embc.2019.8857874,R0175,no
+PubMed,PMID:30831567,Speech synthesis from ECoG using densely connected 3D convolutional neural networks,2019,10.1088/1741-2552/ab0c59,R0176,no
+PubMed,PMID:31106271,Speaker-independent auditory attention decoding without access to clean speech sources,2019,10.1126/sciadv.aav6134,R0177,no
+PubMed,PMID:31013673,Augmentative and Alternative Communication (AAC) Advances: A Review of Configurations for Individuals with a Speech Disability,2019,10.3390/s19081911,R0178,no
+PubMed,PMID:30733596,Machine learning for MEG during speech tasks,2019,10.1038/s41598-019-38612-9,R0179,no
+PubMed,PMID:30696881,Towards reconstructing intelligible speech from the human auditory cortex,2019,10.1038/s41598-018-37359-z,R0180,no
+PubMed,PMID:30606824,Computers turn neural signals into speech,2019,10.1126/science.363.6422.14,R0181,no
+PubMed,PMID:28993231,Decoding spoken phonemes from sensorimotor cortex with high-density ECoG grids,2018,10.1016/j.neuroimage.2017.10.011,R0182,no
+PubMed,PMID:30205476,Classification of Overt and Covert Speech for Near-Infrared Spectroscopy-Based Brain Computer Interface,2018,10.3390/s18092989,R0183,no
+PubMed,PMID:30440556,Individual Classification of Single Trial EEG Traces to Discriminate Brain responses to Speech with Different Signal-to-Noise Ratios,2018,10.1109/embc.2018.8512491,R0184,no
+PubMed,PMID:29902169,Quality prediction of synthesized speech based on tensor structured EEG signals,2018,10.1371/journal.pone.0193521,R0185,no
+PubMed,PMID:29779940,Encoding of Articulatory Kinematic Trajectories in Human Speech Sensorimotor Cortex,2018,10.1016/j.neuron.2018.04.031,R0186,no
+PubMed,PMID:28745299,Inferring imagined speech using EEG signals: a new approach using Riemannian manifold features,2018,10.1088/1741-2552/aa8235,R0187,no
+PubMed,PMID:29017898,A hierarchical structure for human behavior classification using STN local field potentials,2018,10.1016/j.jneumeth.2017.10.001,R0188,no
+PubMed,PMID:29288342,Empirical Wavelet Transform Based Features for Classification of Parkinson's Disease Severity,2017,10.1007/s10916-017-0877-2,R0189,no
+PubMed,PMID:28830308,Online EEG Classification of Covert Speech for Brain-Computer Interfacing,2017,10.1142/s0129065717500332,R0190,no
+PubMed,PMID:28943364,Earlier and more distributed neural networks for bilinguals than monolinguals during switching,2017,10.1016/j.neuropsychologia.2017.09.017,R0191,no
+PubMed,PMID:29060048,EEG-based classification of bilingual unspoken speech using ANN,2017,10.1109/embc.2017.8037000,R0192,no
+PubMed,PMID:28638700,Vowel decoding from single-trial speech-evoked electrophysiological responses: A feature-based machine learning approach,2017,10.1002/brb3.665,R0193,no
+PubMed,PMID:27880768,Real-Time Control of an Articulatory-Based Speech Synthesizer for Brain Computer Interfaces,2016,10.1371/journal.pcbi.1005119,R0194,no
+PubMed,PMID:28269091,Improving quality and intelligibility of speech using single microphone for the broadband fMRI noise at low SNR,2016,10.1109/embc.2016.7591525,R0195,no
+PubMed,PMID:27380274,Contextual modulation of hippocampal activity during picture naming,2016,10.1016/j.bandl.2016.05.011,R0196,no
+PubMed,PMID:27378440,Oscillatory power and functional connectivity in the speech change detection network,2016,10.1016/j.neuropsychologia.2016.06.039,R0197,no
+PubMed,PMID:26523521,Understanding the role of speech production in reading: Evidence for a print-to-speech neural network using graphical analysis,2016,10.1037/neu0000236,R0198,no
+PubMed,PMID:27121839,Natural speech reveals the semantic maps that tile human cerebral cortex,2016,10.1038/nature17637,R0199,no
+PubMed,PMID:26775182,A neural-based vocoder implementation for evaluating cochlear implant coding strategies,2016,10.1016/j.heares.2016.01.005,R0200,no
+PubMed,PMID:26608243,Conflict monitoring in speech processing: An fMRI study of error detection in speech production and perception,2016,10.1016/j.neuroimage.2015.11.037,R0201,no
+PubMed,PMID:28097128,Vowel Imagery Decoding toward Silent Speech BCI Using Extreme Learning Machine with Electroencephalogram,2016,10.1155/2016/2618265,R0202,no
+PubMed,PMID:26033566,On the difficulty to communicate with fMRI-based protocols used to identify covert awareness,2015,10.1016/j.neuroscience.2015.05.059,R0203,no
+PubMed,PMID:26035345,"Decoding the attended speech stream with multi-channel EEG: implications for online, daily-life applications",2015,10.1088/1741-2560/12/4/046007,R0204,no
+PubMed,PMID:26023831,Speech encoding by coupled cortical theta and gamma oscillations,2015,10.7554/elife.06213,R0205,no
+PubMed,PMID:25941950,Electronic system with memristive synapses for pattern recognition,2015,10.1038/srep10123,R0206,no
+PubMed,PMID:25290017,A common functional neural network for overt production of speech and gesture,2015,10.1016/j.neuroscience.2014.09.067,R0207,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI65088.2025.10931499,Imagined Speech State Classification for Robust Brain-Computer Interface,2025,10.1109/bci65088.2025.10931499,R0208,no
+IEEE Xplore,IEEE Conferences 10.1109/CSNT57126.2023.10134633,EEG Based Brain Computer Interface System for Decoding Covert Speech using Deep Neural Networks,2023,10.1109/csnt57126.2023.10134633,R0209,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI57258.2023.10078589,High Accuracy Silent Speech BCI Using Compact Deep Learning Model for Edge Computing,2023,10.1109/bci57258.2023.10078589,R0210,no
+IEEE Xplore,IEEE Conferences 10.1109/ICHMS53169.2021.9582457,Inner Speech Classification using EEG Signals: A Deep Learning Approach,2021,10.1109/ichms53169.2021.9582457,R0211,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI51272.2021.9385338,Application of High-accuracy Silent Speech BCI to Biometrics using Deep Learning,2021,10.1109/bci51272.2021.9385338,R0212,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI53720.2022.9734827,Toward Imagined Speech based Smart Communication System: Potential Applications on Metaverse Conditions,2022,10.1109/bci53720.2022.9734827,R0213,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI69045.2026.11435050,Toward Practical BCI: A Real-time Wireless Imagined Speech EEG Decoding System,2026,10.1109/bci69045.2026.11435050,R0214,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI53720.2022.9735124,EEG-Transformer: Self-attention from Transformer Architecture for Decoding EEG of Imagined Speech,2022,10.1109/bci53720.2022.9735124,R0215,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI65088.2025.10931366,"Towards Unified Neural Decoding of Perceived, Spoken and Imagined Speech from EEG Signals",2025,10.1109/bci65088.2025.10931366,R0216,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI65088.2025.10931467,Dynamic Neural Communication: Convergence of Computer Vision and Brain-Computer Interface,2025,10.1109/bci65088.2025.10931467,R0217,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI69045.2026.11435091,Lightweight Diffusion-based Framework for Online Imagined Speech Decoding in Aphasia,2026,10.1109/bci69045.2026.11435091,R0218,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI57258.2023.10078707,Towards Neural Decoding of Imagined Speech based on Spoken Speech,2023,10.1109/bci57258.2023.10078707,R0219,no
+IEEE Xplore,IEEE Conferences 10.1109/ICCDS64403.2025.11209677,EEG-Based Brain-Computer Interface for Recognizing Digits Using Deep Learning Models,2025,10.1109/iccds64403.2025.11209677,R0220,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP.2019.8682330,Deep Learning the EEG Manifold for Phonological Categorization from Active Thoughts,2019,10.1109/icassp.2019.8682330,R0221,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI65088.2025.10931355,Imagined Speech and Visual Imagery as Intuitive Paradigms for Brain-Computer Interfaces,2025,10.1109/bci65088.2025.10931355,R0222,no
+IEEE Xplore,IEEE Conferences 10.1109/SMC54092.2024.10831764,Brain-Computer Interface System Based on Common Spatial Patterns for Inner Speech Recognition from Electroencephalography Signal by Using a Convolutional Neural Networks,2024,10.1109/smc54092.2024.10831764,R0223,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP55912.2026.11464168,A Robust Multi-Scale Framework with Test-Time Adaptation for sEEG-Based Speech Decoding,2026,10.1109/icassp55912.2026.11464168,R0224,no
+IEEE Xplore,IEEE Conferences 10.1109/IAS.2019.8912419,Think to Speak - A Piezoelectric-EEG system for Augmentative and Alternative Communication (AAC) using Recurrent Neural Networks,2019,10.1109/ias.2019.8912419,R0225,no
+IEEE Xplore,IEEE Conferences 10.1109/NKCon59507.2023.10396191,Performing Grasp and Lift function on artificial arm using EEG signals,2023,10.1109/nkcon59507.2023.10396191,R0226,no
+IEEE Xplore,IEEE Conferences 10.1109/ICMISI69868.2026.11583966,Enhancing Imagined Speech Recognition from EEG Signals Using Machine Learning Techniques,2026,10.1109/icmisi69868.2026.11583966,R0227,no
+IEEE Xplore,IEEE Journals 10.1109/TASLPRO.2026.3717237,EEG-SPELL: Spectral–PhonEtic–Lexical Alignment Network for EEG-Based Covert Speech Decoding,2026,10.1109/taslpro.2026.3717237,R0228,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP39728.2021.9413989,A Deep Spatio-Temporal Model for EEG-Based Imagined Speech Recognition,2021,10.1109/icassp39728.2021.9413989,R0229,no
+IEEE Xplore,IEEE Conferences 10.1109/ICAECA63854.2025.11012156,Enhancing Silent Speech Decoding Using AI for Assistive Communication Technologies,2025,10.1109/icaeca63854.2025.11012156,R0230,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP49660.2025.10888880,Transfer Learning for Covert Speech Classification Using EEG Hilbert Envelope and Temporal Fine Structure,2025,10.1109/icassp49660.2025.10888880,R0231,no
+IEEE Xplore,IEEE Journals 10.1109/ACCESS.2020.3028831,MEG Sensor Selection for Neural Speech Decoding,2020,10.1109/access.2020.3028831,R0232,no
+IEEE Xplore,IEEE Conferences 10.1109/MoSICom63082.2024.10881244,EEG Based Imagined Speech Recognition Using Multi-Feature Extraction with DNN-CapsNet,2024,10.1109/mosicom63082.2024.10881244,R0233,no
+IEEE Xplore,IEEE Journals 10.1109/TNSRE.2025.3592312,Imagined Speech Detection Using Multi-Receptive CNN for Asynchronous BCI Communication and Neurorehabilitation,2025,10.1109/tnsre.2025.3592312,R0051,yes
+IEEE Xplore,IEEE Early Access Articles 10.1109/TBME.2026.3691322,Neural Spelling: A Spell-Based BCI System for Language Neural Decoding,2026,10.1109/tbme.2026.3691322,R0234,no
+IEEE Xplore,IEEE Conferences 10.1109/IWAIN66498.2025.11412156,SpeakEEG: A low-cost word-based P300 brain-computer interface,2025,10.1109/iwain66498.2025.11412156,R0235,no
+IEEE Xplore,IEEE Journals 10.1109/JSEN.2025.3563587,Enhancing SEEG-Based Speech Decoding via Convolutional Encoder-Decoder and Scale-Recursive Reconstructor,2025,10.1109/jsen.2025.3563587,R0236,no
+IEEE Xplore,IEEE Conferences 10.23919/EUSIPCO63174.2024.10715364,Combining EEGNet with SPDNet Towards an End-To-End Architecture for Imagined Speech Decoding,2024,10.23919/eusipco63174.2024.10715364,R0237,no
+IEEE Xplore,IEEE Journals 10.1109/TCYB.2024.3410844,EEG-Oriented Self-Supervised Learning With Triple Information Pathways Network,2024,10.1109/tcyb.2024.3410844,R0238,no
+IEEE Xplore,IEEE Conferences 10.1109/INDICON47234.2019.9028925,Decoding Imagined Speech using Wavelet Features and Deep Neural Networks,2019,10.1109/indicon47234.2019.9028925,R0239,no
+IEEE Xplore,IEEE Journals 10.1109/ACCESS.2023.3329678,"Deep Learning in EEG-Based BCIs: A Comprehensive Review of Transformer Models, Advantages, Challenges, and Applications",2023,10.1109/access.2023.3329678,R0240,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI53720.2022.9734310,Decoding High–level Imagined Speech using Attention–based Deep Neural Networks,2022,10.1109/bci53720.2022.9734310,R0241,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI57258.2023.10078574,Speech Synthesis from Brain Signals Based on Generative Model,2023,10.1109/bci57258.2023.10078574,R0242,no
+IEEE Xplore,IEEE Conferences 10.1109/SMC52423.2021.9659058,Speech Activity Detection from Stereotactic EEG,2021,10.1109/smc52423.2021.9659058,R0243,no
+IEEE Xplore,IEEE Journals 10.1109/LSENS.2024.3354288,Multivariate Dynamic Mode Decomposition for Automatic Imagined Speech Recognition Using Multichannel EEG Signals,2024,10.1109/lsens.2024.3354288,R0244,no
+IEEE Xplore,IEEE Journals 10.1109/TIM.2026.3714600,Functional Connectivity Graph–Driven Imagined Speech Decoding for Assistive EEG-Based BCIs,2026,10.1109/tim.2026.3714600,R0245,no
+IEEE Xplore,IEEE Conferences 10.1109/SMC53654.2022.9945447,Improving Silent Speech BCI Training Procedures Through Transfer from Overt to Silent Speech,2022,10.1109/smc53654.2022.9945447,R0246,no
+IEEE Xplore,IEEE Conferences 10.1109/ASSIC55218.2022.10088387,Decoding of Imagined Speech Neural EEG Signals Using Deep Reinforcement Learning Technique,2022,10.1109/assic55218.2022.10088387,R0247,no
+IEEE Xplore,IEEE Journals 10.1109/THMS.2026.3690175,Deep Learning-Driven Decision Fusion: Spatio-Spectrogram Features for Inner Speech Recognition From Electroencephalogram Signals,2026,10.1109/thms.2026.3690175,R0248,no
+IEEE Xplore,IEEE Conferences 10.1109/RAAI59955.2023.10601269,EEG Based Imagined Word Recognition Using CNN-Bi-GRU,2023,10.1109/raai59955.2023.10601269,R0249,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI65088.2025.10931622,Phoneme Classification in Imagined Speech Using Explainable Machine Learning,2025,10.1109/bci65088.2025.10931622,R0250,no
+IEEE Xplore,IEEE Conferences 10.1109/ABC64332.2025.11118578,EEG-based Arabic Silent Speech Classification Using Native Arabic Silent Speech Dataset: A Hybrid Model Combining Random Forest and SVM,2025,10.1109/abc64332.2025.11118578,R0251,no
+IEEE Xplore,IEEE Journals 10.1109/LSENS.2025.3591964,Wavelet Augmented Phase Coherence Features for EEG-Based Imagined Speech Classification,2025,10.1109/lsens.2025.3591964,R0252,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI60775.2024.10480503,Neural Speech Embeddings for Speech Synthesis Based on Deep Generative Networks,2024,10.1109/bci60775.2024.10480503,R0253,no
+IEEE Xplore,IEEE Conferences 10.1109/ICAICE63571.2024.10864336,The Research Focuses on the Classification and Recognition of Speech Imagery EEG Signals Based on a Fusion Network Autoencoder,2024,10.1109/icaice63571.2024.10864336,R0254,no
+IEEE Xplore,IEEE Conferences 10.1109/INDICON59947.2023.10440803,Advanced CNN-based Model for Imagined Speech Classification Using Electroencephalogram,2023,10.1109/indicon59947.2023.10440803,R0255,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI60775.2024.10480505,Enhanced Generative Adversarial Networks for Unseen Word Generation from EEG Signals,2024,10.1109/bci60775.2024.10480505,R0256,no
+IEEE Xplore,IEEE Conferences 10.1109/ICIICS67880.2026.11483561,CerebralChat: A Hybrid 3D-CNN and BiLSTM Model for Imagined Speech Recognition from EEG Signals,2026,10.1109/iciics67880.2026.11483561,R0257,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI69045.2026.11435073,Speech Decoding from Non-invasive Brain Signals Using Generative Learning Framework,2026,10.1109/bci69045.2026.11435073,R0258,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI65088.2025.10931652,EEG-Based Speech Decoding: A Novel Approach Using Multi-Kernel Ensemble Diffusion Models,2025,10.1109/bci65088.2025.10931652,R0259,no
+IEEE Xplore,IEEE Journals 10.1109/ACCESS.2026.3708197,"Decoding of Imagined Speech Using EEG: An Overview of Techniques, Applications, and Challenges",2026,10.1109/access.2026.3708197,R0260,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI69045.2026.11435085,A Novel Machine Learning Model for Non-Invasive EEG-Based Inner-Speech Translation in ALS,2026,10.1109/bci69045.2026.11435085,R0261,no
+IEEE Xplore,IEEE Early Access Articles 10.1109/TBME.2026.3729643,Contrastive Decoupling and Enhancement of Multi-view EEG Features for Imagined Speech Decoding,2026,10.1109/tbme.2026.3729643,R0262,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP40776.2020.9054000,An LSTM Based Architecture to Relate Speech Stimulus to Eeg,2020,10.1109/icassp40776.2020.9054000,R0263,no
+IEEE Xplore,IEEE Conferences 10.1109/EMBC53108.2024.10781877,A Vision Transformer Architecture For Overt Speech Decoding From ECoG Data,2024,10.1109/embc53108.2024.10781877,R0074,yes
+IEEE Xplore,IEEE Conferences 10.1109/SPMB67169.2025.11345383,Fluency in Imagined Speech Decoding Using Non-Invasive Techniques: A Review,2025,10.1109/spmb67169.2025.11345383,R0264,no
+IEEE Xplore,IEEE Conferences 10.1109/CiSt65886.2025.11224280,EEG-to-Speech Decoding for Paralysis Rehabilitation Using Deep Learning Architectures,2025,10.1109/cist65886.2025.11224280,R0265,no
+IEEE Xplore,IEEE Conferences 10.1109/BECITHCON69222.2025.11504124,Wavelet Scattering on Band-Limited EEG for Imagined Speech: A Comparative Study with DWT,2025,10.1109/becithcon69222.2025.11504124,R0266,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI51272.2021.9385302,Functional Connectivity of Imagined Speech and Visual Imagery based on Spectral Dynamics,2021,10.1109/bci51272.2021.9385302,R0267,no
+IEEE Xplore,IEEE Conferences 10.1109/STA66620.2025.11364928,Explainable AI-Enhanced Interpretation for Inner Speech Classification Using EEG Signal,2025,10.1109/sta66620.2025.11364928,R0268,no
+IEEE Xplore,IEEE Conferences 10.1109/ICSIP55141.2022.9887230,Research on the Classification Algorithm of Imaginary Speech EEG Signals Based on Twin Neural Network,2022,10.1109/icsip55141.2022.9887230,R0269,no
+IEEE Xplore,IEEE Conferences 10.1109/CNN53494.2021.9580381,Compact and interpretable architecture for speech decoding from stereotactic EEG,2021,10.1109/cnn53494.2021.9580381,R0270,no
+IEEE Xplore,IEEE Conferences 10.1109/AIIoT58121.2023.10174580,Can Machine Learning Algorithms Classify Inner Speech from EEG Brain Signals?,2023,10.1109/aiiot58121.2023.10174580,R0271,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI69045.2026.11435045,Subject-Independent Imagined Speech Detection via Cross-Subject Generalization and Calibration,2026,10.1109/bci69045.2026.11435045,R0272,no
+IEEE Xplore,IEEE Conferences 10.1109/ICETCI67340.2025.11258057,HCACLnet: A Dual-Branch Deep Network with Channel Selection for EEG-Based Imagined Speech Recognition,2025,10.1109/icetci67340.2025.11258057,R0273,no
+IEEE Xplore,IEEE Conferences 10.1109/IC3ECSBHI63591.2025.10990955,Phase-Based EEG Analysis for Enhanced Imagined Speech Decoding in Brain-Computer Interfaces,2025,10.1109/ic3ecsbhi63591.2025.10990955,R0274,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP49660.2025.10889189,Enhancing EEG-based Covert Speech Decoding through Knowledge Transfer,2025,10.1109/icassp49660.2025.10889189,R0275,no
+IEEE Xplore,IEEE Conferences 10.23919/Eusipco47968.2020.9287714,Role of Brainwaves in Neural Speech Decoding,2021,10.23919/eusipco47968.2020.9287714,R0276,no
+IEEE Xplore,IEEE Conferences 10.23919/INDIACom66777.2025.11115636,Revolutionizing Healthcare with NAM Signal and EEG Signal Based Silent Speech Recognition Models,2025,10.23919/indiacom66777.2025.11115636,R0277,no
+IEEE Xplore,IEEE Journals 10.1109/TIM.2022.3216673,Deep-Learning-Based BCI for Automatic Imagined Speech Recognition Using SPWVD,2023,10.1109/tim.2022.3216673,R0278,no
+IEEE Xplore,IEEE Conferences 10.1109/ECMI68341.2026.11603118,BrainLink: AI-Powered Real-Time EEG Intention Detection for Assistive Communication in Immobile Patients,2026,10.1109/ecmi68341.2026.11603118,R0279,no
+IEEE Xplore,IEEE Conferences 10.1109/EMBC46164.2021.9629711,Speech Synthesis from Stereotactic EEG using an Electrode Shaft Dependent Multi-Input Convolutional Neural Network Approach,2021,10.1109/embc46164.2021.9629711,R0135,yes
+IEEE Xplore,IEEE Journals 10.1109/THMS.2025.3554449,Imagined Speech–EEG Detection Using Multivariate Swarm Sparse Decomposition-Based Joint Time–Frequency Analysis for Intuitive BCI,2025,10.1109/thms.2025.3554449,R0280,no
+IEEE Xplore,IEEE Conferences 10.1109/SMC.2019.8914246,Optimizing Layers Improves CNN Generalization and Transfer Learning for Imagined Speech Decoding from EEG,2019,10.1109/smc.2019.8914246,R0281,no
+IEEE Xplore,IEEE Conferences 10.23919/Eusipco47968.2020.9287599,Classifying Imaginary Vowels from Frontal Lobe EEG via Deep Learning,2021,10.23919/eusipco47968.2020.9287599,R0282,no
+IEEE Xplore,IEEE Conferences ,A Temporal Envelope-based Speech Reconstruction Approach with EEG Signals during Speech Imagery,2020,,R0283,no
+IEEE Xplore,IEEE Conferences 10.1109/MetroXRAINE58569.2023.10405778,Deep Learning Techniques for Text Generation to Support Augmentative and Alternative Communication,2023,10.1109/metroxraine58569.2023.10405778,R0284,no
+IEEE Xplore,IEEE Journals 10.1109/TNSRE.2020.3040289,Neural Decoding of Imagined Speech and Visual Imagery as Intuitive Paradigms for BCI Communication,2020,10.1109/tnsre.2020.3040289,R0285,no
+IEEE Xplore,IEEE Journals 10.1109/TCDS.2024.3431224,Speech Imagery Decoding Using EEG Signals and Deep Learning: A Survey,2025,10.1109/tcds.2024.3431224,R0286,no
+IEEE Xplore,IEEE Journals 10.1109/ACCESS.2024.3474854,Enhancing the Classification Accuracy of EEG-Informed Inner Speech Decoder Using Multi-Wavelet Feature and Support Vector Machine,2024,10.1109/access.2024.3474854,R0287,no
+IEEE Xplore,IEEE Conferences 10.1109/SSD64182.2025.10990009,Design of AI-Powered EEG System to Translate Thoughts to Words,2025,10.1109/ssd64182.2025.10990009,R0288,no
+IEEE Xplore,IEEE Journals 10.1109/JSEN.2025.3638364,A Tongue–Computer Interface for Silent Speech Recognition,2026,10.1109/jsen.2025.3638364,R0289,no
+IEEE Xplore,IEEE Conferences 10.1109/CW64301.2024.00074,Enhancing Word Recognition in Imagined Speech Using Non-Invasive EEG for Improved BCI Applications,2024,10.1109/cw64301.2024.00074,R0290,no
+IEEE Xplore,IEEE Journals 10.1109/ACCESS.2020.3016756,"Neural Speech Decoding During Audition, Imagination and Production",2020,10.1109/access.2020.3016756,R0291,no
+IEEE Xplore,IEEE Conferences 10.1109/ICCR67387.2025.11292220,Speech Synthesis from EEG Signals Using Machine Learning Techniques,2025,10.1109/iccr67387.2025.11292220,R0292,no
+IEEE Xplore,IEEE Conferences 10.1109/ABC64332.2025.11118534,EEG-Based Silent Speech Classification Using Native Arabic Silent Speech Dataset with Model Comparison and Optimization,2025,10.1109/abc64332.2025.11118534,R0293,no
+IEEE Xplore,IEEE Conferences 10.1109/ICECIT67774.2025.11451149,Interpretable Deep Learning Framework for Electroencephalography-Based Language Decoding,2025,10.1109/icecit67774.2025.11451149,R0294,no
+IEEE Xplore,IEEE Conferences 10.1109/ICCIST67338.2025.11438651,The Neuro-Linguistic Frontier: A Review of Brain-to-Text Technologies and Their Application in Restoring Communication Aids,2025,10.1109/iccist67338.2025.11438651,R0295,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP40776.2020.9053340,Speech Synthesis Using EEG,2020,10.1109/icassp40776.2020.9053340,R0296,no
+IEEE Xplore,IEEE Conferences 10.1109/NER52421.2023.10123880,Synthesizing Speech by Decoding Intracortical Neural Activity from Dorsal Motor Cortex,2023,10.1109/ner52421.2023.10123880,R0297,no
+IEEE Xplore,IEEE Conferences 10.1109/ICCCNT56998.2023.10308091,BCIRecog: An Optimized BCI System for Imagined Speech Recognition,2023,10.1109/icccnt56998.2023.10308091,R0298,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP49357.2023.10097004,Synthesizing Speech from ECoG with a Combination of Transformer-Based Encoder and Neural Vocoder,2023,10.1109/icassp49357.2023.10097004,R0299,no
+IEEE Xplore,IEEE Conferences 10.1109/MITE.2016.058,Brain-Computer Interface Learning System for Quadriplegics,2016,10.1109/mite.2016.058,R0300,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI48061.2020.9061628,Decoding Semantic Categories from EEG Activity in Object-Based Decision Tasks,2020,10.1109/bci48061.2020.9061628,R0301,no
+IEEE Xplore,IEEE Journals 10.1109/TIM.2024.3472830,Imagined Speech Reconstruction From Neural Signals—An Overview of Sources and Methods,2024,10.1109/tim.2024.3472830,R0302,no
+IEEE Xplore,IEEE Conferences 10.1109/CONECCT52877.2021.9622684,Common Spatial Pattern Based Data Augmentation Technique for Decoding Imagined Speech,2021,10.1109/conecct52877.2021.9622684,R0303,no
+IEEE Xplore,IEEE Conferences 10.1109/MetroXRAINE62247.2024.10797031,EEG Hero: A Game with a Purpose based Imagined Speech BCI Training Paradigm,2024,10.1109/metroxraine62247.2024.10797031,R0304,no
+IEEE Xplore,IEEE Journals 10.1109/ACCESS.2020.3026579,Silent Speech Interfaces for Speech Restoration: A Review,2020,10.1109/access.2020.3026579,R0305,no
+IEEE Xplore,IEEE Conferences 10.23919/CISTI58278.2023.10211462,"Parla! A proposal for a Brain-Computer Interface assistive communication software protocol to translate thought to speech for deaf, hard of hearing or individuals with severe paralysis by using brain waves signal datasets obtained from a brain implant",2023,10.23919/cisti58278.2023.10211462,R0306,no
+IEEE Xplore,IEEE Journals 10.1109/TBME.2021.3132861,A Bimodal Deep Learning Architecture for EEG-fNIRS Decoding of Overt and Imagined Speech,2022,10.1109/tbme.2021.3132861,R0127,yes
+IEEE Xplore,IEEE Conferences 10.1109/EMBC46164.2021.9630748,3D CNN to Estimate Reaction Time from Multi-Channel EEG,2021,10.1109/embc46164.2021.9630748,R0137,yes
+IEEE Xplore,IEEE Conferences 10.1109/ICAFT66710.2025.11452829,EEG Signal Analysis Using Machine Learning and Deep Learning for Brain-Controlled Smart Environments,2025,10.1109/icaft66710.2025.11452829,R0307,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP49660.2025.10888547,NeuroIncept Decoder for High-Fidelity Speech Reconstruction from Neural Activity,2025,10.1109/icassp49660.2025.10888547,R0308,no
+IEEE Xplore,IEEE Conferences 10.1109/ICSPCC59353.2023.10400255,A Study of Deep Learning Based Classification of Mandarin Vowels Using Spoken Speech EEG Signals,2023,10.1109/icspcc59353.2023.10400255,R0309,no
+IEEE Xplore,IEEE Conferences 10.1109/MERCon63886.2024.10688451,EEG Based Brain-Computer Interface for Inner Speech Classification,2024,10.1109/mercon63886.2024.10688451,R0310,no
+IEEE Xplore,IEEE Journals 10.1109/COMST.2024.3387124,A Human-Centric Metaverse Enabled by Brain-Computer Interface: A Survey,2024,10.1109/comst.2024.3387124,R0311,no
+IEEE Xplore,IEEE Journals 10.1109/TNSRE.2021.3096874,Decoding Imagined Speech Based on Deep Metric Learning for Intuitive BCI Communication,2021,10.1109/tnsre.2021.3096874,R0312,no
+IEEE Xplore,IEEE Conferences 10.1109/TSP63128.2024.10605970,Imagined Speech Recognition and the Role of Brain Areas Based on Topographical Maps of EEG Signal,2024,10.1109/tsp63128.2024.10605970,R0313,no
+IEEE Xplore,IEEE Journals 10.1109/TASLP.2017.2758164,EEG Classification of Covert Speech Using Regularized Neural Networks,2017,10.1109/taslp.2017.2758164,R0314,no
+IEEE Xplore,IEEE Conferences 10.1109/ICoMMS66553.2025.11200404,Investigation of the Performance of Different EEG Channel Sets for Imagined Word Classification,2025,10.1109/icomms66553.2025.11200404,R0315,no
+IEEE Xplore,IEEE Conferences 10.1109/3SCEA68071.2026.11603016,Comparative Analysis of EEG Signal Preprocessing Impact on Generalization of a Transformer-Based EEG Imagined Speech Recognition,2026,10.1109/3scea68071.2026.11603016,R0316,no
+IEEE Xplore,IEEE Conferences 10.1109/ISIVC69944.2026.11574120,EEG-Aware Data Augmentation for Imagined Speech Classification Using Topographic Feature Mapping and 3D-CNN,2026,10.1109/isivc69944.2026.11574120,R0317,no
+IEEE Xplore,IEEE Conferences 10.1109/ICEENG64546.2025.11031298,Advancing Arabic Inner Speech Recognition with Machine Learning and Deep Learning,2025,10.1109/iceeng64546.2025.11031298,R0318,no
+IEEE Xplore,IEEE Conferences 10.1109/ABC64332.2025.11118350,Enhancing Silent Speech Decoding Using EEG and Gradient Boosting Classifiers: A Comparative Analysis of XGBoost and LightGBM on a Native Arabic Silent Speech Dataset,2025,10.1109/abc64332.2025.11118350,R0319,no
+IEEE Xplore,IEEE Conferences 10.1109/TAAI.2015.7407110,A simple communication system based on Brain Computer Interface,2015,10.1109/taai.2015.7407110,R0320,no
+IEEE Xplore,IEEE Conferences 10.23919/EUSIPCO54536.2021.9615959,A Method To Map EEG Signals To Spoken Speech Using Gaussian Process Modeling,2021,10.23919/eusipco54536.2021.9615959,R0321,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASI.2016.7539774,Using modular neural network to SSVEP-based BCI,2016,10.1109/icasi.2016.7539774,R0322,no
+IEEE Xplore,IEEE Conferences 10.1109/BigData62323.2024.10825980,EEG2Text: Open Vocabulary EEG-to-Text Translation with Multi-View Transformer,2024,10.1109/bigdata62323.2024.10825980,R0323,no
+IEEE Xplore,IEEE Conferences 10.1109/EMBC48229.2022.9871721,Decoding Neural Correlation of Language-Specific Imagined Speech using EEG Signals,2022,10.1109/embc48229.2022.9871721,R0324,no
+IEEE Xplore,IEEE Journals 10.1109/TIM.2023.3300473,Spectral Analysis of EEG Signals for Automatic Imagined Speech Recognition,2023,10.1109/tim.2023.3300473,R0325,no
+IEEE Xplore,IEEE Conferences 10.1109/AIIT63112.2025.11082947,AI-Driven EEG Systems for Translating Thoughts into Words,2025,10.1109/aiit63112.2025.11082947,R0326,no
+IEEE Xplore,IEEE Conferences 10.1109/ICECET52533.2021.9698637,Audio assisted EEG segmentation for training of Imagined speech classification model,2021,10.1109/icecet52533.2021.9698637,R0327,no
+IEEE Xplore,IEEE Journals 10.1109/ACCESS.2024.3438873,Transfer Learning Enabled Imagined Speech Interpretation Using Phase-Based Brain Functional Connectivity and Power Analysis,2024,10.1109/access.2024.3438873,R0328,no
+IEEE Xplore,IEEE Conferences 10.1109/ICoICT71118.2026.11664763,Alphabet Imagined Speech Classification based on EEG Data using Network Transformer Spatio-Temporal,2026,10.1109/icoict71118.2026.11664763,R0329,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP.2017.7952714,Towards decoding speech production from single-trial magnetoencephalography (MEG) signals,2017,10.1109/icassp.2017.7952714,R0330,no
+IEEE Xplore,IEEE Conferences 10.1109/NQComp68334.2026.11497754,NeuroSpeechNet: Hierarchical Attention-Enhanced EEG-to-Speech Synthesis via Deep Neural Mapping,2026,10.1109/nqcomp68334.2026.11497754,R0331,no
+IEEE Xplore,IEEE Journals 10.1109/ACCESS.2025.3644494,Ensemble Machine Learning Model for Inner Speech Recognition: A Subject-Specific Investigation,2026,10.1109/access.2025.3644494,R0332,no
+IEEE Xplore,IEEE Early Access Articles 10.1109/JSEN.2026.3734776,Efficient EEG Imagined Speech Decoding Using Channel Selection and Residual Attention-Based Lightweight Model,2026,10.1109/jsen.2026.3734776,R0333,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI48061.2020.9061648,Remote Control System of Spherical Robot based on Silent Speech Recognition,2020,10.1109/bci48061.2020.9061648,R0334,no
+IEEE Xplore,IEEE Conferences 10.1109/PCEMS58491.2023.10136068,Silent Speech Recognition using EEG Signals *,2023,10.1109/pcems58491.2023.10136068,R0335,no
+IEEE Xplore,IEEE Journals 10.1109/JBHI.2026.3653025,Decoding Covert Speech From EEG by Functional Areas Spatio-Temporal Transformer,2026,10.1109/jbhi.2026.3653025,R0336,no
+IEEE Xplore,IEEE Conferences 10.1109/AIST55798.2022.10064895,An Approach on BCI based Silent Speech Interface for Automatic Speech Recognition,2022,10.1109/aist55798.2022.10064895,R0337,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI69045.2026.11435063,"Distinct Theta Synchrony across Speech Modes: Perceived, Spoken, Whispered, and Imagined",2026,10.1109/bci69045.2026.11435063,R0338,no
+IEEE Xplore,IEEE Journals 10.1109/LSP.2026.3714765,Adaptive EEG Frequency Filtering and Serial Spatio-Temporal Attention for Speech Decoding,2026,10.1109/lsp.2026.3714765,R0339,no
+IEEE Xplore,IEEE Conferences 10.1109/SMC54092.2024.10831467,Exploring Diverse Augmentation Strategies for Imagined Speech Detection in Brain-Computer Interface using Machine Learning Models,2024,10.1109/smc54092.2024.10831467,R0340,no
+IEEE Xplore,IEEE Conferences 10.1109/CERA59325.2023.10455574,Analysis of Variation in Electrode Location and frequency on Imagined Speech Task Prediction,2023,10.1109/cera59325.2023.10455574,R0341,no
+IEEE Xplore,IEEE Conferences 10.23919/EUSIPCO63174.2024.10715355,Representation Learning Based on Variational Autoencoders for Imagined Speech Classification,2024,10.23919/eusipco63174.2024.10715355,R0342,no
+IEEE Xplore,IEEE Conferences 10.1109/GlobalAISummit62156.2024.10947883,Cogni-Sonance: Navigating the Neurological Orchestra of Imagined Speech,2024,10.1109/globalaisummit62156.2024.10947883,R0343,no
+IEEE Xplore,IEEE Conferences 10.1109/EMBC53108.2024.10782407,Enhancing Word-Level Imagined Speech BCI Through Heterogeneous Transfer Learning,2024,10.1109/embc53108.2024.10782407,R0077,yes
+IEEE Xplore,IEEE Conferences 10.1109/ICCCNT61001.2024.10725791,Enhanced EEG Signal Spectral Visualization for Imagined Speech Task Prediction,2024,10.1109/icccnt61001.2024.10725791,R0344,no
+IEEE Xplore,IEEE Conferences 10.1109/ICABME66883.2025.11211642,From Thoughts to Text: Unlocking Your Mind with EEG,2025,10.1109/icabme66883.2025.11211642,R0345,no
+IEEE Xplore,IEEE Journals 10.1109/TLA.2026.11683318,Imagined Speech in Spanish: EEG Dataset Acquisition Protocol and Baseline Classification Results,2026,10.1109/tla.2026.11683318,R0346,no
+IEEE Xplore,IEEE Conferences 10.1109/EMBC53108.2024.10782977,Towards Speech Synthesis of Unconstrained Sentences from Speech-related Biosignals,2024,10.1109/embc53108.2024.10782977,R0076,yes
+IEEE Xplore,IEEE Conferences 10.1109/EMBC53108.2024.10781736,emg2vec: Self-supervised Pretraining in Electromyography-based Silent Speech Interfaces,2024,10.1109/embc53108.2024.10781736,R0347,no
+IEEE Xplore,IEEE Journals 10.1109/TBIOM.2025.3634273,Notice of Removal: Cueless EEG Imagined Speech for Subject Identification: Dataset and Benchmarks,2026,10.1109/tbiom.2025.3634273,R0348,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP49660.2025.10888113,Towards Dynamic Neural Communication and Speech Neuroprosthesis Based on Viseme Decoding,2025,10.1109/icassp49660.2025.10888113,R0349,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP49660.2025.10887719,Non-invasive Speaker-dependent Continuous Phoneme Recognition with a Radar-based Silent Speech Interface,2025,10.1109/icassp49660.2025.10887719,R0350,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP55912.2026.11465134,Graph-Biased EEG Transformers for Silent Speech Decoding,2026,10.1109/icassp55912.2026.11465134,R0351,no
+IEEE Xplore,IEEE Conferences 10.1109/EMBC53108.2024.10781692,Improving inner speech decoding by hybridisation of bimodal EEG and fMRI data,2024,10.1109/embc53108.2024.10781692,R0075,yes
+IEEE Xplore,IEEE Conferences 10.1109/O-COCOSDA68185.2025.11384997,Comparative Evaluation of N-Gram and Transformer Based Language Models for ECoG-Based Speech Neuroprosthesis,2025,10.1109/o-cocosda68185.2025.11384997,R0352,no
+IEEE Xplore,IEEE Journals 10.1109/ACCESS.2021.3116196,Decoding Imagined Speech From EEG Using Transfer Learning,2021,10.1109/access.2021.3116196,R0353,no
+IEEE Xplore,IEEE Conferences 10.1109/SmartWorld-UIC-ATC-ScalCom-DigitalTwin-PriComp-Metaverse56740.2022.00189,Stimulus Reconstruction Based Auditory Attention Detection Using EEG in Multi-Speaker Environments Without Access to Clean Sources,2022,10.1109/smartworld-uic-atc-scalcom-digitaltwin-pricomp-metaverse56740.2022.00189,R0354,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP48485.2024.10446614,Neural2speech: A Transfer Learning Framework for Neural-Driven Speech Reconstruction,2024,10.1109/icassp48485.2024.10446614,R0355,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI51272.2021.9385357,Decoding Semantic Categories from EEG Activity in Silent Speech Imagination Tasks,2021,10.1109/bci51272.2021.9385357,R0356,no
+IEEE Xplore,IEEE Conferences 10.1109/IJCNN60899.2024.10650922,Thinking is Like Processing a Sequence of Spatial and Temporal Words,2024,10.1109/ijcnn60899.2024.10650922,R0357,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP49660.2025.10888813,Impact of Temporal Precision on Speech Synthesis Accuracy From Electrocorticographic Brain Signals,2025,10.1109/icassp49660.2025.10888813,R0358,no
+IEEE Xplore,IEEE Journals 10.1109/TCE.2024.3475821,A BCI System for Imagined Speech Classification Based on Optimization Theory,2024,10.1109/tce.2024.3475821,R0359,no
+IEEE Xplore,IEEE Journals 10.1109/TNSRE.2025.3616276,An EEG-EMG-Based Hybrid Brain–Computer Interface for Decoding Tones in Silent and Audible Speech,2025,10.1109/tnsre.2025.3616276,R0360,no
+IEEE Xplore,IEEE Conferences 10.1109/EMBC58623.2025.11254826,EEG-Translator: A Cross-Modality Framework for Subject-Specific EEG and Voice Reconstruction from Imagined Speech,2025,10.1109/embc58623.2025.11254826,R0036,yes
+IEEE Xplore,IEEE Journals 10.1109/TCE.2024.3472054,Robust Imagined Speech Production Using AI-Generated Content Network for Patients With Language Impairments,2025,10.1109/tce.2024.3472054,R0361,no
+IEEE Xplore,IEEE Conferences 10.1109/EMBC.2019.8857874,Decoding Speech from Single Trial MEG Signals Using Convolutional Neural Networks and Transfer Learning,2019,10.1109/embc.2019.8857874,R0175,yes
+IEEE Xplore,IEEE Conferences 10.1109/ISBI45749.2020.9098589,Stimulus Speech Decoding from Human Cortex with Generative Adversarial Network Transfer Learning,2020,10.1109/isbi45749.2020.9098589,R0362,no
+IEEE Xplore,IEEE Journals 10.1109/TBME.2025.3624878,Cross-Hemispheric Spatial-Temporal Attention Network for Decoding Silent Speech From EEG,2026,10.1109/tbme.2025.3624878,R0363,no
+IEEE Xplore,IEEE Conferences 10.1109/ICIMRBE70745.2026.11710035,EEG-Based Imagined Speech Classification Using Statistical Features and Machine Learning Models,2026,10.1109/icimrbe70745.2026.11710035,R0364,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI60775.2024.10480501,Deciphering EEG Waves for the Generation of Images,2024,10.1109/bci60775.2024.10480501,R0365,no
+IEEE Xplore,IEEE Conferences 10.1109/SMC53992.2023.10394004,TOINet: Transfer Learning from Overt Speech- to Imagined Speech-Based EEG Signals with Convolutional Autoencoder,2023,10.1109/smc53992.2023.10394004,R0366,no
+IEEE Xplore,IEEE Journals 10.1109/TNSRE.2026.3688564,Hierarchical Decoding of Perceived Speech From Non-Invasive Brain Recordings,2026,10.1109/tnsre.2026.3688564,R0011,yes
+IEEE Xplore,IEEE Conferences 10.1109/NER61569.2025.11589003,Characterization of Data-driven ECoG Filters for Speech and Hand Motor Decoding in an ALS Patient,2025,10.1109/ner61569.2025.11589003,R0367,no
+IEEE Xplore,IEEE Journals 10.1109/TBME.2021.3105331,Align and Pool for EEG Headset Domain Adaptation (ALPHA) to Facilitate Dry Electrode Based SSVEP-BCI,2022,10.1109/tbme.2021.3105331,R0368,no
+IEEE Xplore,IEEE Conferences 10.1109/ICICACS65178.2025.10968530,Japanese Speech Intelligent Recognition Using Convolutional Neural Network with Bidirectional Gated Recurrent Unit,2025,10.1109/icicacs65178.2025.10968530,R0369,no
+IEEE Xplore,IEEE Conferences 10.23919/Eusipco47968.2020.9287498,Generating EEG features from Acoustic features,2021,10.23919/eusipco47968.2020.9287498,R0370,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP49357.2023.10096145,DAIS: The Delft Database of EEG Recordings of Dutch Articulated and Imagined Speech,2023,10.1109/icassp49357.2023.10096145,R0371,no
+IEEE Xplore,IEEE Conferences 10.1109/MERCon63886.2024.10688719,Decoding Non-Motor Imagery Tasks With Non-Invasive EEG Based Brain-Computer Interface: A Review,2024,10.1109/mercon63886.2024.10688719,R0372,no
+IEEE Xplore,IEEE Conferences 10.1109/QPAIN69676.2026.11546072,Fast Label-Free Cross-Session Calibration for intra-cortical Speech Decoding,2026,10.1109/qpain69676.2026.11546072,R0373,no
+IEEE Xplore,IEEE Conferences 10.1109/RAIT65068.2025.11089141,Decoding Imagined Speech Enhancing Learning Abilities Using EEG Signal Classification,2025,10.1109/rait65068.2025.11089141,R0374,no
+IEEE Xplore,IEEE Conferences 10.1109/SMC53992.2023.10394348,Sentence Reconstruction Leveraging Contextual Meaning from Speech-Related Brain Signals,2023,10.1109/smc53992.2023.10394348,R0375,no
+IEEE Xplore,IEEE Conferences 10.1109/MetroXRAINE54828.2022.9967665,Classifying Words in Natural Reading Tasks Based on EEG Activity to Improve Silent Speech BCI Training in a Transfer Approach,2022,10.1109/metroxraine54828.2022.9967665,R0376,no
+IEEE Xplore,IEEE Conferences 10.1109/BSN58485.2023.10331182,Unsupervised Learning for Exploring Hidden Structures in Self-Talk,2023,10.1109/bsn58485.2023.10331182,R0377,no
+IEEE Xplore,IEEE Conferences 10.1109/IJCNN60899.2024.10651465,Robust Imagined Speech Production from Electrocorticography with Adaptive Frequency Enhancement,2024,10.1109/ijcnn60899.2024.10651465,R0378,no
+IEEE Xplore,Wiley-IEEE Press eBook Chapters 10.1002/9781394331840.ch09,Enhancing Human Capabilities with Neural Interfaces,2026,10.1002/9781394331840.ch09,R0379,no
+IEEE Xplore,IEEE Conferences 10.1109/ISBI61048.2026.11515534,Transfer Learning from Imagenet for Meg-Based Decoding of Imagined Speech,2026,10.1109/isbi61048.2026.11515534,R0380,no
+IEEE Xplore,IEEE Conferences 10.1109/APSIPAASC58517.2023.10317203,Attention-based CNN and Relative Phase Feature Modeling for Improved Imagined Speech Recognition,2023,10.1109/apsipaasc58517.2023.10317203,R0381,no
+IEEE Xplore,IEEE Journals 10.1109/ACCESS.2022.3230688,Self-Supervised Learning of Neural Speech Representations From Unlabeled Intracranial Signals,2022,10.1109/access.2022.3230688,R0382,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP55912.2026.11462161,Neuromamba: Adaptive Frequency Filtering with a Pyramid Mamba for sEEG-driven Speech Synthesis,2026,10.1109/icassp55912.2026.11462161,R0383,no
+IEEE Xplore,IEEE Conferences 10.1109/SMC42975.2020.9282982,Classification of Imagined Speech Using Siamese Neural Network,2020,10.1109/smc42975.2020.9282982,R0384,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI51272.2021.9385303,Intuitive Visual Imagery Decoding for Drone Swarm Formation Control from EEG Signals,2021,10.1109/bci51272.2021.9385303,R0385,no
+IEEE Xplore,IEEE Conferences 10.1109/EMBC58623.2025.11251715,EEG-based Syllable-Level Voice Activity Detection,2025,10.1109/embc58623.2025.11251715,R0386,no
+IEEE Xplore,IEEE Conferences 10.1109/IJCNN48605.2020.9207448,Decoding Speech Evoked Jaw Motion from Non-invasive Neuromagnetic Oscillations,2020,10.1109/ijcnn48605.2020.9207448,R0387,no
+IEEE Xplore,IEEE Conferences 10.1109/NER61569.2025.11588938,Pretraining with Masked Autoencoding Improves Speech Decoding from ECoG,2025,10.1109/ner61569.2025.11588938,R0388,no
+IEEE Xplore,IEEE Early Access Articles 10.1109/TBME.2026.3678858,SACM: SEEG-Audio Contrastive Matching for Chinese Speech Decoding,2026,10.1109/tbme.2026.3678858,R0389,no
+IEEE Xplore,IEEE Conferences 10.1109/ICAIHC64101.2025.10957608,Improving EEG Signal Interpretation for Phoneme Classification through Residual Convolutional Neural Network,2025,10.1109/icaihc64101.2025.10957608,R0390,no
+IEEE Xplore,IEEE Conferences 10.1109/ICIIS58898.2023.10253589,Significance of Subject-Dependency for Imagined Speech Classification Using EEG,2023,10.1109/iciis58898.2023.10253589,R0391,no
+IEEE Xplore,IEEE Conferences 10.1109/RAEEUCCI67649.2026.11504963,ICA-Enhanced Feature Learning for Imagined Speech Classification Using Low-Density EEG,2026,10.1109/raeeucci67649.2026.11504963,R0392,no
+IEEE Xplore,IEEE Conferences 10.1109/ICKECS65700.2025.11035463,AI Powered Cognitive Approach to Help Paralyzed and Mute People Communication,2025,10.1109/ickecs65700.2025.11035463,R0393,no
+IEEE Xplore,IEEE Conferences 10.1109/MEMS64181.2026.11419608,MEMS-Based High-Resolution Neural Interfaces for Chinese Phonemes Decoding,2026,10.1109/mems64181.2026.11419608,R0394,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI69045.2026.11435049,Decoding Workload and Agreement From EEG During Spoken Dialogue With Conversational AI,2026,10.1109/bci69045.2026.11435049,R0395,no
+IEEE Xplore,IEEE Conferences 10.1109/DISCOVER55800.2022.9974955,Tracing and decoding of covert phonemes using single channel Electroencephalogram with Machine Learning Techniques,2022,10.1109/discover55800.2022.9974955,R0396,no
+IEEE Xplore,IEEE Conferences 10.23919/EUSIPCO63237.2025.11226524,Continuous Speech Prediction by Segmentation of Auditory EEG,2025,10.23919/eusipco63237.2025.11226524,R0397,no
+IEEE Xplore,IEEE Conferences 10.1109/NER52421.2023.10123751,Using Automatic Speech Recognition to Measure the Intelligibility of Speech Synthesized From Brain Signals,2023,10.1109/ner52421.2023.10123751,R0398,no
+IEEE Xplore,IEEE Conferences 10.1109/NER52421.2023.10123722,Subject Generalization in Classifying Imagined and Spoken Speech with MEG,2023,10.1109/ner52421.2023.10123722,R0399,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP49660.2025.10888785,SSM2Mel: State Space Model to Reconstruct Mel Spectrogram from the EEG,2025,10.1109/icassp49660.2025.10888785,R0400,no
+IEEE Xplore,IEEE Conferences 10.1109/ICCCAS70754.2026.11672621,RANet: A Deep Learning Model for EEG-Based Inner Speech Classification,2026,10.1109/icccas70754.2026.11672621,R0401,no
+IEEE Xplore,IEEE Journals 10.1109/TNSRE.2024.3520498,End-to-End Mandarin Speech Reconstruction Based on Ultrasound Tongue Images Using Deep Learning,2025,10.1109/tnsre.2024.3520498,R0402,no
+IEEE Xplore,IEEE Journals 10.1109/TNSRE.2025.3625219,Reconstructing Unseen Sentences From Speech-Related Biosignals for Open-Vocabulary Neural Communication,2025,10.1109/tnsre.2025.3625219,R0403,no
+IEEE Xplore,IEEE Conferences 10.1109/EMBC46164.2021.9630699,Classification of Phonological Categories in Imagined Speech using Phase Synchronization Measure,2021,10.1109/embc46164.2021.9630699,R0138,yes
+IEEE Xplore,IEEE Journals 10.1109/TNSRE.2026.3703091,A Conversational Brain–Artificial Intelligence Interface,2026,10.1109/tnsre.2026.3703091,R0010,yes
+IEEE Xplore,IEEE Conferences 10.1109/ITNT55410.2022.9848753,Subvocal Interface in Assistive Information Technology,2022,10.1109/itnt55410.2022.9848753,R0404,no
+IEEE Xplore,IEEE Journals 10.1109/OJSP.2025.3528368,Harnessing the Multi-Phasal Nature of Speech-EEG for Enhancing Imagined Speech Recognition,2025,10.1109/ojsp.2025.3528368,R0405,no
+IEEE Xplore,IEEE Journals 10.1109/JBHI.2024.3416066,Deep Representation Learning for Open Vocabulary Electroencephalography-to-Text Decoding,2026,10.1109/jbhi.2024.3416066,R0406,no
+IEEE Xplore,IEEE Conferences 10.1109/ICAIS50930.2021.9395894,A Novel Approach of Human Hunger Detection especially for physically challenged people,2021,10.1109/icais50930.2021.9395894,R0407,no
+IEEE Xplore,IEEE Conferences 10.1109/ICCSP64183.2025.11089350,EEG-Driven Real World Image Captioning for Visually Impaired,2025,10.1109/iccsp64183.2025.11089350,R0408,no
+IEEE Xplore,IEEE Conferences 10.1109/SSCI50451.2021.9659960,Electrode Selection and Convolutional Attention Network for Recognition of Silently Spoken Words from EEG Signals,2021,10.1109/ssci50451.2021.9659960,R0409,no
+IEEE Xplore,IEEE Conferences 10.1109/ECTI-CON68836.2026.11608369,Auditory Attention Detection for Thai Speech Using EEG Decoding,2026,10.1109/ecti-con68836.2026.11608369,R0410,no
+IEEE Xplore,IEEE Journals 10.1109/ACCESS.2024.3509519,AAC-WGAN: A Novel Attention-Enhanced GAN Framework for SSVEP Augmentation and Classification,2024,10.1109/access.2024.3509519,R0411,no
+IEEE Xplore,IEEE Conferences 10.1109/BHI58575.2023.10313388,BrainTalker: Low-Resource Brain-to-Speech Synthesis with Transfer Learning using Wav2Vec 2.0,2023,10.1109/bhi58575.2023.10313388,R0412,no
+IEEE Xplore,IEEE Journals 10.1109/TNSRE.2022.3207624,An Interpretable Deep Learning Model for Speech Activity Detection Using Electrocorticographic Signals,2022,10.1109/tnsre.2022.3207624,R0131,yes
+IEEE Xplore,IEEE Conferences 10.1109/ICCSC71566.2026.11650581,Logarithmic Feature Transformation and Machine Learning Algorithms for EEG-Based Imagined Speech Classification,2026,10.1109/iccsc71566.2026.11650581,R0413,no
+IEEE Xplore,IEEE Conferences 10.1109/ICDSAAI69492.2026.11505157,Multimodal Speech Recognition Using Video and Neural Signals,2026,10.1109/icdsaai69492.2026.11505157,R0414,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP49660.2025.10887915,Enhancing Listened Speech Decoding from EEG via Parallel Phoneme Sequence Prediction,2025,10.1109/icassp49660.2025.10887915,R0415,no
+IEEE Xplore,IEEE Conferences 10.1109/CISCON62171.2024.10696676,Characterizing the Effect of Imagined Phonemes using EEG Signals,2024,10.1109/ciscon62171.2024.10696676,R0416,no
+IEEE Xplore,IEEE Conferences 10.1109/BCI69045.2026.11435082,International and National Dimensions in Ethics and Regulation of BMI/Neurotechnology,2026,10.1109/bci69045.2026.11435082,R0417,no
+IEEE Xplore,IEEE Journals 10.1109/LSP.2026.3668169,Multi-View Manifold-Adaptive Kernel Regression for Speech Classification From EEG Signals,2026,10.1109/lsp.2026.3668169,R0418,no
+IEEE Xplore,IEEE Conferences 10.1109/ISCSLP63861.2024.10800095,Representation of Articulatory Features in EEG During Speech Production Tasks,2024,10.1109/iscslp63861.2024.10800095,R0419,no
+IEEE Xplore,IEEE Conferences 10.1109/CI-IBBI54220.2021.9626087,Classification of upper limb grips with bioelectrical EMG and EEG signals with artificial intelligence techniques,2021,10.1109/ci-ibbi54220.2021.9626087,R0420,no
+IEEE Xplore,IEEE Journals 10.1109/TIM.2023.3241973,Optimized Rational Dilation Wavelet Transform for Automatic Imagined Speech Recognition,2023,10.1109/tim.2023.3241973,R0421,no
+IEEE Xplore,IEEE Journals 10.1109/ACCESS.2025.3640637,Toward Reliable Imagined-Speech Brain–Computer Interfaces: Subject-Independent Electroencephalogram Classification Using a Rational-Dilation Wavelet Transform and Ensemble Learning,2025,10.1109/access.2025.3640637,R0422,no
+IEEE Xplore,IEEE Journals 10.1109/TASLP.2017.2752365,Biosignal-Based Spoken Communication: A Survey,2017,10.1109/taslp.2017.2752365,R0423,no
+IEEE Xplore,IEEE Conferences 10.1109/APSIPAASC65261.2025.11248991,Towards Telepathic Communication: A Multi-Band EEG Model for Imaginary Speech Decoding,2025,10.1109/apsipaasc65261.2025.11248991,R0424,no
+IEEE Xplore,IEEE Journals 10.1109/TSMC.2025.3646667,Bionic AR: Standalone Augmented Reality System Controlled by Multimodal Biosignals,2026,10.1109/tsmc.2025.3646667,R0425,no
+IEEE Xplore,IEEE Journals 10.1109/TIM.2023.3273660,Silent Speech Interface With Vocal Speaker Assistance Based on Convolution-Augmented Transformer,2023,10.1109/tim.2023.3273660,R0426,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP49660.2025.10889637,A Novel Multimodal Method for Decoding Speech Perception from Brain Activities,2025,10.1109/icassp49660.2025.10889637,R0427,no
+IEEE Xplore,IEEE Conferences 10.1109/RADIOELEKTRONIKA61599.2024.10524069,Comparative Study of EEG-based Speech Detection with Novel Feature Set,2024,10.1109/radioelektronika61599.2024.10524069,R0428,no
+IEEE Xplore,IEEE Conferences 10.1109/EMBC.2017.8037000,EEG-based classification of bilingual unspoken speech using ANN,2017,10.1109/embc.2017.8037000,R0192,yes
+IEEE Xplore,IEEE Conferences 10.1109/GlobalSIP.2018.8646401,OVERT SPEECH RETRIEVAL FROM NEUROMAGNETIC SIGNALS USING WAVELETS AND ARTIFICIAL NEURAL NETWORKS,2018,10.1109/globalsip.2018.8646401,R0429,no
+IEEE Xplore,IEEE Conferences 10.1109/SIPAIM56729.2023.10373449,Inner speech classification using inter-trial coherence framework for feature extraction,2023,10.1109/sipaim56729.2023.10373449,R0430,no
+IEEE Xplore,IEEE Journals 10.1109/ACCESS.2023.3329573,Virtual Human: A Comprehensive Survey on Academic and Applications,2023,10.1109/access.2023.3329573,R0431,no
+IEEE Xplore,IEEE Conferences 10.1109/APSIPAASC63619.2025.10848702,An Investigation on the Speech Recovery from EEG Signals Using Transformer,2024,10.1109/apsipaasc63619.2025.10848702,R0432,no
+IEEE Xplore,IEEE Conferences 10.1109/CINS63881.2024.10862994,Neural Signal-Based Speech Recognition: Leveraging EEG for Speech Detection,2024,10.1109/cins63881.2024.10862994,R0433,no
+IEEE Xplore,IEEE Journals 10.1109/TBME.2026.3693965,ChatBCI-Assist: An Intent-Based P300 Speller With A Locally Deployed LLM and Adaptive Stopping Strategy Enabling Record Online Spelling Performance,2026,10.1109/tbme.2026.3693965,R0434,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSPW62465.2024.10626137,ICASSP 2024 Auditory EEG Decoding Challenge,2024,10.1109/icasspw62465.2024.10626137,R0435,no
+IEEE Xplore,IEEE Conferences 10.1109/EMBC53108.2024.10781922,Towards EEG-based Talking-face Generation for Brain Signal-driven Dynamic Communication,2024,10.1109/embc53108.2024.10781922,R0436,no
+IEEE Xplore,IEEE Conferences 10.1109/SMC53992.2023.10394253,Decoding Neural Activity for Part-of-Speech Tagging (POS),2023,10.1109/smc53992.2023.10394253,R0437,no
+IEEE Xplore,Wiley-IEEE Press eBook Chapters 10.1002/9781394331840.ch04,Translational Brain–Computer Interfaces: Bridging Research to Practice,2026,10.1002/9781394331840.ch04,R0438,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP43922.2022.9747297,Learning Subject-Invariant Representations from Speech-Evoked EEG Using Variational Autoencoders,2022,10.1109/icassp43922.2022.9747297,R0439,no
+IEEE Xplore,IEEE Conferences 10.1109/IEEECONF67917.2025.11443775,A Convolutional Framework for Mapping Imagined Auditory MEG into Listened Brain Responses,2025,10.1109/ieeeconf67917.2025.11443775,R0440,no
+IEEE Xplore,IEEE Conferences 10.1109/ETECOM66111.2025.11319122,A Comparative Assessment of Preprocessing and Feature Extraction Pipelines for EEG-Based Inner Speech Recognition,2025,10.1109/etecom66111.2025.11319122,R0441,no
+IEEE Xplore,IEEE Conferences 10.1109/ICSCST70031.2026.11709847,Enhanced Multi-Modal Assistive Technology System for Comprehensive Support of Children with Cognitive and Behavioural Disabilities,2026,10.1109/icscst70031.2026.11709847,R0442,no
+IEEE Xplore,IEEE Journals 10.1109/TNSRE.2023.3339179,Deep Unsupervised Representation Learning for Feature-Informed EEG Domain Extraction,2023,10.1109/tnsre.2023.3339179,R0443,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP55912.2026.11463589,NeuSpeech: Decode Neural Signal as Speech,2026,10.1109/icassp55912.2026.11463589,R0444,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP49357.2023.10433924,ICASSP 2023 Auditory EEG Decoding Challenge,2023,10.1109/icassp49357.2023.10433924,R0445,no
+IEEE Xplore,IEEE Journals 10.1109/TNSRE.2025.3576860,A Cross-Subject sEMG-to-Speech Conversion System Using Content Features and Model Calibration,2025,10.1109/tnsre.2025.3576860,R0446,no
+IEEE Xplore,IEEE Journals 10.1109/OJSP.2025.3534122,Auditory EEG Decoding Challenge for ICASSP 2024,2025,10.1109/ojsp.2025.3534122,R0447,no
+IEEE Xplore,IEEE Journals 10.1109/TBCAS.2025.3573027,A Wearable Ultra-Low-Power System for EEG-Based Speech-Imagery Interfaces,2025,10.1109/tbcas.2025.3573027,R0032,yes
+IEEE Xplore,IEEE Conferences 10.1109/ICATIECE56365.2022.10046967,A Novel Machine Learning-Based Artificial Voice Box,2022,10.1109/icatiece56365.2022.10046967,R0448,no
+IEEE Xplore,IEEE Journals 10.1109/OJSP.2024.3376296,Auditory EEG Decoding Challenge for ICASSP 2023,2024,10.1109/ojsp.2024.3376296,R0449,no
+IEEE Xplore,IEEE Conferences 10.1109/IoTaIS56727.2022.9975857,Predicting Text-To-Speech Quality using Brain Activity,2022,10.1109/iotais56727.2022.9975857,R0450,no
+IEEE Xplore,IEEE Journals 10.1109/JSSC.2024.3443254,A 2.46-mm2 Miniaturized Brain-Machine Interface (MiBMI) Enabling 31-Class Brain-to-Text Decoding,2024,10.1109/jssc.2024.3443254,R0451,no
+IEEE Xplore,IEEE Conferences 10.1109/ICESC65114.2025.11212352,Adaptive Multi-Modal Communication System for Individuals with Neurodegenerative Conditions,2025,10.1109/icesc65114.2025.11212352,R0452,no
+IEEE Xplore,IEEE Conferences 10.1109/NER49283.2021.9441306,Advancing Speech Synthesis using EEG,2021,10.1109/ner49283.2021.9441306,R0453,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP49357.2023.10095477,HappyQuokka System for ICASSP 2023 Auditory EEG Challenge,2023,10.1109/icassp49357.2023.10095477,R0454,no
+IEEE Xplore,IEEE Conferences 10.1109/EMBC48229.2022.9871301,Towards Naturalistic Speech Decoding from Intracranial Brain Data,2022,10.1109/embc48229.2022.9871301,R0123,yes
+IEEE Xplore,IEEE Conferences 10.1109/BIP56202.2022.10032476,Recognition of grammatical classes of overt speech using electrophysiological signals and machine learning,2022,10.1109/bip56202.2022.10032476,R0455,no
+IEEE Xplore,IEEE Conferences 10.1109/ICASSP49357.2023.10096248,Neural Architecture of Speech,2023,10.1109/icassp49357.2023.10096248,R0456,no
+IEEE Xplore,IEEE Conferences 10.1109/CNN63506.2024.10705874,Comparison of Acoustic and Syllable Neural Tracking of Natural Speech and Syllable Sequences in Children,2024,10.1109/cnn63506.2024.10705874,R0457,no
+IEEE Xplore,IEEE Conferences 10.1109/O-COCOSDA60357.2023.10482975,Emotion Prediction Using Multi-source Biosignals During Cognitive Behavior Therapy with Conversational Virtual Agents,2023,10.1109/o-cocosda60357.2023.10482975,R0458,no
+IEEE Xplore,IEEE Conferences 10.1109/Global6G69473.2026.11566863,Brain Semantic Communication: Brain Semantics Computation and Robustness Evaluation,2026,10.1109/global6g69473.2026.11566863,R0459,no
+IEEE Xplore,IEEE Conferences 10.1109/ISPASS69572.2026.00030,A Heterogeneous Mapping of a Speech Neuroprosthesis Application,2026,10.1109/ispass69572.2026.00030,R0460,no
+IEEE Xplore,IEEE Conferences 10.1109/SPMB62441.2024.10842260,Decoding Speech Categorization using Microstate Cortical EEG Signals and Machine Learning,2024,10.1109/spmb62441.2024.10842260,R0461,no
+IEEE Xplore,IEEE Conferences 10.1109/ICABME59496.2023.10293114,Classification of Neurodegenerative Diseases using Gait Analysis,2023,10.1109/icabme59496.2023.10293114,R0462,no
+IEEE Xplore,IEEE Conferences 10.1109/QoMEX.2018.8463392,Towards a Neuro-Inspired No-Reference Instrumental Quality Measure for Text-to-Speech Systems,2018,10.1109/qomex.2018.8463392,R0463,no
+IEEE Xplore,IEEE Conferences 10.1109/AIVR.2018.00049,Design and Development of Interactive Intelligent Medical Agent,2018,10.1109/aivr.2018.00049,R0464,no
+IEEE Xplore,IEEE Conferences 10.1109/KBEI.2017.8325034,Phase and amplitude coupling feature extraction and recognition of Ictal EEG using VMD,2017,10.1109/kbei.2017.8325034,R0465,no
+IEEE Xplore,IEEE Magazines 10.1109/MSP.2024.3484629,Emerging Brain-to-Content Technologies From Generative AI and Deep Representation Learning [In the Spotlight],2024,10.1109/msp.2024.3484629,R0466,no
+Scopus,2-s2.0-85187250473,Sentence Reconstruction Leveraging Contextual Meaning from Speech-Related Brain Signals,2023,10.1109/smc53992.2023.10394348,R0375,yes
+Scopus,2-s2.0-85152210276,High Accuracy Silent Speech BCI Using Compact Deep Learning Model for Edge Computing,2023,10.1109/bci57258.2023.10078589,R0210,yes
+Scopus,2-s2.0-105001834114,A streaming brain-to-voice neuroprosthesis to restore naturalistic communication,2025,10.1038/s41593-025-01905-6,R0043,yes
+Scopus,2-s2.0-85142756623,Imagined Speech Recognition in a Subject Independent Approach Using a Prototypical Network,2023,10.1007/978-3-031-18256-3_4,R0467,no
+Scopus,2-s2.0-85168807054,Multiclass classification of imagined speech EEG using noise-assisted multivariate empirical mode decomposition and multireceptive field convolutional neural network,2023,10.3389/fnhum.2023.1186594,R0468,no
+Scopus,2-s2.0-105021502900,ThinkSTra: a transformer-driven architecture for decoding imagined speech from EEG with spatial–temporal dynamics,2025,10.1007/s11517-025-03478-9,R0469,no
+Scopus,2-s2.0-105003875083,NeuroIncept Decoder for High-Fidelity Speech Reconstruction from Neural Activity,2025,10.1109/icassp49660.2025.10888547,R0308,yes
+Scopus,2-s2.0-105006630687,A Wearable Ultra-Low-Power System for EEG-Based Speech-Imagery Interfaces,2025,10.1109/tbcas.2025.3573027,R0032,yes
+Scopus,2-s2.0-105013615840,AI-Driven EEG Systems for Translating Thoughts into Words,2025,10.1109/aiit63112.2025.11082947,R0326,yes
+Scopus,2-s2.0-105011707884,Wavelet Augmented Phase Coherence Features for EEG-Based Imagined Speech Classification,2025,10.1109/lsens.2025.3591964,R0252,yes
+Scopus,2-s2.0-105024077661,Pretraining Large Brain Language Model for Active BCI: Silent Speech,2025,10.1145/3746027.3754810,R0470,no
+Scopus,2-s2.0-85178582852,Classification of Neurodegenerative Diseases using Gait Analysis,2023,10.1109/icabme59496.2023.10293114,R0462,yes
+Scopus,2-s2.0-84964253506,A simple communication system based on Brain Computer Interface,2016,10.1109/taai.2015.7407110,R0320,yes
+Scopus,2-s2.0-105002225815,Optimized CNN-Bi-LSTM–Based BCI System for Imagined Speech Recognition Using FOA-DWT,2024,10.1155/2024/8742261,R0471,no
+Scopus,2-s2.0-85098125847,Comparison of Brain Induced Potentials in Internal Speech in Studied and Unknown Languages,2021,10.1007/978-3-030-65596-9_66,R0472,no
+Scopus,2-s2.0-85169899974,Supervised categorized principal component analysis for imagined speech classification via applying singular value decomposition on a symmetry matrix,2023,10.1016/j.bspc.2023.105324,R0473,no
+Scopus,2-s2.0-105008524464,Improving auditory attention decoding in noisy environments for listeners with hearing impairment through contrastive learning,2025,10.1088/1741-2552/ade28a,R0474,no
+Scopus,2-s2.0-85173570983,Significance of Subject-Dependency for Imagined Speech Classification Using EEG,2023,10.1109/iciis58898.2023.10253589,R0391,yes
+Scopus,2-s2.0-105034530240,Comparison of single-channel EEG decoding performance in imagined speech tasks,2026,10.1016/j.hest.2026.01.001,R0475,no
+Scopus,2-s2.0-85143532849,Intra-subject class-incremental deep learning approach for EEG-based imagined speech recognition,2023,10.1016/j.bspc.2022.104433,R0476,no
+Scopus,2-s2.0-105004851514,Speech imagery decoding from electroencephalography signals using an amalgamation of convolutional and recurrent neural networks,2025,10.1088/2631-8695/adcff1,R0477,no
+Scopus,2-s2.0-105002289238,Imagined Speech State Classification for Robust Brain-Computer Interface,2025,10.1109/bci65088.2025.10931499,R0208,yes
+Scopus,2-s2.0-85213048592,Enhanced EEG Signal Spectral Visualization for Imagined Speech Task Prediction,2024,10.1109/icccnt61001.2024.10725791,R0344,yes
+Scopus,2-s2.0-85148439769,Recognition of grammatical classes of overt speech using electrophysiological signals and machine learning,2022,10.1109/bip56202.2022.10032476,R0455,yes
+Scopus,2-s2.0-85146198038,"10th International Winter Conference on Brain-Computer Interface, BCI 2022",2022,,R0478,no
+Scopus,2-s2.0-85171544275,Hybrid Silent Speech Interface Through Fusion of Electroencephalography and Electromyography,2023,10.21437/interspeech.2023-805,R0479,no
+Scopus,2-s2.0-85178313163,EEG-Based Classification of Spoken Words Using Machine Learning Approaches,2023,10.3390/computation11110225,R0480,no
+Scopus,2-s2.0-85119198138,Extracting different levels of speech information from EEG using an LSTM-based model,2021,10.21437/interspeech.2021-336,R0481,no
+Scopus,2-s2.0-85153390316,Decoding Silent Speech Based on High-Density Surface Electromyogram Using Spatiotemporal Neural Network,2023,10.1109/tnsre.2023.3266299,R0482,no
+Scopus,2-s2.0-85152623273,EM-CSP: An efficient multiclass common spatial pattern feature method for speech imagery EEG signals recognition,2023,10.1016/j.bspc.2023.104933,R0483,no
+Scopus,2-s2.0-85217878082,Exploring Diverse Augmentation Strategies for Imagined Speech Detection in Brain-Computer Interface using Machine Learning Models,2024,10.1109/smc54092.2024.10831467,R0340,yes
+Scopus,2-s2.0-105015449251,EEG-based Arabic Silent Speech Classification Using Native Arabic Silent Speech Dataset: A Hybrid Model Combining Random Forest and SVM,2025,10.1109/abc64332.2025.11118578,R0251,yes
+Scopus,2-s2.0-105011400938,BDR-GCL: Toward imagined speech decoding in naturalistic BCI systems via brain dynamics representation enhanced graph contrastive learning,2026,10.1016/j.eswa.2025.129058,R0484,no
+Scopus,2-s2.0-105021491944,Data and model fused comparative analysis between speech imagery and idle states by EEG-based connectivity features,2025,10.1109/icac65379.2025.11196668,R0485,no
+Scopus,2-s2.0-105034818564,EEG imagined speech neuro-signal preprocessing and deep learning classification,2026,10.1038/s41598-026-39395-6,R0004,yes
+Scopus,2-s2.0-105003664953,Imagined Speech–EEG Detection Using Multivariate Swarm Sparse Decomposition-Based Joint Time–Frequency Analysis for Intuitive BCI,2025,10.1109/thms.2025.3554449,R0280,yes
+Scopus,2-s2.0-105019207407,A hybrid TH-LSTM-Transformer Model for text generation from EEG signals during imagined character speech,2026,10.1016/j.bspc.2025.108871,R0486,no
+Scopus,2-s2.0-85187306146,Decoding Neural Activity for Part-of-Speech Tagging (POS),2023,10.1109/smc53992.2023.10394253,R0437,yes
+Scopus,2-s2.0-85135449323,2020 International brain–computer interface competition: A review,2022,10.3389/fnhum.2022.898300,R0487,no
+Scopus,2-s2.0-85146438053,Long Short-Term Memory of Language Models for Predicting Brain Activation During Listening to Stories,2022,,R0488,no
+Scopus,2-s2.0-85090005531,New technologies and Amyotrophic Lateral Sclerosis – Which step forward rushed by the COVID-19 pandemic?,2020,10.1016/j.jns.2020.117081,R0489,no
+Scopus,2-s2.0-85130912900,"4th International Conference on Communications and Cyber-Physical Engineering, ICCCE 2021",2022,,R0490,no
+Scopus,2-s2.0-85132998225,Multi-view Learning for EEG Signal Classification of Imagined Speech,2022,10.1007/978-3-031-07750-0_18,R0491,no
+Scopus,2-s2.0-85166770632,Spectral Analysis of EEG Signals for Automatic Imagined Speech Recognition,2023,10.1109/tim.2023.3300473,R0325,yes
+Scopus,2-s2.0-105035081725,CAT-Net: A Cross-Attention Tone Network for Cross-Subject EEG-EMG Fusion Tone Decoding,2026,10.1609/aaai.v40i21.38870,R0492,no
+Scopus,2-s2.0-105012778398,Implications of shared motor and perceptual activations on the sensorimotor cortex for neuroprosthetic decoding,2025,10.1088/1741-2552/adf50e,R0493,no
+Scopus,2-s2.0-105029820221,Continuous Speech Prediction by Segmentation of Auditory EEG,2025,10.23919/eusipco63237.2025.11226524,R0397,yes
+Scopus,2-s2.0-85099301766,Classifying imaginary vowels from frontal lobe EEG via deep learning,2021,10.23919/eusipco47968.2020.9287599,R0282,yes
+Scopus,2-s2.0-85193604068,A bilingual speech neuroprosthesis driven by cortical articulatory representations shared between languages,2024,10.1038/s41551-024-01207-5,R0069,yes
+Scopus,2-s2.0-85133137094,Sequence-to-Sequence Voice Reconstruction for Silent Speech in a Tonal Language,2022,10.3390/brainsci12070818,R0494,no
+Scopus,2-s2.0-85216320942,Transformer-based neural speech decoding from surface and depth electrode signals,2025,10.1088/1741-2552/adab21,R0049,yes
+Scopus,2-s2.0-85189802729,Ensemble-based feature engineering mechanism to decode imagined speech from brain signals,2024,10.1016/j.imu.2024.101491,R0495,no
+Scopus,2-s2.0-85131481980,"Biosignal Processing and Classification Using Computational Learning and Intelligence: Principles, Algorithms, and Applications",2021,10.1016/b978-0-12-820125-1.00002-6,R0496,no
+Scopus,2-s2.0-85214330884,A smart virtual keyboard to improve communication of locked-in patients,2025,10.1016/j.csi.2024.103963,R0497,no
+Scopus,2-s2.0-85132436576,Electroencephalography-based imagined speech recognition using deep long short-term memory network,2022,10.4218/etrij.2021-0118,R0498,no
+Scopus,2-s2.0-85187334814,Advanced CNN-based Model for Imagined Speech Classification Using Electroencephalogram,2023,10.1109/indicon59947.2023.10440803,R0255,yes
+Scopus,2-s2.0-85039155244,Complex-valued restricted Boltzmann machine for direct learning of frequency spectra,2017,10.21437/interspeech.2017-584,R0499,no
+Scopus,2-s2.0-85152204812,Towards Neural Decoding of Imagined Speech based on Spoken Speech,2023,10.1109/bci57258.2023.10078707,R0219,yes
+Scopus,2-s2.0-85187288934,TOINet: Transfer Learning from Overt Speech- to Imagined Speech-Based EEG Signals with Convolutional Autoencoder,2023,10.1109/smc53992.2023.10394004,R0366,yes
+Scopus,2-s2.0-85122876502,Imagined speech can be decoded from low- and cross-frequency intracranial EEG features,2022,10.1038/s41467-021-27725-3,R0500,no
+Scopus,2-s2.0-105011990055,EEG-based speech imagery decoding by dynamic hypergraph learning within projected and selected feature subspaces,2025,10.1088/1741-2552/adeec8,R0034,yes
+Scopus,2-s2.0-85057093242,"14th International Conference on Intelligent Information Hiding and Multimedia Signal Processing, IIH-MSP 2018",2019,,R0501,no
+Scopus,2-s2.0-105000260672,"26th International Conference on Neuroinformatics, NI 2024",2025,,R0502,no
+Scopus,2-s2.0-85139388156,Research on the Classification Algorithm of Imaginary Speech EEG Signals Based on Twin Neural Network,2022,10.1109/icsip55141.2022.9887230,R0269,yes
+Scopus,2-s2.0-85058554046,Overt speech retrieval from neuromagnetic signals using wavelets and artificial neural networks,2018,10.1109/globalsip.2018.8646401,R0429,yes
+Scopus,2-s2.0-105013270230,Decoding Imagined Speech Enhancing Learning Abilities Using EEG Signal Classification,2025,10.1109/rait65068.2025.11089141,R0374,yes
+Scopus,2-s2.0-85063040748,Speech synthesis from ECoG using densely connected 3D convolutional neural networks,2019,10.1088/1741-2552/ab0c59,R0176,yes
+Scopus,2-s2.0-85206276987,ADT Network: A Novel Nonlinear Method for Decoding Speech Envelopes From EEG Signals,2024,10.1177/23312165241282872,R0090,yes
+Scopus,2-s2.0-85180124336,Brain Activity Percentage Difference for Independent Component Analysis Rejection in the Classification Accuracies of Phone-Induced Distracted Driving,2023,10.1145/3627345.3627348,R0503,no
+Scopus,2-s2.0-85142939827,Speech decoding from a small set of spatially segregated minimally invasive intracranial EEG electrodes with a compact and interpretable neural network,2022,10.1088/1741-2552/aca1e1,R0112,yes
+Scopus,2-s2.0-85138704411,Development of executive function-relevant skills is related to both neural structure and function in infants,2022,10.1111/desc.13323,R0114,yes
+Scopus,2-s2.0-85188670838,Adaptive LDA Classifier Enhances Real-Time Control of an EEG Brain–Computer Interface for Decoding Imagined Syllables,2024,10.3390/brainsci14030196,R0504,no
+Scopus,2-s2.0-105030467525,Research on speech generation method based on speech electroencephalogram signals,2026,10.1117/12.3090569,R0505,no
+Scopus,2-s2.0-85187903017,Speech decoding using cortical and subcortical electrophysiological signals,2024,10.3389/fnins.2024.1345308,R0506,no
+Scopus,2-s2.0-85098887152,Classification of Imagined Speech Using Siamese Neural Network,2020,10.1109/smc42975.2020.9282982,R0384,yes
+Scopus,2-s2.0-85109763392,An IoT based Cloud EEG signal analytic framework for thought to text mapping,2021,10.5573/ieiespc.2021.10.3.183,R0507,no
+Scopus,2-s2.0-85183424070,"Decoding speech information from EEG data with 4-, 7- and 11-month-old infants: Using convolutional neural network, mutual information-based and backward linear models",2024,10.1016/j.jneumeth.2023.110036,R0087,yes
+Scopus,2-s2.0-105008284428,Enhancing Silent Speech Decoding Using AI for Assistive Communication Technologies,2025,10.1109/icaeca63854.2025.11012156,R0230,yes
+Scopus,2-s2.0-85177576551,"Deep Learning in EEG-Based BCIs: A Comprehensive Review of Transformer Models, Advantages, Challenges, and Applications",2023,10.1109/access.2023.3329678,R0240,yes
+Scopus,2-s2.0-105027057461,Sensory Sharpening and Semantic Prediction Errors Unify Competing Models of Predictive Processing in Human Speech Comprehension,2026,10.1371/journal.pbio.3003588,R0508,no
+Scopus,2-s2.0-85208077859,A Survey on Deciphering of EEG Waves,2025,10.1007/978-981-97-2147-4_27,R0509,no
+Scopus,2-s2.0-85187556148,A deep learning approach in brain-computer interaction for augmentative and alternative communication,2024,10.1504/ijict.2024.137204,R0510,no
+Scopus,2-s2.0-105033359716,A Comparative Assessment of Preprocessing and Feature Extraction Pipelines for EEG-Based Inner Speech Recognition,2025,10.1109/etecom66111.2025.11319122,R0441,yes
+Scopus,2-s2.0-85152315266,Identification of Imagined Bengali Vowels from EEG Signals Using Activity Map and Convolutional Neural Network,2023,10.1002/9781119857655.ch10,R0511,no
+Scopus,2-s2.0-85061427260,Interpretation of convolutional neural networks for speech spectrogram regression from intracranial recordings,2019,10.1016/j.neucom.2018.10.080,R0512,no
+Scopus,2-s2.0-85148465918,Optimized Rational Dilation Wavelet Transform for Automatic Imagined Speech Recognition,2023,10.1109/tim.2023.3241973,R0421,yes
+Scopus,2-s2.0-85060796873,Towards reconstructing intelligible speech from the human auditory cortex,2019,10.1038/s41598-018-37359-z,R0180,yes
+Scopus,2-s2.0-105003242739,Cogni-Sonance: Navigating the Neurological Orchestra of Imagined Speech,2024,10.1109/globalaisummit62156.2024.10947883,R0343,yes
+Scopus,2-s2.0-105012402330,Explainable artificial intelligence-based identification of the localized events in imagined speech electroencephalogram,2025,10.1016/j.compeleceng.2025.110608,R0513,no
+Scopus,2-s2.0-85219185841,Transformer-Based Model for Auditory EEG Decoding,2025,10.1007/978-981-96-1045-7_11,R0514,no
+Scopus,2-s2.0-105017675379,Transfer learning via distributed brain recordings enables reliable speech decoding,2025,10.1038/s41467-025-63825-0,R0025,yes
+Scopus,2-s2.0-85215621835,Multi-modal deep learning architecture for enhanced feature extraction and classification of imagined speech words,2025,10.1088/2631-8695/ad9ceb,R0515,no
+Scopus,2-s2.0-85053764885,A quantitative meta-analysis of fMRI studies investigating emotional processing in excessive worriers: Application of activation likelihood estimation analysis,2019,10.1016/j.jad.2018.09.049,R0516,no
+Scopus,2-s2.0-85200736495,EEG Based Imagined Word Recognition Using CNN-Bi-GRU,2023,10.1109/raai59955.2023.10601269,R0249,yes
+Scopus,2-s2.0-85153332003,Inner speech recognition through electroencephalographic signals,2022,,R0517,no
+Scopus,2-s2.0-85040465152,EEG Classification of Covert Speech Using Regularized Neural Networks,2017,10.1109/taslp.2017.2758164,R0314,yes
+Scopus,2-s2.0-85008711865,Vowel Imagery Decoding toward Silent Speech BCI Using Extreme Learning Machine with Electroencephalogram,2016,10.1155/2016/2618265,R0202,yes
+Scopus,2-s2.0-85131018351,A State-of-the-Art Review of EEG-Based Imagined Speech Decoding,2022,10.3389/fnhum.2022.867281,R0518,no
+Scopus,2-s2.0-85207966583,Investigating the role of electroencephalogram based rhythmic bands: applications in imagined speech classification and epileptic seizure severity detection,2024,10.1007/s10772-024-10155-z,R0519,no
+Scopus,2-s2.0-85208285425,Reducing power requirements for high-accuracy decoding in iBCIs,2024,10.1088/1741-2552/ad88a4,R0520,no
+Scopus,2-s2.0-105019929328,Cross-Hemispheric Spatial-Temporal Attention Network for Decoding Silent Speech From EEG,2026,10.1109/tbme.2025.3624878,R0363,yes
+Scopus,2-s2.0-85060760467,Transfer learning in imagined speech EEG-based BCIs,2019,10.1016/j.bspc.2019.01.006,R0521,no
+Scopus,2-s2.0-105020087046,Word-Level Error Analysis in Decoding Systems: From Speech Recognition to Brain-Computer Interfaces,2025,10.21437/interspeech.2025-2550,R0522,no
+Scopus,2-s2.0-85219638359,EEG Based Imagined Speech Recognition Using Multi-Feature Extraction with DNN-CapsNet,2024,10.1109/mosicom63082.2024.10881244,R0233,yes
+Scopus,2-s2.0-85019754285,Effects of low frequency rTMS treatment on brain networks for inner speech in patients with schizophrenia and auditory verbal hallucinations,2017,10.1016/j.pnpbp.2017.04.017,R0523,no
+Scopus,2-s2.0-105011347375,"Neural signals, machine learning, and the future of inner speech recognition",2025,10.3389/fnhum.2025.1637174,R0524,no
+Scopus,2-s2.0-105034913957,Decoding intended speech with an intracortical brain-computer interface in a person with long-standing anarthria and locked-in syndrome,2026,10.1016/j.celrep.2026.117162,R0525,no
+Scopus,2-s2.0-105020076023,Neuro2Semantic: A Transfer Learning Framework for Semantic Reconstruction of Continuous Language from Human Intracranial EEG,2025,10.21437/interspeech.2025-1010,R0526,no
+Scopus,2-s2.0-105021123991,Deep learning for inner speech recognition: a pilot comparative study of EEGNet and a spectro-temporal Transformer on bimodal EEG-fMRI data,2025,10.3389/fnhum.2025.1668935,R0527,no
+Scopus,2-s2.0-105027877135,Classification of Envisioned English Speech from EEG using deep learning approaches,2025,10.1016/j.mlwa.2025.100752,R0528,no
+Scopus,2-s2.0-85179501139,BrainTalker: Low-Resource Brain-to-Speech Synthesis with Transfer Learning using Wav2Vec 2.0,2023,10.1109/bhi58575.2023.10313388,R0412,yes
+Scopus,2-s2.0-85105907971,Decoding Covert Speech From EEG-A Comprehensive Review,2021,10.3389/fnins.2021.642251,R0529,no
+Scopus,2-s2.0-85018947268,Vowel decoding from single-trial speech-evoked electrophysiological responses: A feature-based machine learning approach,2017,10.1002/brb3.665,R0193,yes
+Scopus,2-s2.0-85089612831,Evaluation of hyperparameter optimization in machine and deep learning methods for decoding imagined speech eeg,2020,10.3390/s20164629,R0530,no
+Scopus,2-s2.0-105016846829,"Implantable Neural Speech Decoders: Recent Advances, Future Challenges",2026,10.1177/15459683251369468,R0009,yes
+Scopus,2-s2.0-105027959382,A Novel Imagined Speech Paradigm: Word Classification from Neurophysiological Signals,2026,10.1007/s42979-025-04714-7,R0531,no
+Scopus,2-s2.0-105007288236,Design of AI-Powered EEG System to Translate Thoughts to Words,2025,10.1109/ssd64182.2025.10990009,R0288,yes
+Scopus,2-s2.0-85188434263,Interpretable prediction of brain activity during conversations from multimodal behavioral signals,2024,10.1371/journal.pone.0284342,R0532,no
+Scopus,2-s2.0-85057113388,"14th International Conference on Intelligent Information Hiding and Multimedia Signal Processing, IIH-MSP 2018",2019,,R0501,yes
+Scopus,2-s2.0-85189876581,A neural speech decoding framework leveraging deep learning and speech synthesis,2024,10.1038/s42256-024-00824-8,R0533,no
+Scopus,2-s2.0-85202710681,Iterative alignment discovery of speech-associated neural activity,2024,10.1088/1741-2552/ad663c,R0065,yes
+Scopus,2-s2.0-85217821330,Decoding Speech Categorization using Microstate Cortical EEG Signals and Machine Learning,2024,10.1109/spmb62441.2024.10842260,R0461,yes
+Scopus,2-s2.0-85152206911,Towards Voice Reconstruction from EEG during Imagined Speech,2023,10.1609/aaai.v37i5.25745,R0534,no
+Scopus,2-s2.0-84990026540,Combining different modalities in classifying phonological categories,2016,10.1007/978-3-319-45174-9_5,R0535,no
+Scopus,2-s2.0-85154545586,Decoding of Imagined Speech Neural EEG Signals Using Deep Reinforcement Learning Technique,2022,10.1109/assic55218.2022.10088387,R0247,yes
+Scopus,2-s2.0-85191409011,Online speech synthesis using a chronically implanted brain–computer interface in an individual with ALS,2024,10.1038/s41598-024-60277-2,R0536,no
+Scopus,2-s2.0-85163758865,Imagined Speech Classification Using EEG and Deep Learning,2023,10.3390/bioengineering10060649,R0537,no
+Scopus,2-s2.0-105009799600,Geometry of orofacial neuromuscular signals: speech articulation decoding using surface electromyography,2025,10.1088/1741-2552/ade7af,R0538,no
+Scopus,2-s2.0-85169834010,"Parla! A proposal for a Brain-Computer Interface assistive communication software protocol to translate thought to speech for deaf, hard of hearing or individuals with severe paralysis by using brain waves signal datasets obtained from a brain implant",2023,10.23919/cisti58278.2023.10211462,R0306,yes
+Scopus,2-s2.0-85103680254,Infants’ neural speech discrimination predicts individual differences in grammar ability at 6 years of age and their risk of developing speech-language disorders,2021,10.1016/j.dcn.2021.100949,R0153,yes
+Scopus,2-s2.0-85193683264,Feasibility of decoding covert speech in ECoG with a Transformer trained on overt speech,2024,10.1038/s41598-024-62230-9,R0080,yes
+Scopus,2-s2.0-85138407397,The Role of Artificial Intelligence in Decoding Speech from EEG Signals: A Scoping Review,2022,10.3390/s22186975,R0117,yes
+Scopus,2-s2.0-105004733418,Japanese Speech Intelligent Recognition Using Convolutional Neural Network with Bidirectional Gated Recurrent Unit,2025,10.1109/icicacs65178.2025.10968530,R0369,yes
+Scopus,2-s2.0-85124133288,Brain-Computer Interface: Applications to Speech Decoding and Synthesis to Augment Communication,2022,10.1007/s13311-022-01190-2,R0132,yes
+Scopus,2-s2.0-85215013943,A Vision Transformer Architecture For Overt Speech Decoding From ECoG Data,2024,10.1109/embc53108.2024.10781877,R0074,yes
+Scopus,2-s2.0-85171531458,Diff-E: Diffusion-based Learning for Decoding Imagined Speech EEG,2023,10.21437/interspeech.2023-1381,R0539,no
+Scopus,2-s2.0-85116004233,Recognition of eeg signals from imagined vowels using deep learning methods,2021,10.3390/s21196503,R0141,yes
+Scopus,2-s2.0-84921444376,EEG based brain computer interface for speech communication: Principles and applications,2015,10.1007/978-3-319-10978-7_10,R0540,no
+Scopus,2-s2.0-85214793961,"Direct Speech Synthesis from Non-Invasive, Neuromagnetic Signals",2024,10.21437/interspeech.2024-2153,R0541,no
+Scopus,2-s2.0-105007610091,"Speaking from the heart: a story about innovation, resilience, and infinite possibilities with AAC",2025,10.1080/07434618.2025.2508491,R0030,yes
+Scopus,2-s2.0-85142770646,Decoding Imagined Speech of Daily Use Words from EEG Signals Using Binary Classification,2023,10.1007/978-3-031-18256-3_32,R0542,no
+Scopus,2-s2.0-85193418496,Speech synthesis from intracranial stereotactic Electroencephalography using a neural vocoder,2024,10.36244/icj.2024.1.6,R0543,no
+Scopus,2-s2.0-105012136794,Imagined Speech Detection Using Multi-Receptive CNN for Asynchronous BCI Communication and Neurorehabilitation,2025,10.1109/tnsre.2025.3592312,R0051,yes
+Scopus,2-s2.0-85219167318,"19th National Conference on Man-Machine Speech Communication, NCMMSC 2024",2025,,R0544,no
+Scopus,2-s2.0-85045338561,"3rd International Conference on Cognitive Computing and Information Processing, CCIP 2017",2018,,R0545,no
+Scopus,2-s2.0-85193808705,RETRACTION:An novel SDA-CNN few shot domain adaptation framework for silent speech recognition,2024,10.3233/jifs-237890,R0546,no
+Scopus,2-s2.0-85058532794,Determining the optimal number of MEG trials: A machine learning and speech decoding perspective,2018,10.1007/978-3-030-05587-5_16,R0547,no
+Scopus,2-s2.0-85205930561,Robust Imagined Speech Production Using AI-Generated Content Network for Patients With Language Impairments,2025,10.1109/tce.2024.3472054,R0361,yes
+Scopus,2-s2.0-85175844986,Recognition of Spoken Words from MEG Data Using Covariance Patterns,2023,10.1007/978-3-031-44865-2_18,R0548,no
+Scopus,2-s2.0-105022473727,Cueless EEG Imagined Speech for Subject Identification: Dataset and Benchmarks,2026,10.1109/tbiom.2025.3634273,R0348,yes
+Scopus,2-s2.0-85071681724,A novel task-oriented text corpus in silent speech recognition and its natural language generation construction method,2019,10.1145/3342827.3342838,R0549,no
+Scopus,2-s2.0-105026716359,Modulating speech tracking through brain state-dependent changes in audio loudness,2026,10.1088/1741-2552/ae30ab,R0550,no
+Scopus,2-s2.0-85216414381,A comprehensive review on state-of-the-art imagined speech decoding techniques using electroencephalography,2024,10.1016/b978-0-443-21870-5.00011-x,R0551,no
+Scopus,2-s2.0-105022809076,Magnetoencephalography (MEG) based non-invasive Chinese speech decoding,2025,10.1088/1741-2552/ae1ea2,R0552,no
+Scopus,2-s2.0-105023640716,The Brain’s Bitter Lesson: Scaling Speech Decoding With Self-Supervised Learning,2025,,R0553,no
+Scopus,2-s2.0-105013468183,EEG-Driven Real World Image Captioning for Visually Impaired,2025,10.1109/iccsp64183.2025.11089350,R0408,yes
+Scopus,2-s2.0-85168625329,A high-performance neuroprosthesis for speech decoding and avatar control,2023,10.1038/s41586-023-06443-4,R0554,no
+Scopus,2-s2.0-85090807847,Hierarchical deep feature learning for decoding imagined speech from EEG,2019,10.1609/aaai.v33i01.330110019,R0555,no
+Scopus,2-s2.0-105017073203,Machine learning based classification of imagined speech electroencephalogram data from the amplitude and phase spectrum of frequency domain EEG signal,2025,10.1088/2057-1976/ae04ee,R0027,yes
+Scopus,2-s2.0-85211837019,Deep multimodal representation learning for noninvasive neural speech decoding,2024,10.1016/b978-0-323-95437-2.00012-4,R0556,no
+Scopus,2-s2.0-86000749280,Neural Dynamics of the Processing of Speech Features: Evidence for a Progression of Features from Acoustic to Sentential Processing,2025,10.1523/jneurosci.1143-24.2025,R0557,no
+Scopus,2-s2.0-85087803473,Silent speech decoding using spectrogram features based on neuromuscular activities,2020,10.3390/brainsci10070442,R0558,no
+Scopus,2-s2.0-85175967160,ConvMixer with Large Kernel: an efficient architecture for classifying the EEG of Imagined Speech,2023,10.1117/12.3003841,R0559,no
+Scopus,2-s2.0-105003921322,Enhancing SEEG-Based Speech Decoding via Convolutional Encoder-Decoder and Scale-Recursive Reconstructor,2025,10.1109/jsen.2025.3563587,R0236,yes
+Scopus,2-s2.0-85169300729,Phoneme-based Imagined Vowel Identification from Electroencephalographic Sub-Band Oscillations during Speech Imagery Procedures,2023,10.56042/jsir.v82i07.2899,R0560,no
+Scopus,2-s2.0-85214553012,Imagining alternative futures with augmentative and alternative communication: a manifesto,2025,10.1136/medhum-2024-013022,R0050,yes
+Scopus,2-s2.0-85184849044,A Study of Deep Learning Based Classification of Mandarin Vowels Using Spoken Speech EEG Signals,2023,10.1109/icspcc59353.2023.10400255,R0309,yes
+Scopus,2-s2.0-85211966619,Ultrathin Bioelectrode Array with Improved Electrochemical Performance for Electrophysiological Sensing and Modulation,2024,10.1021/acsnano.4c13325,R0053,yes
+Scopus,2-s2.0-85206942027,Towards imagined speech: Identification of brain states from EEG signals for BCI-based communication systems,2025,10.1016/j.bbr.2024.115295,R0047,yes
+Scopus,2-s2.0-105011975996,Attention Mechanism-Based Mandarin Speech Mode Classification with EEG Signals,2025,10.1007/978-981-96-6957-8_20,R0561,no
+Scopus,2-s2.0-85166466928,Neural decoding of imagined speech from EEG signals using the fusion of graph signal processing and graph learning techniques,2022,10.1016/j.neuri.2022.100091,R0562,no
+Scopus,2-s2.0-85083033151,Decoding imagined speech using wavelet features and deep neural networks,2019,10.1109/indicon47234.2019.9028925,R0239,yes
+Scopus,2-s2.0-105020045513,A Silent Speech Decoding System from EEG and EMG with Heterogenous Electrode Configurations,2025,10.21437/interspeech.2025-1183,R0563,no
+Scopus,2-s2.0-85074695911,Speak your mind! Towards imagined speech recognition with hierarchical deep learning,2019,10.21437/interspeech.2019-3041,R0564,no
+Scopus,2-s2.0-85214800278,Towards an End-to-End Framework for Invasive Brain Signal Decoding with Large Language Models,2024,10.21437/interspeech.2024-382,R0565,no
+Scopus,2-s2.0-85204422710,Enhancing EEG-to-Text Decoding through Transferable Representations from Pre-trained Contrastive EEG-Text Masked Autoencoder,2024,10.18653/v1/2024.acl-long.393,R0566,no
+Scopus,2-s2.0-105024481356,From Thoughts to Text: Unlocking Your Mind with EEG,2025,10.1109/icabme66883.2025.11211642,R0345,yes
+Scopus,2-s2.0-85123387472,Common Spatial Pattern Based Data Augmentation Technique for Decoding Imagined Speech,2021,10.1109/conecct52877.2021.9622684,R0303,yes
+Scopus,2-s2.0-85165651807,"HORA 2023 - 2023 5th International Congress on Human-Computer Interaction, Optimization and Robotic Applications, Proceedings",2023,,R0567,no
+Scopus,2-s2.0-85065333731,Augmentative and alternative communication (AAC) advances: A review of configurations for individuals with a speech disability,2019,10.3390/s19081911,R0178,yes
+Scopus,2-s2.0-85098219422,Neural speech decoding for amyotrophic lateral sclerosis,2020,10.21437/interspeech.2020-3071,R0568,no
+Scopus,2-s2.0-85077843755,Decoding Speech from Single Trial MEG Signals Using Convolutional Neural Networks and Transfer Learning,2019,10.1109/embc.2019.8857874,R0175,yes
+Scopus,2-s2.0-105026865597,Ensemble Machine Learning Model for Inner Speech Recognition: A Subject-Specific Investigation,2026,10.1109/access.2025.3644494,R0332,yes
+Scopus,2-s2.0-85199069738,Speech Imagery Decoding Using EEG Signals and Deep Learning: A Survey,2025,10.1109/tcds.2024.3431224,R0286,yes
+Scopus,2-s2.0-85141570585,Generalizable spelling using a speech neuroprosthesis in an individual with severe limb and vocal paralysis,2022,10.1038/s41467-022-33611-3,R0113,yes
+Scopus,2-s2.0-85153346370,"AIxHMI 2022 - Proceedings of the 1st Workshop on Artificial Intelligence for Human Machine Interaction 2022, co-located with the 21st International Conference of the Italian Association for Artificial Intelligence, AIxIA 2022",2022,,R0569,no
+Scopus,2-s2.0-84946092920,Understanding the role of speech production in reading: Evidence for a print-to-speech neural network using graphical analysis,2016,10.1037/neu0000236,R0198,yes
+Scopus,2-s2.0-105031216640,Lost in Thought: An End-to-End Systematic Review on Imagined Speech Decoding Through Electroencephalographic Readings,2026,10.3390/ai7020075,R0570,no
+Scopus,2-s2.0-84937485147,"Decoding the attended speech stream with multi-channel EEG: Implications for online, daily-life applications",2015,10.1088/1741-2560/12/4/046007,R0204,yes
+Scopus,2-s2.0-85048798542,Decoding inner speech using electrocorticography: Progress and challenges toward a speech prosthesis,2018,10.3389/fnins.2018.00422,R0571,no
+Scopus,2-s2.0-85219064354,Imagined Speech Decoding from EEG Signals,2025,10.1007/978-3-031-81308-5_17,R0572,no
+Scopus,2-s2.0-105003464895,Feature Generation with Genetic Algorithms for Imagined Speech Electroencephalogram Signal Classification,2025,10.3390/eng6040075,R0573,no
+Scopus,2-s2.0-105009357884,Speech imagery brain-computer interfaces: a systematic literature review,2025,10.1088/1741-2552/ade28e,R0038,yes
+Scopus,2-s2.0-105019737286,Restoring communication with speech brain-computer interfaces,2025,10.1016/b978-0-443-24824-5.00015-6,R0574,no
+Scopus,2-s2.0-85152569341,DCLL—A Deep Network for Possible Real-Time Decoding of Imagined Words,2023,10.1007/978-981-19-8094-7_1,R0575,no
+Scopus,2-s2.0-85124624683,"Thinking out loud, an open-access EEG-based BCI dataset for inner speech recognition",2022,10.1038/s41597-022-01147-2,R0130,yes
+Scopus,2-s2.0-105031571391,Speech Synthesis from EEG Signals Using Machine Learning Techniques,2025,10.1109/iccr67387.2025.11292220,R0292,yes
+Scopus,2-s2.0-85076785722,Think to Speak - A Piezoelectric-EEG system for Augmentative and Alternative Communication (AAC) using Recurrent Neural Networks,2019,10.1109/ias.2019.8912419,R0225,yes
+Scopus,2-s2.0-105003881346,Impact of Temporal Precision on Speech Synthesis Accuracy From Electrocorticographic Brain Signals,2025,10.1109/icassp49660.2025.10888813,R0358,yes
+Scopus,2-s2.0-85146198513,Toward Imagined Speech based Smart Communication System: Potential Applications on Metaverse Conditions,2022,10.1109/bci53720.2022.9734827,R0213,yes
+Scopus,2-s2.0-85074703575,Towards a speaker independent speech-BCI using speaker adaptation,2019,10.21437/interspeech.2019-3109,R0576,no
+Scopus,2-s2.0-85121353171,A Bimodal Deep Learning Architecture for EEG-fNIRS Decoding of Overt and Imagined Speech,2022,10.1109/tbme.2021.3132861,R0127,yes
+Scopus,2-s2.0-105000361521,EEG Inner Speech Classification Using Machine Learning Cascade Model,2025,10.1007/978-3-031-80463-2_27,R0577,no
+Scopus,2-s2.0-86000780061,Continuous and discrete decoding of overt speech with scalp electroencephalography (EEG),2025,10.1088/1741-2552/ad8d0a,R0044,yes
+Scopus,2-s2.0-105012373815,Emergent technologies in clinical neurophysiology to study the central nervous system: IFCN handbook chapter,2025,10.1016/j.clinph.2025.2110942,R0026,yes
+Scopus,2-s2.0-85187553940,Brain computer interface with EEG signals to improve feedback system in higher education based on augmentative and alternative communication,2024,10.1504/ijict.2024.137203,R0578,no
+Scopus,2-s2.0-85076412315,"""Understanding the role of speech production in reading: Evidence for a print-to-speech neural network using graphical analysis"": Correction to Cummine et al. (2016)",2017,10.1037/neu0000380,R0198,yes
+Scopus,2-s2.0-85163218599,Silent Speech Recognition using EEG Signals ∗,2023,10.1109/pcems58491.2023.10136068,R0335,yes
+Scopus,2-s2.0-85118644005,Towards a novel machine learning approach to support augmentative and alternative communication (AAC),2022,10.1007/s10772-021-09903-2,R0579,no
+Scopus,2-s2.0-85190168972,A Human-Centric Metaverse Enabled by Brain-Computer Interface: A Survey,2024,10.1109/comst.2024.3387124,R0311,yes
+Scopus,2-s2.0-85124670761,"3rd International Conference on Artificial Intelligence and Speech Technology, AIST 2021",2022,,R0580,no
+Scopus,2-s2.0-85093843805,Decoding Speech Evoked Jaw Motion from Non-invasive Neuromagnetic Oscillations,2020,10.1109/ijcnn48605.2020.9207448,R0387,yes
+Scopus,2-s2.0-86000188492,Master classes of the tenth international brain-computer interface meeting: showcasing the research of BCI trainees,2025,10.1088/1741-2552/adb335,R0581,no
+Scopus,2-s2.0-85207044457,Characterizing the Effect of Imagined Phonemes using EEG Signals,2024,10.1109/ciscon62171.2024.10696676,R0416,yes
+Scopus,2-s2.0-85130250402,Spectro-Spatio-Temporal EEG Representation Learning for Imagined Speech Recognition,2022,10.1007/978-3-031-02444-3_25,R0582,no
+Scopus,2-s2.0-105010232788,AI Powered Cognitive Approach to Help Paralyzed and Mute People Communication,2025,10.1109/ickecs65700.2025.11035463,R0393,yes
+Scopus,2-s2.0-85187203537,Classification of imagined speech of vowels from EEG signals using multi-headed CNNs feature fusion network[Formula presented],2024,10.1016/j.dsp.2024.104447,R0583,no
+Scopus,2-s2.0-85131018869,A survey on EEG-based imagined speech classification,2021,10.1016/b978-0-12-820125-1.00025-7,R0584,no
+Scopus,2-s2.0-85186853427,Optimizing Communication in Ataxia: A Multifaceted Approach to Alternative and Augmentative Communication (AAC),2024,10.1007/s12311-024-01675-0,R0585,no
+Scopus,2-s2.0-85204956771,Robust Imagined Speech Production from Electrocorticography with Adaptive Frequency Enhancement,2024,10.1109/ijcnn60899.2024.10651465,R0378,yes
+Scopus,2-s2.0-85123905650,EEG-Based Multiword Imagined Speech Classification for Persian Words,2022,10.1155/2022/8333084,R0586,no
+Scopus,2-s2.0-85070562260,Transfer learning on imagined speech electroencephalogram using bag of features,2017,,R0587,no
+Scopus,2-s2.0-105018055957,An EEG-EMG-Based Hybrid Brain-Computer Interface for Decoding Tones in Silent and Audible Speech,2025,10.1109/tnsre.2025.3616276,R0360,yes
+Scopus,2-s2.0-85208437187,Combining EEGNet with SPDNet towards an end-to-end architecture for imagined speech decoding,2024,10.23919/eusipco63174.2024.10715364,R0237,yes
+Scopus,2-s2.0-85208875801,Brain-computer interface,2024,10.1016/b978-0-323-95730-4.00003-2,R0588,no
+Scopus,2-s2.0-105017787509,Innovative augmentation techniques and optimized ANN model for imagined speech decoding in EEG-based BCI,2025,10.1007/s11571-025-10340-z,R0589,no
+Scopus,2-s2.0-105012041151,A systematic review of EEG-based Imagined Speech decoding,2025,10.1016/j.asoc.2025.113563,R0590,no
+Scopus,2-s2.0-105028002168,Decoding Covert Speech From EEG by Functional Areas Spatio-Temporal Transformer,2026,10.1109/jbhi.2026.3653025,R0336,yes
+Scopus,2-s2.0-85099310041,Role of brainwaves in neural speech decoding,2021,10.23919/eusipco47968.2020.9287714,R0276,yes
+Scopus,2-s2.0-105019491377,Real-time artifact-resilient brain-to-speech conversion via adaptive EEG feature learning and phoneme-level reconstruction,2026,10.1016/j.bspc.2025.108955,R0591,no
+Scopus,2-s2.0-85201143839,Imagined Speech Recognition and the Role of Brain Areas Based on Topographical Maps of EEG Signal,2024,10.1109/tsp63128.2024.10605970,R0313,yes
+Scopus,2-s2.0-85168689013,Brain implants that enable speech pass performance milestones,2023,10.1038/d41586-023-02546-0,R0592,no
+Scopus,2-s2.0-85167733645,Optimization of the brain command dictionary based on the statistical proximity criterion in silent speech recognition task; [Оптимизация словаря команд на основе статистического критерия близости в задаче распознавания невербальной речи],2023,10.20537/2076-7633-2023-15-3-675-690,R0593,no
+Scopus,2-s2.0-85055273382,Speech recognition via fNIRS based brain signals,2018,10.3389/fnins.2018.00695,R0594,no
+Scopus,2-s2.0-85018175313,Comparative study of linear and nonlinear features used in imagined vowels classification using a backpropagation neural network classifier,2017,10.1145/3051166.3051175,R0595,no
+Scopus,2-s2.0-85077322147,Toward a Speech Neuroprosthesis,2020,10.1001/jama.2019.19813,R0596,no
+Scopus,2-s2.0-85217861186,Brain-Computer Interface System Based on Common Spatial Patterns for Inner Speech Recognition from Electroencephalography Signal by Using a Convolutional Neural Networks,2024,10.1109/smc54092.2024.10831764,R0223,yes
+Scopus,2-s2.0-85079830821,EEG signal classification of imagined speech based on Riemannian distance of correntropy spectral density,2020,10.1016/j.bspc.2020.101899,R0597,no
+Scopus,2-s2.0-85203050704,Advances in brain-computer interface for decoding speech imagery from EEG signals: a systematic review,2024,10.1007/s11571-024-10167-0,R0598,no
+Scopus,2-s2.0-85058527142,"International Conference on Brain Informatics, BI 2018",2018,,R0599,no
+Scopus,2-s2.0-85101181371,Silent speech interfaces for speech restoration: A review,2020,10.1109/access.2020.3026579,R0305,yes
+Scopus,2-s2.0-105034906964,Comparative Evaluation of N-Gram and Transformer Based Language Models for ECoG-based Speech Neuroprosthesis,2025,10.1109/o-cocosda68185.2025.11384997,R0352,yes
+Scopus,2-s2.0-84959170893,Speech reconstruction from human auditory cortex with deep neural networks,2015,,R0600,no
+Scopus,2-s2.0-105012717670,Hybrid convolution (1D/2D)-based adaptive and attention-aided residual DenseNet approach on brain-computer interface for automatic imagined speech recognition framework,2026,10.1016/j.csl.2025.101866,R0601,no
+Scopus,2-s2.0-85190139472,Multimodal speech recognition using EEG and audio signals: A novel approach for enhancing ASR systems,2024,10.1016/j.smhl.2024.100477,R0602,no
+Scopus,2-s2.0-85185772027,Deep Learning Techniques for Text Generation to Support Augmentative and Alternative Communication,2023,10.1109/metroxraine58569.2023.10405778,R0284,yes
+Scopus,2-s2.0-105032694907,Time–frequency-spatial channel attention network for semantic decoding: an exploratory EEG study,2026,10.1007/s11517-026-03539-7,R0003,yes
+Scopus,2-s2.0-105033729735,Learning discrete neural latent spaces for high-performance speech decoding,2025,10.1088/1741-2552/ae2ccd,R0603,no
+Scopus,2-s2.0-85200593008,EEG based depression detection by machine learning: Does inner or overt speech condition provide better biomarkers when using emotion words as experimental cues?,2024,10.1016/j.jpsychires.2024.08.002,R0062,yes
+Scopus,2-s2.0-85121695720,Brain Computer Interface for Speech Synthesis Based on Multilayer Differential Neural Networks,2022,10.1080/01969722.2021.2008685,R0604,no
+Scopus,2-s2.0-85105835933,Decoding Imagined Speech and Computer Control using Brain Waves,2021,10.1016/j.jneumeth.2021.109196,R0605,no
+Scopus,2-s2.0-105033474143,Integrating YOLOv5 for eye blink detection with transformer models for real-time text generation in assistive technologies,2026,10.1007/s13198-026-03206-y,R0606,no
+Scopus,2-s2.0-105003884372,Transfer Learning for Covert Speech Classification Using EEG Hilbert Envelope and Temporal Fine Structure,2025,10.1109/icassp49660.2025.10888880,R0231,yes
+Scopus,2-s2.0-85112104779,Amyotrophic Lateral Sclerosis Disease Progression Presents Difficulties in Brain Computer Interface Use,2021,10.1007/978-3-030-80285-1_9,R0607,no
+Scopus,2-s2.0-105030875403,Novel EEG-based signatures of brain connectivity for imagined speech,2026,10.1016/j.compbiomed.2026.111555,R0608,no
+Scopus,2-s2.0-85018435046,"2016 23rd Iranian Conference on Biomedical Engineering and 2016 1st International Iranian Conference on Biomedical Engineering, ICBME 2016",2017,,R0609,no
+Scopus,2-s2.0-105023716134,EEG-Translator: A Cross-Modality Framework for Subject-Specific EEG and Voice Reconstruction from Imagined Speech,2025,10.1109/embc58623.2025.11254826,R0036,yes
+Scopus,2-s2.0-105020072050,Enhanced EEG Inner Speech Classification Across Languages Using Coherence-Based Features,2026,10.1007/978-3-032-07690-8_46,R0610,no
+Scopus,2-s2.0-85119329127,Strategies for highlighting items within visual scene displays to support augmentative and alternative communication access for those with physical impairments,2023,10.1080/17483107.2021.2003455,R0094,yes
+Scopus,2-s2.0-85131017808,Decoding High-level Imagined Speech using Attention-based Deep Neural Networks,2022,10.1109/bci53720.2022.9734310,R0241,yes
+Scopus,2-s2.0-105013025722,Optimizing Temporal and Spectral Interval Selection for Imagined Speech Decoding from EEG,2025,10.1007/978-3-031-97578-3_17,R0611,no
+Scopus,2-s2.0-105016120857,Revolutionizing Healthcare with NAM Signal and EEG Signal Based Silent Speech Recognition Models,2025,10.23919/indiacom66777.2025.11115636,R0277,yes
+Scopus,2-s2.0-85171900901,Direct speech reconstruction from sensorimotor brain activity with optimized deep learning models,2023,10.1088/1741-2552/ace8be,R0097,yes
+Scopus,2-s2.0-85166678191,Can Machine Learning Algorithms Classify Inner Speech from EEG Brain Signals?,2023,10.1109/aiiot58121.2023.10174580,R0271,yes
+Scopus,2-s2.0-85085860019,Stimulus Speech Decoding from Human Cortex with Generative Adversarial Network Transfer Learning,2020,10.1109/isbi45749.2020.9098589,R0362,yes
+Scopus,2-s2.0-85116984888,Classification of Phonological Categories in Imagined Speech using Phase Synchronization Measure,2021,10.1109/embc46164.2021.9630699,R0138,yes
+Scopus,2-s2.0-105024095551,Toward Reliable Imagined-Speech Brain–Computer Interfaces: Subject-Independent Electroencephalogram Classification Using a Rational-Dilation Wavelet Transform and Ensemble Learning,2025,10.1109/access.2025.3640637,R0422,yes
+Scopus,2-s2.0-85218442191,The Research Focuses on the Classification and Recognition of Speech Imagery EEG Signals Based on a Fusion Network Autoencoder,2024,10.1109/icaice63571.2024.10864336,R0254,yes
+Scopus,2-s2.0-85131266200,LEARNING SUBJECT-INVARIANT REPRESENTATIONS FROM SPEECH-EVOKED EEG USING VARIATIONAL AUTOENCODERS,2022,10.1109/icassp43922.2022.9747297,R0439,yes
+Scopus,2-s2.0-85145352899,Aquila-eagle-Based deep Convolutional Neural Network for Speech Recognition Using eeG Signals,2022,10.4018/ijsir.302608,R0612,no
+Scopus,2-s2.0-85138128848,Towards Naturalistic Speech Decoding from Intracranial Brain Data,2022,10.1109/embc48229.2022.9871301,R0123,yes
+Scopus,2-s2.0-84958966654,Decoding of object categories from brain signals using cross frequency coupling methods,2016,10.1016/j.bspc.2016.01.013,R0613,no
+Scopus,2-s2.0-105023062299,P2CSL: cross-subject EEG classification by subspace class prototype-based progressive confident target sample labeling,2025,10.1088/1741-2552/ae204c,R0016,yes
+Scopus,2-s2.0-105001659307,Neural2speech: A Transfer Learning Framework for Neural-Driven Speech Reconstruction,2024,10.1109/icassp48485.2024.10446614,R0355,yes
+Scopus,2-s2.0-85075912300,Regression of Poststroke Aphasia and Concomitant Nonspeech Syndromes Due to Courses of Restorative Therapy Including Intensive Speech Therapy,2019,10.1007/s11055-019-00856-3,R0614,no
+Scopus,2-s2.0-105004263616,Speech Decoding from EEG Signals,2025,10.14569/ijacsa.2025.0160485,R0615,no
+Scopus,2-s2.0-105026354699,ReHA-Net: a ReVIN–hybrid attention network with multiscale convolution for robust EEG artifact removal in brain–computer interfaces,2026,10.1038/s41598-025-28855-0,R0014,yes
+Scopus,2-s2.0-105002318107,"Towards Unified Neural Decoding of Perceived, Spoken and Imagined Speech from EEG Signals",2025,10.1109/bci65088.2025.10931366,R0216,yes
+Scopus,2-s2.0-105024974597,EEG-to-Speech Decoding for Paralysis Rehabilitation Using Deep Learning Architectures,2025,10.1109/cist65886.2025.11224280,R0265,yes
+Scopus,2-s2.0-105018893597,Sentence-Level Silent Speech Recognition Using a Wearable EMG/EEG Sensor System with AI-Driven Sensor Fusion and Language Model,2025,10.3390/s25196168,R0024,yes
+Scopus,2-s2.0-85179806365,Acoustic research for telecoms: bridging the heritage to the future,2023,10.1051/aacus/2023056,R0616,no
+Scopus,2-s2.0-85126222313,Compact and interpretable architecture for speech decoding from stereotactic EEG,2021,10.1109/cnn53494.2021.9580381,R0270,yes
+Scopus,2-s2.0-85083485575,Decoding Imagined and Spoken Phrases From Non-invasive Neural (MEG) Signals,2020,10.3389/fnins.2020.00290,R0617,no
+Scopus,2-s2.0-85210440107,Decoding Imagined Speech from EEG Data: A Hybrid Deep Learning Approach to Capturing Spatial and Temporal Features,2024,10.3390/life14111501,R0618,no
+Scopus,2-s2.0-105031786008,Cross-frequency integration with multiple brain regions for imagined speech,2026,10.1088/2631-8695/ae47a5,R0619,no
+Scopus,2-s2.0-105028477353,Influence of study time differences on electroencephalographic cross-frequency coupling during working memory tasks,2026,10.1057/s41599-025-06205-9,R0620,no
+Scopus,2-s2.0-85146249255,Self-Supervised Learning of Neural Speech Representations From Unlabeled Intracranial Signals,2022,10.1109/access.2022.3230688,R0382,yes
+Scopus,2-s2.0-85116698856,Silent eeg-speech recognition using convolutional and recurrent neural network with 85% accuracy of 9 words classification,2021,10.3390/s21206744,R0140,yes
+Scopus,2-s2.0-85166487561,A BCI system for imagined Bengali speech recognition,2023,10.1016/j.mlwa.2023.100486,R0621,no
+Scopus,2-s2.0-85167573657,Online Ternary Classification of Covert Speech by Leveraging the Passive Perception of Speech,2023,10.1142/s012906572350048x,R0099,yes
+Scopus,2-s2.0-85178559251,An Artificial Voice Box that Makes Use of Unconventional Methods of Machine Learning,2023,10.1007/978-981-99-5997-6_3,R0622,no
+Scopus,2-s2.0-85032170904,EEG-based classification of bilingual unspoken speech using ANN,2017,10.1109/embc.2017.8037000,R0192,yes
+Scopus,2-s2.0-105015295159,Predicting infant vocabulary from neural connectivity and maternal speech: A machine learning approach,2025,10.1016/j.brainres.2025.149892,R0019,yes
+Scopus,2-s2.0-105017886153,Real-time detection of spoken speech from unlabeled ECoG signals: a pilot study with an ALS participant,2025,10.1088/1741-2552/ae0965,R0623,no
+Scopus,2-s2.0-105004313265,Improving EEG Signal Interpretation for Phoneme Classification through Residual Convolutional Neural Network,2025,10.1109/icaihc64101.2025.10957608,R0390,yes
+Scopus,2-s2.0-85012980019,Organization of neural networks for speech recognition in healthy subjects and its reorganization in patients with poststroke aphasia,2016,10.1134/s0362119716080016,R0624,no
+Scopus,2-s2.0-85088968412,Frequency–amplitude coupling: a new approach for decoding of attended features in covert visual attention task,2021,10.1007/s00521-020-05222-w,R0625,no
+Scopus,2-s2.0-85166442612,Relating EEG to continuous speech using deep neural networks: a review,2023,10.1088/1741-2552/ace73f,R0102,yes
+Scopus,2-s2.0-85206449547,MEGFormer: Enhancing Speech Decoding from Brain Activity Through Extended Semantic Representations,2024,10.1007/978-3-031-72069-7_27,R0626,no
+Scopus,2-s2.0-85187793355,Analysis of Variation in Electrode Location and frequency on Imagined Speech Task Prediction,2023,10.1109/cera59325.2023.10455574,R0341,yes
+Scopus,2-s2.0-105020064620,MiSTR: Multi-Modal iEEG-to-Speech Synthesis with Transformer-Based Prosody Prediction and Neural Phase Reconstruction,2025,10.21437/interspeech.2025-1334,R0627,no
+Scopus,2-s2.0-85175536004,Recommendations for promoting user agency in the design of speech neuroprostheses,2023,10.3389/fnhum.2023.1298129,R0628,no
+Scopus,2-s2.0-105004274769,Synthesizing intelligible utterances from EEG of imagined speech,2025,10.3389/fnins.2025.1565848,R0629,no
+Scopus,2-s2.0-85134085360,EEG-Transformer: Self-attention from Transformer Architecture for Decoding EEG of Imagined Speech,2022,10.1109/bci53720.2022.9735124,R0215,yes
+Scopus,2-s2.0-105023086122,"A 40-nm 3.9mW, 200words/Min Neural Signal Processor in Speech Decoding for Brain-Machine Interface",2025,10.1109/tbcas.2025.3625650,R0015,yes
+Scopus,2-s2.0-85177592247,HappyQuokka System for ICASSP 2023 Auditory EEG Challenge,2023,10.1109/icassp49357.2023.10095477,R0454,yes
+Scopus,2-s2.0-85050390588,"2nd International Conference on Advanced Computing and Intelligent Engineering, ICACIE 2017",2019,,R0630,no
+Scopus,2-s2.0-105002314286,Phoneme Classification in Imagined Speech Using Explainable Machine Learning,2025,10.1109/bci65088.2025.10931622,R0250,yes
+Scopus,2-s2.0-85190300302,Deciphering EEG Waves for the Generation of Images,2024,10.1109/bci60775.2024.10480501,R0365,yes
+Scopus,2-s2.0-85163906273,Decoding and synthesizing tonal language speech from brain activity,2023,10.1126/sciadv.adh0478,R0106,yes
+Scopus,2-s2.0-85133002409,"14th Mexican Conference on Pattern Recognition, MCPR 2022",2022,,R0631,no
+Scopus,2-s2.0-85105684847,Generalizing neural signal-to-text brain-computer interfaces,2021,10.1088/2057-1976/abf6ab,R0152,yes
+Scopus,2-s2.0-85076675517,"Generating Natural, Intelligible Speech From Brain Activity in Motor, Premotor, and Inferior Frontal Cortices",2019,10.3389/fnins.2019.01267,R0632,no
+Scopus,2-s2.0-85168096619,Stimulus Reconstruction Based Auditory Attention Detection Using EEG in Multi-Speaker Environments Without Access to Clean Sources,2022,10.1109/smartworld-uic-atc-scalcom-digitaltwin-pricomp-metaverse56740.2022.00189,R0354,yes
+Scopus,2-s2.0-85086022402,Classification of vowels from imagined speech with convolutional neural networks,2020,10.3390/computers9020046,R0633,no
+Scopus,2-s2.0-105020236218,Prompting the Mind: EEG-to-Text Translation with Multimodal LLMs and Semantic Control,2026,10.1007/978-3-032-07956-5_4,R0634,no
+Scopus,2-s2.0-105005262104,fNIRS experimental study on the impact of AI-synthesized familiar voices on brain neural responses,2025,10.1038/s41598-025-92702-5,R0041,yes
+Scopus,2-s2.0-85208445096,Representation Learning Based on Variational Autoencoders for Imagined Speech Classification,2024,10.23919/eusipco63174.2024.10715355,R0342,yes
+Scopus,2-s2.0-85171549003,Combining language corpora in a Japanese electromagnetic articulography database for acoustic-to-articulatory inversion,2023,10.21437/interspeech.2023-36,R0635,no
+Scopus,2-s2.0-85110849691,Decoding Imagined Speech Based on Deep Metric Learning for Intuitive BCI Communication,2021,10.1109/tnsre.2021.3096874,R0312,yes
+Scopus,2-s2.0-105032720189,Brainwave-Driven Emotional Speech Analysis using Adversarial Networks and Combined Deep RL Approaches for Improved Recognition Performance,2025,10.1109/icacrs67045.2025.11324320,R0636,no
+Scopus,2-s2.0-85161889205,Testing the Effectiveness of CNN and GNN and Exploring the Influence of Different Channels on Decoding Covert Speech from EEG Signals: CNN and GNN on Decoding Covert Speech from EEG Signals,2021,10.1145/3486713.3486733,R0637,no
+Scopus,2-s2.0-85096818525,Decoding spoken English from intracortical electrode arrays in dorsal precentral gyrus,2020,10.1088/1741-2552/abbfef,R0638,no
+Scopus,2-s2.0-85217189598,Classification of Imagined Speech Signals Using Functional Connectivity Graphs and Machine Learning Models,2025,10.1007/s10548-025-01100-7,R0048,yes
+Scopus,2-s2.0-105030580872,Decoding inner speech via frequency-specific cortical EEG representations,2026,10.1016/j.ipm.2026.104676,R0639,no
+Scopus,2-s2.0-85026908806,ICA-Based Imagined Conceptual Words Classification on EEG Signals,2017,10.4103/jmss.jmss_56_16,R0640,no
+Scopus,2-s2.0-85122510132,Speech Synthesis from Stereotactic EEG using an Electrode Shaft Dependent Multi-Input Convolutional Neural Network Approach,2021,10.1109/embc46164.2021.9629711,R0135,yes
+Scopus,2-s2.0-85130243952,"6th Asian Conference on Pattern Recognition, ACPR 2021",2022,,R0641,no
+Scopus,2-s2.0-85198031696,The ethical significance of user-control in AI-driven speech-BCIs: a narrative review,2024,10.3389/fnhum.2024.1420334,R0642,no
+Scopus,2-s2.0-85135213283,Multiclass Classification of Imagined Speech Vowels and Words of Electroencephalography Signals Using Deep Learning,2022,10.1155/2022/1374880,R0643,no
+Scopus,2-s2.0-85117432031,Neural speech encoding in infancy predicts future language and communication difficulties,2021,10.1044/2021_ajslp-21-00077,R0142,yes
+Scopus,2-s2.0-85134624549,Classification of Silent Speech in English and Bengali Languages Using Stacked Autoencoder,2022,10.1007/s42979-022-01274-y,R0644,no
+Scopus,2-s2.0-85164452486,Overt speech decoding from cortical activity: a comparison of different linear methods,2023,10.3389/fnhum.2023.1124065,R0645,no
+Scopus,2-s2.0-85089228257,Speech Synthesis Using EEG,2020,10.1109/icassp40776.2020.9053340,R0296,yes
+Scopus,2-s2.0-85197207236,A novel hybrid decoding neural network for EEG signal representation,2024,10.1016/j.patcog.2024.110726,R0646,no
+Scopus,2-s2.0-85061564990,Neural oscillation-based classification of Japanese spoken sentences during speech perception,2019,10.1587/transinf.2018edp7293,R0647,no
+Scopus,2-s2.0-85115114231,A deep spatio-temporal model for EEG-based imagined speech recognition,2021,10.1109/icassp39728.2021.9413989,R0229,yes
+Scopus,2-s2.0-85203623518,Exploring Inner Speech Recognition via Cross-Perception Approach in EEG and fMRI,2024,10.3390/app14177720,R0648,no
+Scopus,2-s2.0-85172865687,Analysis of Imagined Speech Characteristics using Phase-based Connectivity Measures,2023,10.1109/iccsce58721.2023.10237139,R0649,no
+Scopus,2-s2.0-85081574910,"5th Asian Conference on Pattern Recognition, ACPR 2019",2020,,R0650,no
+Scopus,2-s2.0-105013021269,"International Human-Centered Technology Conference, iHumEnTech 2024",2025,,R0651,no
+Scopus,2-s2.0-85104836189,Application of High-accuracy Silent Speech BCI to Biometrics using Deep Learning,2021,10.1109/bci51272.2021.9385338,R0212,yes
+Scopus,2-s2.0-105015399891,Enhancing Silent Speech Decoding Using EEG and Gradient Boosting Classifiers: A Comparative Analysis of XGBoost and LightGBM on a Native Arabic Silent Speech Dataset,2025,10.1109/abc64332.2025.11118350,R0319,yes
+Scopus,2-s2.0-85214977229,Enhancing Word-Level Imagined Speech BCI Through Heterogeneous Transfer Learning,2024,10.1109/embc53108.2024.10782407,R0077,yes
+Scopus,2-s2.0-85213083509,Systematic Review of EEG-Based Imagined Speech Classification Methods,2024,10.3390/s24248168,R0054,yes
+Scopus,2-s2.0-85089228123,An LSTM Based Architecture to Relate Speech Stimulus to Eeg,2020,10.1109/icassp40776.2020.9054000,R0263,yes
+Scopus,2-s2.0-105028969294,Progressive transfer learning Unifies Multi-Corpus EEG for robust and scalable Imagined-Speech decoding,2026,10.1016/j.bspc.2026.109475,R0652,no
+Scopus,2-s2.0-105030867933,Hybrid EEG-fNIRS phoneme classification based on imagined and perceived speech,2026,10.3389/fnrgo.2026.1696865,R0653,no
+Scopus,2-s2.0-85152207940,Speech Synthesis from Brain Signals Based on Generative Model,2023,10.1109/bci57258.2023.10078574,R0242,yes
+Scopus,2-s2.0-85206378699,EEG Based Brain-Computer Interface for Inner Speech Classification,2024,10.1109/mercon63886.2024.10688451,R0310,yes
+Scopus,2-s2.0-85160637919,Using Automatic Speech Recognition to Measure the Intelligibility of Speech Synthesized from Brain Signals,2023,10.1109/ner52421.2023.10123751,R0398,yes
+Scopus,2-s2.0-85064948502,Speech synthesis from neural decoding of spoken sentences,2019,10.1038/s41586-019-1119-1,R0654,no
+Scopus,2-s2.0-85076729310,Optimizing layers improves CNN generalization and transfer learning for imagined speech decoding from EEG,2019,10.1109/smc.2019.8914246,R0281,yes
+Scopus,2-s2.0-105013251514,Inner speech in motor cortex and implications for speech neuroprostheses,2025,10.1016/j.cell.2025.06.015,R0655,no
+Scopus,2-s2.0-85214993740,Improving inner speech decoding by hybridisation of bimodal EEG and fMRI data,2024,10.1109/embc53108.2024.10781692,R0075,yes
+Scopus,2-s2.0-105007537152,An EEG-based imagined speech recognition using CSP-TP feature fusion for enhanced BCI communication,2025,10.1016/j.bbr.2025.115652,R0028,yes
+Scopus,2-s2.0-105031754118,Multi-View Manifold-Adaptive Kernel Regression for Speech Classification from EEG Signals,2026,10.1109/lsp.2026.3668169,R0418,yes
+Scopus,2-s2.0-105013506686,A mind-reading brain implant that comes with password protection,2025,10.1038/d41586-025-02589-5,R0656,no
+Scopus,2-s2.0-105021813259,Electroencephalogram Based Imagined Digit Classification,2025,10.1007/978-981-95-3616-0_12,R0657,no
+Scopus,2-s2.0-85216963712,Stochasticity as a solution for overfitting—A new model and comparative study on non-invasive EEG prospects,2025,10.3389/fnhum.2025.1484470,R0658,no
+Scopus,2-s2.0-105020712462,"4th International Conference on Advanced Computing and Intelligent Technologies, ICACIT 2024",2026,,R0659,no
+Scopus,2-s2.0-85110471654,Neuroprosthesis for decoding speech in a paralyzed person with anarthria,2021,10.1056/nejmoa2027540,R0147,yes
+Scopus,2-s2.0-85215660847,A Speech Neuroprosthesis in the Frontal Lobe and Hippocampus: Decoding High-Frequency Activity into Phonemes,2025,10.1227/neu.0000000000003068,R0660,no
+Scopus,2-s2.0-85182608674,Subject-independent meta-learning framework towards optimal training of EEG-based classifiers,2024,10.1016/j.neunet.2024.106108,R0085,yes
+Scopus,2-s2.0-85059959940,Tensor decomposition for imagined speech discrimination in EEG,2018,10.1007/978-3-030-04497-8_20,R0661,no
+Scopus,2-s2.0-85118920683,Inner Speech Classification using EEG Signals: A Deep Learning Approach,2021,10.1109/ichms53169.2021.9582457,R0211,yes
+Scopus,2-s2.0-85161859947,"Proceedings of the 12th International Conference on Computational Systems-Biology and Bioinformatics, CSBio 2021",2021,,R0662,no
+Scopus,2-s2.0-85200814302,Transfer Learning Enabled Imagined Speech Interpretation Using Phase-Based Brain Functional Connectivity and Power Analysis,2024,10.1109/access.2024.3438873,R0328,yes
+Scopus,2-s2.0-85190668136,Imagined speech classification exploiting EEG power spectrum features,2024,10.1007/s11517-024-03083-2,R0070,yes
+Scopus,2-s2.0-85180852882,Evaluation of an English language phoneme-based imagined speech brain computer interface with low-cost electroencephalography,2023,10.3389/fninf.2023.1306277,R0663,no
+Scopus,2-s2.0-85113363477,Detection of Imagery Vowel Speech Using Deep Learning,2022,10.1007/978-981-16-1476-7_23,R0664,no
+Scopus,2-s2.0-85145354646,Tracing and decoding of covert phonemes using single channel Electroencephalogram with Machine Learning Techniques,2022,10.1109/discover55800.2022.9974955,R0396,yes
+Scopus,2-s2.0-85059086084,"2nd International Conference on Advanced Computing and Intelligent Engineering, ICACIE 2017",2019,,R0630,yes
+Scopus,2-s2.0-85209709077,Chisco: An EEG-based BCI dataset for decoding of imagined speech,2024,10.1038/s41597-024-04114-1,R0056,yes
+Scopus,2-s2.0-85117356065,Spoken and Inner Speech-related EEG Connectivity in Different Spatial Direction,2022,10.1016/j.bspc.2021.103224,R0665,no
+Scopus,2-s2.0-85172190618,Inner speech as language process and cognitive tool,2023,10.1016/j.tics.2023.08.014,R0666,no
+Scopus,2-s2.0-85115269104,Recognition of grammatical class of imagined words from EEG signals using convolutional neural network,2021,10.1016/j.neucom.2021.08.035,R0667,no
+Scopus,2-s2.0-85057094768,Neurolinguistic and machine-learning perspectives on direct speech BCIs for restoration of naturalistic communication,2017,10.1080/2326263x.2017.1330611,R0668,no
+Scopus,2-s2.0-85116361422,"Imagined, Intended, and Spoken Speech Envelope Synthesis from Neuromagnetic Signals",2021,10.1007/978-3-030-87802-3_13,R0669,no
+Scopus,2-s2.0-105010934675,Salience and default networks predict borderline personality traits and affective symptoms: a dynamic functional connectivity analysis,2025,10.3389/fnhum.2025.1589440,R0670,no
+Scopus,2-s2.0-85197356982,Speech decoding from stereo-electroencephalography (sEEG) signals using advanced deep learning methods,2024,10.1088/1741-2552/ad593a,R0078,yes
+Scopus,2-s2.0-85107465442,Advancing speech synthesis using EEG,2021,10.1109/ner49283.2021.9441306,R0453,yes
+Scopus,2-s2.0-105029975650,Advances in deep learning techniques for ultrasound tongue imaging processing; [深度学习在超声舌成像处理中的研究进展],2026,10.11834/jig.250015,R0671,no
+Scopus,2-s2.0-85214992544,Towards Speech Synthesis of Unconstrained Sentences from Speech-related Biosignals,2024,10.1109/embc53108.2024.10782977,R0076,yes
+Scopus,2-s2.0-105029194002,Initial experience with the precision neuroscience Layer 7 micro-electrocorticography interface for real-time intraoperative neural decoding,2026,10.3171/2025.11.focus25908,R0008,yes
+Scopus,2-s2.0-85192145377,Recognition of Oral Speech from MEG Data Using Covariance Filters,2024,10.1007/s11055-024-01612-y,R0672,no
+Scopus,2-s2.0-84999828343,Real-Time Control of an Articulatory-Based Speech Synthesizer for Brain Computer Interfaces,2016,10.1371/journal.pcbi.1005119,R0194,yes
+Scopus,2-s2.0-85097125940,Neural Decoding of Imagined Speech and Visual Imagery as Intuitive Paradigms for BCI Communication,2020,10.1109/tnsre.2020.3040289,R0285,yes
+Scopus,2-s2.0-85180012487,Attention-based CNN and Relative Phase Feature Modeling for Improved Imagined Speech Recognition,2023,10.1109/apsipaasc58517.2023.10317203,R0381,yes
+Scopus,2-s2.0-105032996328,2025 IEEE Signal Processing in Medicine and Biology Symposium - Proceedings,2025,,R0673,no
+Scopus,2-s2.0-85208163143,Identification of perceived sentences using deep neural networks in EEG,2024,10.1088/1741-2552/ad88a3,R0060,yes
+Scopus,2-s2.0-105022257461,Investigation of the Performance of Different EEG Channel Sets for Imagined Word Classification,2025,10.1109/icomms66553.2025.11200404,R0315,yes
+Scopus,2-s2.0-85090275967,"Neural Speech Decoding during Audition, Imagination and Production",2020,10.1109/access.2020.3016756,R0291,yes
+Scopus,2-s2.0-105015444407,EEG-Based Silent Speech Classification Using Native Arabic Silent Speech Dataset with Model Comparison and Optimization,2025,10.1109/abc64332.2025.11118534,R0293,yes
+Scopus,2-s2.0-85182811033,Decoding Single and Paired Phonemes Using 7T Functional MRI,2024,10.1007/s10548-024-01034-6,R0064,yes
+Scopus,2-s2.0-105027635039,Imagined Chinese Speech Decoding Based on Initials and Finals From EEG Activity,2026,10.1049/sil2/5451362,R0674,no
+Scopus,2-s2.0-86000378389,Synthesizing Speech from ECoG with a Combination of Transformer-Based Encoder and Neural Vocoder,2023,10.1109/icassp49357.2023.10097004,R0299,yes
+Scopus,2-s2.0-85122916912,Functional Complex Networks Based on Operational Architectonics: Application on EEG-based Brain–computer Interface for Imagined Speech,2022,10.1016/j.neuroscience.2021.11.045,R0129,yes
+Scopus,2-s2.0-85168608741,A high-performance speech neuroprosthesis,2023,10.1038/s41586-023-06377-x,R0675,no
+Scopus,2-s2.0-85130350424,"6th Asian Conference on Pattern Recognition, ACPR 2021",2022,,R0641,yes
+Scopus,2-s2.0-105030181134,HCACLnet: A Dual-Branch Deep Network with Channel Selection for EEG-Based Imagined Speech Recognition,2025,10.1109/icetci67340.2025.11258057,R0273,yes
+Scopus,2-s2.0-85129521435,Development of infants’ neural speech processing and its relation to later language skills: A MEG study,2022,10.1016/j.neuroimage.2022.119242,R0119,yes
+Scopus,2-s2.0-85206811858,An Overview of Automatic Speech Recognition Based on Deep Learning and Bio–Signal Sensors,2025,10.1007/978-981-97-8031-0_112,R0676,no
+Scopus,2-s2.0-105020091052,Functional Connectivity and Hilbert-Based Features for Covert Speech EEG Variability Analysis and Classification,2025,10.21437/interspeech.2025-1986,R0677,no
+Scopus,2-s2.0-85098092359,Standardization-refinement domain adaptation method for cross-subject EEG-based classification in imagined speech recognition,2021,10.1016/j.patrec.2020.11.013,R0678,no
+Scopus,2-s2.0-85191533403,Exploring inter-trial coherence for inner speech classification in EEG-based brain-computer interface,2024,10.1088/1741-2552/ad3f50,R0084,yes
+Scopus,2-s2.0-85141538915,Deep-Learning-Based BCI for Automatic Imagined Speech Recognition Using SPWVD,2023,10.1109/tim.2022.3216673,R0278,yes
+Scopus,2-s2.0-105010957590,From pronounced to imagined: improving speech decoding with multi-condition EEG data,2025,10.3389/fninf.2025.1583428,R0679,no
+Scopus,2-s2.0-85139443098,An Interpretable Deep Learning Model for Speech Activity Detection Using Electrocorticographic Signals,2022,10.1109/tnsre.2022.3207624,R0131,yes
+Scopus,2-s2.0-85181582612,Unsupervised Learning for Exploring Hidden Structures in Self-Talk,2023,10.1109/bsn58485.2023.10331182,R0377,yes
+Scopus,2-s2.0-85084085466,Remote Control System of Spherical Robot based on Silent Speech Recognition,2020,10.1109/bci48061.2020.9061648,R0334,yes
+Scopus,2-s2.0-85159116019,EEG-based imagined words classification using Hilbert transform and deep networks,2024,10.1007/s11042-023-15664-8,R0680,no
+Scopus,2-s2.0-105015523288,"2025 International Conference on Activity and Behavior Computing, ABC 2025",2025,,R0681,no
+Scopus,2-s2.0-105034358566,Explainable AI-Enhanced Interpretation for Inner Speech Classification Using EEG Signal,2025,10.1109/sta66620.2025.11364928,R0268,yes
+Scopus,2-s2.0-85141925057,EEG-based covert speech decoding using random rotation extreme learning machine ensemble for intuitive BCI communication,2023,10.1016/j.bspc.2022.104379,R0682,no
+Scopus,2-s2.0-85099281338,Generating EEG features from acoustic features,2021,10.23919/eusipco47968.2020.9287498,R0370,yes
+Scopus,2-s2.0-105027685440,"3M-CPSEED, An EEG-based Dataset for Chinese Pinyin Production in Overt, Mouthed, and Imagined Speech",2026,10.1038/s41597-025-06346-1,R0013,yes
+Scopus,2-s2.0-85207463804,A 2.46-mm2 Miniaturized Brain-Machine Interface (MiBMI) Enabling 31-Class Brain-to-Text Decoding,2024,10.1109/jssc.2024.3443254,R0451,yes
+Scopus,2-s2.0-85190279721,Neural Speech Embeddings for Speech Synthesis Based on Deep Generative Networks,2024,10.1109/bci60775.2024.10480503,R0253,yes
+Scopus,2-s2.0-105031154907,EEG-Based Imagined-Speech Decoding: A Review,2026,10.14569/ijacsa.2026.0170136,R0683,no
+Scopus,2-s2.0-105003460613,Spatial Functional Data and Classification Techniques to Control a Hand Prosthesis Using Silent Speech,2026,10.1007/s40745-025-00596-x,R0684,no
+Scopus,2-s2.0-85122548760,3D CNN to Estimate Reaction Time from Multi-Channel EEG,2021,10.1109/embc46164.2021.9630748,R0137,yes
+Scopus,2-s2.0-85079621071,A review on machine learning mechanisms for imagined speech classification,2020,10.5373/jardcs/v12i1/20201021,R0685,no
+Scopus,2-s2.0-85144615727,Classifying Words in Natural Reading Tasks Based on EEG Activity to Improve Silent Speech BCI Training in a Transfer Approach,2022,10.1109/metroxraine54828.2022.9967665,R0376,yes
+Scopus,2-s2.0-85068975442,Deep Learning the EEG Manifold for Phonological Categorization from Active Thoughts,2019,10.1109/icassp.2019.8682330,R0221,yes
+Scopus,2-s2.0-85142727392,Significance of Dimensionality Reduction in CNN-Based Vowel Classification from Imagined Speech Using Electroencephalogram Signals,2022,10.1007/978-3-031-20980-2_5,R0686,no
+Scopus,2-s2.0-85191076374,Resting state EEG assisted imagined vowel phonemes recognition by native and non-native speakers using brain connectivity measures,2024,10.1007/s13246-024-01417-w,R0687,no
+Scopus,2-s2.0-85127066676,Audio assisted EEG segmentation for training of Imagined speech classification model,2021,10.1109/icecet52533.2021.9698637,R0327,yes
+Scopus,2-s2.0-85175853964,High-resolution neural recordings improve the accuracy of speech decoding,2023,10.1038/s41467-023-42555-1,R0688,no
+Scopus,2-s2.0-85101125850,Biosignal sensors and deep learning-based speech recognition: A review,2021,10.3390/s21041399,R0156,yes
+Scopus,2-s2.0-85146310335,Imaginary and Real Speech-Related EEG Patterns in the Neural Network Approach,2022,10.1134/s0362119722320019,R0689,no
+Scopus,2-s2.0-105027912943,Enhanced synthesis of passively heard speech from electrocorticography signals using image-to-image spectrogram translation,2026,10.1016/j.mlwa.2025.100805,R0690,no
+Scopus,2-s2.0-85176211993,Decoding of imagined speech electroencephalography neural signals using transfer learning method,2023,10.1088/2399-6528/ad0197,R0691,no
+Scopus,2-s2.0-85081557774,Multiclass covert speech classification using extreme learning machine,2020,10.1007/s13534-020-00152-x,R0692,no
+Scopus,2-s2.0-105008420026,Phase-Based EEG Analysis for Enhanced Imagined Speech Decoding in Brain-Computer Interfaces,2025,10.1109/ic3ecsbhi63591.2025.10990955,R0274,yes
+Scopus,2-s2.0-85105856843,"Reconstruction of Words, Syllables, and Phonemes of Internal Speech by EEG Activity",2021,10.1007/978-3-030-71637-0_37,R0693,no
+Scopus,2-s2.0-85084960494,Synthetic-Neuroscore: Using a neuro-AI interface for evaluating generative adversarial networks,2020,10.1016/j.neucom.2020.04.069,R0694,no
+Scopus,2-s2.0-85050038454,"2018 International Interdisciplinary PhD Workshop, IIPhDW 2018",2018,,R0695,no
+Scopus,2-s2.0-85078353197,Control and Ownership of Neuroprosthetic Speech,2021,10.1007/s13347-019-00389-0,R0696,no
+Scopus,2-s2.0-85194844389,Decoding imagined speech with delay differential analysis,2024,10.3389/fnhum.2024.1398065,R0697,no
+Scopus,2-s2.0-105026572811,Decoding phone pairs from MEG signals across speech modalities,2026,10.1016/j.csl.2026.101939,R0698,no
+Scopus,2-s2.0-85141557509,Multi-Task Learning-Based Deep Neural Network for Steady-State Visual Evoked Potential-Based Brain–Computer Interfaces,2022,10.3390/s22218303,R0115,yes
+Scopus,2-s2.0-85083722714,NeuroVAD: Real-time voice activity detection from non-invasive neuromagnetic signals,2020,10.3390/s20082248,R0168,yes
+Scopus,2-s2.0-105012738511,Paradigm fusion learning from overt and silent chinese speech based on pseudo-siamese multiscale capsule neural network,2025,10.1016/j.specom.2025.103289,R0699,no
+Scopus,2-s2.0-105009455570,Advancing Arabic Inner Speech Recognition with Machine Learning and Deep Learning,2025,10.1109/iceeng64546.2025.11031298,R0318,yes
+Scopus,2-s2.0-85134640864,Decoding the temporal dynamics of spoken word and nonword processing from EEG,2022,10.1016/j.neuroimage.2022.119457,R0116,yes
+Scopus,2-s2.0-85159224678,EEG-based classification of imagined digits using a recurrent neural network,2023,10.1088/1741-2552/acc976,R0108,yes
+Scopus,2-s2.0-86000372526,Neural Architecture of Speech,2023,10.1109/icassp49357.2023.10096248,R0456,yes
+Scopus,2-s2.0-85162070492,EEG Based Brain Computer Interface System for Decoding Covert Speech using Deep Neural Networks,2023,10.1109/csnt57126.2023.10134633,R0209,yes
+Scopus,2-s2.0-105020269654,Inner Speech Decoding: A Comprehensive Review,2025,10.1002/wcs.70016,R0018,yes
+Scopus,2-s2.0-85212878408,"Proceedings of the 2024 9th International Conference on Biomedical Signal and Image Processing, ICBIP 2024",2024,,R0700,no
+Scopus,2-s2.0-105018702884,Brain-to-text decoding with context-aware neural representations and large language models,2025,10.1088/1741-2552/adfab1,R0023,yes
+Scopus,2-s2.0-85208961736,Neurosurgery and the Brain-Computer Interface,2024,10.1007/978-3-031-64892-2_32,R0701,no
+Scopus,2-s2.0-105029534304,"35th Brazilian Conference on Intelligent Systems, BRACIS 2025",2026,,R0702,no
+Scopus,2-s2.0-105035216167,Analyzing imagery speech and pronounced speech using Siamese neural networks (SNNs) for brain human machine interface (BHMI) classification,2026,10.1007/s11760-026-05286-6,R0703,no
+Scopus,2-s2.0-85114027628,Decoding imagined speech from EEG signals using hybrid-scale spatial-temporal dilated convolution network,2021,10.1088/1741-2552/ac13c0,R0704,no
+Scopus,2-s2.0-85117003637,Decoding Imagined Speech from EEG Using Transfer Learning,2021,10.1109/access.2021.3116196,R0353,yes
+Scopus,2-s2.0-85104507761,A Novel Neural Network-Based Approach to Classification of Implicit Emotional Components in Ordinary Speech,2021,10.3103/s1060992x21010057,R0705,no
+Scopus,2-s2.0-85162981542,Differentiation of Speech and Language Functional Systems and Analysis of the Differences in Related Neural Networks,2023,10.1134/s0362119723700251,R0706,no
+arXiv,arXiv:1904.04358v1,Deep Learning the EEG Manifold for Phonological Categorization from Active Thoughts,2019,arxiv:1904.04358,R0221,yes
+arXiv,arXiv:2406.11568v1,Towards an End-to-End Framework for Invasive Brain Signal Decoding with Large Language Models,2024,10.21437/interspeech.2024-382,R0565,yes
+arXiv,arXiv:2603.12279v3,"Toward Robust, Reproducible, and Widely Accessible Intracranial Speech Brain-Computer Interfaces: A Comprehensive Narrative Review of Neural Mechanisms, Hardware, Algorithms, Evaluation, Clinical Pathways and Future Directions",2026,arxiv:2603.12279,R0707,no
+arXiv,arXiv:2512.03458v1,A Convolutional Framework for Mapping Imagined Auditory MEG into Listened Brain Responses,2025,arxiv:2512.03458,R0440,yes
+arXiv,arXiv:2507.22892v1,Hybrid EEG--Driven Brain--Computer Interface: A Large Language Model Framework for Personalized Language Rehabilitation,2025,arxiv:2507.22892,R0708,no
+arXiv,arXiv:2108.00190v3,Sequence-to-Sequence Voice Reconstruction for Silent Speech in a Tonal Language,2021,arxiv:2108.00190,R0494,yes
+arXiv,arXiv:2112.09239v1,EEG-Transformer: Self-attention from Transformer Architecture for Decoding EEG of Imagined Speech,2021,arxiv:2112.09239,R0215,yes
+arXiv,arXiv:2111.01457v4,Synthesizing Speech from Intracranial Depth Electrodes using an Encoder-Decoder Framework,2021,10.51628/001c.57524,R0709,no
+arXiv,arXiv:2402.15011v2,A Conversational Brain-Artificial Intelligence Interface,2024,arxiv:2402.15011,R0010,yes
+arXiv,arXiv:2506.00381v1,Neuro2Semantic: A Transfer Learning Framework for Semantic Reconstruction of Continuous Language from Human Intracranial EEG,2025,arxiv:2506.00381,R0526,yes
+arXiv,arXiv:1904.05746v1,SPEAK YOUR MIND! Towards Imagined Speech Recognition With Hierarchical Deep Learning,2019,arxiv:1904.05746,R0564,yes
+arXiv,arXiv:2501.04359v2,Decoding EEG Speech Perception with Transformers and VAE-based Data Augmentation,2025,arxiv:2501.04359,R0710,no
+arXiv,arXiv:2504.21214v2,Pretraining Large Brain Language Model for Active BCI: Silent Speech,2025,arxiv:2504.21214,R0470,yes
+arXiv,arXiv:2501.03757v1,NeuroIncept Decoder for High-Fidelity Speech Reconstruction from Neural Activity,2025,arxiv:2501.03757,R0308,yes
+arXiv,arXiv:2412.12215v1,Imagined Speech State Classification for Robust Brain-Computer Interface,2024,arxiv:2412.12215,R0208,yes
+arXiv,arXiv:2405.11459v3,Du-IN: Discrete units-guided mask modeling for decoding speech from Intracranial Neural signals,2024,arxiv:2405.11459,R0711,no
+arXiv,arXiv:2312.05814v2,Neural Speech Embeddings for Speech Synthesis Based on Deep Generative Networks,2023,arxiv:2312.05814,R0253,yes
+arXiv,arXiv:2105.14787v1,"Voice of Your Brain: Cognitive Representations of Imagined Speech,Overt Speech, and Speech Perception Based on EEG",2021,arxiv:2105.14787,R0712,no
+arXiv,arXiv:2402.16996v1,Towards Decoding Brain Activity During Passive Listening of Speech,2024,10.15775/besztud.2024.1.158-184,R0713,no
+arXiv,arXiv:2508.03166v1,MiSTR: Multi-Modal iEEG-to-Speech Synthesis with Transformer-Based Prosody Prediction and Neural Phase Reconstruction,2025,arxiv:2508.03166,R0627,yes
+arXiv,arXiv:2107.07064v1,DAL: Feature Learning from Overt Speech to Decode Imagined Speech-based EEG Signals with Convolutional Autoencoder,2021,arxiv:2107.07064,R0714,no
+arXiv,arXiv:2411.09243v1,"Towards Unified Neural Decoding of Perceived, Spoken and Imagined Speech from EEG Signals",2024,arxiv:2411.09243,R0216,yes
+arXiv,arXiv:2011.02195v1,Correlation based Multi-phasal models for improved imagined speech EEG recognition,2020,arxiv:2011.02195,R0715,no
+arXiv,arXiv:2509.26301v2,NeuroTTT: Bridging Pretraining-Downstream Task Misalignment in EEG Foundation Models via Test-Time Training,2025,arxiv:2509.26301,R0716,no
+arXiv,arXiv:2511.04691v1,A Penny for Your Thoughts: Decoding Speech from Inexpensive Brain Signals,2025,arxiv:2511.04691,R0717,no
+arXiv,arXiv:2603.20246v1,Decoding the decoder: Contextual sequence-to-sequence modeling for intracortical speech decoding,2026,arxiv:2603.20246,R0718,no
+arXiv,arXiv:2510.24733v1,Decoding non-invasive brain activity with novel deep-learning approaches,2025,arxiv:2510.24733,R0719,no
+arXiv,arXiv:2012.03632v1,Speech Imagery Classification using Length-Wise Training based on Deep Learning,2020,arxiv:2012.03632,R0720,no
+arXiv,arXiv:2307.14389v1,Diff-E: Diffusion-based Learning for Decoding Imagined Speech EEG,2023,arxiv:2307.14389,R0539,yes
+arXiv,arXiv:2310.04644v2,Neural2Speech: A Transfer Learning Framework for Neural-Driven Speech Reconstruction,2023,arxiv:2310.04644,R0355,yes
+arXiv,arXiv:2210.06472v1,Inner speech recognition through electroencephalographic signals,2022,arxiv:2210.06472,R0517,yes
+arXiv,arXiv:2506.13835v1,A Silent Speech Decoding System from EEG and EMG with Heterogenous Electrode Configurations,2025,arxiv:2506.13835,R0563,yes
+arXiv,arXiv:2603.13321v1,BrainWhisperer: Leveraging Large-Scale ASR Models for Neural Speech Decoding,2026,arxiv:2603.13321,R0721,no
+arXiv,arXiv:2002.12756v2,Speech Synthesis using EEG,2020,arxiv:2002.12756,R0296,yes
+arXiv,arXiv:2408.05362v1,MindSpeech: Continuous Imagined Speech Decoding using High-Density fNIRS and Prompt Tuning for Advanced Human-AI Interaction,2024,arxiv:2408.05362,R0722,no
+arXiv,arXiv:2408.05361v1,MindGPT: Advancing Human-AI Interaction with Non-Invasive fNIRS-Based Imagined Speech Decoding,2024,arxiv:2408.05361,R0723,no
+arXiv,arXiv:2506.10165v1,The 2025 PNPL Competition: Speech Detection and Phoneme Classification in the LibriBrain Dataset,2025,arxiv:2506.10165,R0724,no
+arXiv,arXiv:2506.05320v2,"Generalizable, real-time neural decoding with hybrid state-space models",2025,arxiv:2506.05320,R0725,no
+arXiv,arXiv:2403.05583v1,A Cross-Modal Approach to Silent Speech with LLM-Enhanced Recognition,2024,arxiv:2403.05583,R0726,no
+arXiv,arXiv:2003.00007v2,Generating EEG features from Acoustic features,2020,arxiv:2003.00007,R0370,yes
+arXiv,arXiv:2602.22597v1,"Relating the Neural Representations of Vocalized, Mimed, and Imagined Speech",2026,arxiv:2602.22597,R0727,no
+arXiv,arXiv:2410.19986v1,Resolving Domain Shift For Representations Of Speech In Non-Invasive Brain Recordings,2024,arxiv:2410.19986,R0728,no
+arXiv,arXiv:2003.10433v1,Decoding Imagined Speech using Wavelet Features and Deep Neural Networks,2020,10.1109/indicon47234.2019.9028925,R0239,yes
+arXiv,arXiv:2306.10854v1,Performance of data-driven inner speech decoding with same-task EEG-fMRI data fusion and bimodal models,2023,arxiv:2306.10854,R0729,no
+arXiv,arXiv:2510.27247v1,Reconstructing Unseen Sentences from Speech-related Biosignals for Open-vocabulary Neural Communication,2025,10.1109/tnsre.2025.3625219,R0403,yes
+arXiv,arXiv:1911.04255v4,Decoding Imagined Speech and Computer Control using Brain Waves,2019,10.1016/j.jneumeth.2021.109196,R0605,yes
+arXiv,arXiv:2603.02255v1,MEBM-Speech: Multi-scale Enhanced BrainMagic for Robust MEG Speech Detection,2026,arxiv:2603.02255,R0730,no
+arXiv,arXiv:2505.21304v1,Optimizing fMRI Data Acquisition for Decoding Natural Speech with Limited Participants,2025,arxiv:2505.21304,R0731,no
+arXiv,arXiv:2212.02047v2,Towards Neural Decoding of Imagined Speech based on Spoken Speech,2022,arxiv:2212.02047,R0219,yes
+arXiv,arXiv:2010.03360v2,Interpreting Imagined Speech Waves with Machine Learning techniques,2020,arxiv:2010.03360,R0732,no
+arXiv,arXiv:2208.12266v2,Decoding speech perception from non-invasive brain recordings,2022,10.1038/s42256-023-00714-5,R0733,no
+arXiv,arXiv:2302.01736v4,Relating EEG to continuous speech using deep neural networks: a review,2023,arxiv:2302.01736,R0102,yes
+arXiv,arXiv:2507.02800v2,Time-Masked Transformers with Lightweight Test-Time Adaptation for Neural Speech Decoding,2025,arxiv:2507.02800,R0734,no

@@ -1,0 +1,33 @@
+Pilot (calibration) set: 30 records drawn with random.seed(20261001) from the 734 unique records.
+These are excluded from the Cohen's kappa calculation.
+
+R0027
+R0039
+R0080
+R0128
+R0140
+R0154
+R0192
+R0193
+R0197
+R0209
+R0219
+R0237
+R0244
+R0261
+R0275
+R0321
+R0329
+R0349
+R0369
+R0389
+R0401
+R0402
+R0474
+R0542
+R0579
+R0593
+R0614
+R0648
+R0693
+R0733

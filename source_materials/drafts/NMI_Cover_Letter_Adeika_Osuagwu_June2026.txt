@@ -1,0 +1,44 @@
+June 2026
+
+Editorial Team
+Nature Machine Intelligence
+[Nature Publishing Group]
+
+Dear Editor,
+
+We are writing to submit our systematic review, "Artificial Intelligence for Brain-to-Speech Decoding: A Systematic Review of Methods, Performance Benchmarks, and Generalization Across Neural Recording Modalities (2015-2026)," for consideration at Nature Machine Intelligence.
+
+This comprehensive review synthesizes 71 peer-reviewed studies across five neural recording modalities (invasive ECoG/intracortical/sEEG, non-invasive EEG/MEG/fMRI, and hybrid approaches) to address a critical gap in the field: while brain-to-speech decoding has achieved landmark technical results—including word error rates as low as 2.5% and communication rates approaching 78 words per minute—no rigorous cross-modal synthesis of AI methods, performance benchmarks, and generalization evidence has been conducted. Our review changes that landscape in three concrete ways.
+
+First, we expose a structural generalization gap that the field has not yet quantified. We find that 56% of included studies demonstrate no cross-participant or cross-session generalization—meaning these systems work beautifully on the specific day they were trained in the specific lab, but fail immediately with new data. Cross-session evidence (critical for daily clinical use) exists in exactly two studies. Cross-language evidence exists in exactly two studies. For a technology whose clinical promise rests on deployment across diverse patients, in daily use, across languages, this gap is not a limitation of individual researchers—it's a structural ceiling on the field's current capability.
+
+Second, we introduce a novel benchmark comparability framework (Table 5) that systematically reveals why the literature's performance numbers cannot be meaningfully compared. Eight dimensions limit cross-study comparison: vocabulary size (2 classes vs 125,000+ words), task type (overt vs imagined vs attempted speech engage different neural signals), metric heterogeneity (9 incommensurable metrics used across papers), participant sample size (n=1 to n=723), clinical status (healthy vs ALS vs locked-in), evaluation methodology (offline cross-validation inflates accuracy 5-15% vs held-out test sets), language diversity (94% English-only), and reporting completeness (25% release code, 20% release data). This framework explains why saying "the field achieved 2.5% WER" is misleading—it applies to one participant, one vocabulary size, one evaluation method. The framework itself has immediate value for future research and will likely become a reference for standardization efforts in this space.
+
+Third, we identify and quantify critical underutilization of language models. Language model integration is the single largest discrete driver of word error rate reduction in the literature—demonstrated by Willett et al. (2023) achieving a 14 percentage-point WER reduction (23%→9%) through language model rescoring alone—yet only 14 of 71 studies (20%) integrate language models. The barrier is not algorithmic; it's data infrastructure: brain-language parallel corpora do not exist at the scale that speech recognition has access to via Common Voice.
+
+Why Nature Machine Intelligence? This review speaks directly to core themes in your journal's scope: AI methods applied to complex, real-world systems; the gap between theoretical advances and practical generalization; and the infrastructure requirements for moving from proof-of-concept to deployment. The benchmark comparability framework is a methodological contribution. The generalization analysis reshapes how the field understands what it has actually solved. The language model integration finding points to an immediate infrastructure opportunity.
+
+We have conducted this review in full compliance with PRISMA 2020 guidelines and registered the protocol prospectively (PROSPERO registration pending). The methodology was dual-reviewer at every stage with inter-rater reliability documented via Cohen's kappa. We developed a custom quality assessment tool tailored to AI-based neural decoding (not forced into RCT frameworks), and applied it to all 71 studies. Twelve variables were extracted from each included study, enabling both narrative synthesis and structured quantitative comparison across modalities. Findings were synthesized narratively—appropriately, given the heterogeneity of outcome metrics and study designs—supplemented by structured comparison tables and figures.
+
+The manuscript is original and has not been submitted, in press, or published elsewhere. All authors have approved the manuscript and agree with its submission.
+
+We recognize that this is a substantial review—40+ pages of synthesis covering a complex landscape of technical methods, clinical applications, and regulatory considerations. However, we believe this comprehensiveness is appropriate for a field that has grown faster than its capacity to synthesize itself rigorously. The prior reviews of this area covered single modalities (EEG-only, ECoG-only) or single task types (imagined speech-only), leaving clinicians and researchers without a unified landscape assessment. We provide that assessment for the first time.
+
+We have also prepared supplementary materials including the full search strategies for all five databases, complete quality assessment results for all 71 studies, extended performance data tables, and detailed generalization evidence summaries—all of which are available for online publication to support reproducibility.
+
+Thank you for considering our work. We welcome the opportunity to discuss this review and would be happy to address any questions or revisions the editorial team requests.
+
+Sincerely,
+
+Blessing Isoyiza Adeika
+Dr. Onyema Osuagwu
+Department of Electrical and Computer Engineering
+Morgan State University
+Baltimore, MD 21251
+
+---
+
+Contact Information:
+Blessing Isoyiza Adeika
+Email: blade3@morgan.edu
+Phone: [Your phone number]

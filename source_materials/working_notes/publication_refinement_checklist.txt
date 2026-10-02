@@ -1,0 +1,215 @@
+Publication Refinement Checklist
+AI for Brain-to-Speech Decoding Systematic Review
+Based on my comprehensive evaluation and review of your draft paper, here's a structured checklist to bring it to publication readiness:
+
+🔴 CRITICAL (MUST COMPLETE BEFORE SUBMISSION)
+1. PRISMA Flow Diagram (Figure 1)
+ Verify the PRISMA 2020 flow diagram is present and complete
+ Confirm all screening stages show correct numbers:
+Records identified from each database
+Total records after deduplication
+Records screened vs. excluded
+Full texts assessed vs. excluded (with reasons)
+Final studies included (71 total)
+ Ensure diagram follows PRISMA 2020 standard format exactly
+ Create if currently missing or incomplete
+2. Figure Placeholders - Remove ALL Instruction Text
+ Section 4.2 (CNN architecture figure): Remove placeholder text from "Fig. 4.1"
+Either secure permission from Angrick et al. 2019 or Chen et al. 2024
+OR redraw original 3D CNN/ResNet architecture diagram
+ Section 4.4 (Encoder-Decoder figure): Fix "Fig. 4.2" placeholder
+Secure permission from Makin et al. 2020 or Anumanchipalli et al. 2019
+OR create original two-stage architecture diagram
+ Section 4.5 (Transformer figure): Fix "Fig. 4.3" placeholder
+Vaswani et al. 2017 transformer diagram is universally recognized—citation sufficient
+OR use Wang & Ji 2022 EEG transformer pipeline diagram
+ Section 4.6 (SSL figure): Fix "Fig. 4.4" placeholder
+Secure permission from Défossez et al. 2023 or Kostas et al. 2021
+OR redraw contrastive learning architecture
+ Section 4.7 (LLM figure): Fix "Fig. 4.5" placeholder
+Secure permission from Tang et al. 2023 or Wang et al. 2023
+OR create original brain-LLM alignment pipeline diagram
+ All figures: Ensure high resolution (≥300 DPI for print)
+3. Complete All Appendices
+ Appendix A: Complete Search Strategies
+
+ PubMed search string with full MeSH terms (partial in protocol)
+ IEEE Xplore search string
+ Scopus search string
+ Web of Science search string
+ arXiv search strategy (cs.LG, cs.NE, eess.SP, q-bio.NC)
+ Forward/backward citation chaining methodology (15 landmark studies)
+ Appendix B: Quality Assessment Results
+
+ Full 7-item quality checklist for all 71 studies
+ Individual scores for each dimension (0, 0.5, 1.0)
+ Summary table: distribution of high/moderate/low quality studies
+ Any studies with moderate quality flags noted
+ Appendix C: Extended Performance Data
+
+ Complete performance benchmarks by modality group
+ All reported metrics for each study
+ Vocabulary sizes documented
+ Participant counts
+ Evaluation methodology for each study
+ Appendix D: Detailed Generalization Evidence
+
+ Full methods for 18 cross-participant studies
+ Full methods for 2 cross-session studies
+ Full methods for 2 cross-language studies
+ Full methods for 5 cross-modal studies
+ Performance retention percentages where available
+4. Verify ALL References (Critical for Publication Integrity)
+ Run paper through Turnitin or similar plagiarism checker
+Target: <10% similarity (excluding references)
+Flag anything >15% for manual review
+ Verify every DOI through CrossRef.org
+Verify DOI matches paper title exactly
+Check publication status (published vs. preprint)
+ Spot-check 10-15 random references for accuracy:
+ Title matches published version
+ Authors listed correctly
+ Journal/conference name exact
+ Year, volume, pages, DOI all correct
+ Check for fake citations or misattributions
+ No citations to sources you haven't read
+ No citation to papers for claims they don't make
+🟠 HIGH PRIORITY (Significantly Strengthens Paper)
+5. Section 5.5 Enhancement - Actionable Recommendations
+Current: Identifies why benchmarks aren't comparable
+
+Needed: Propose practical solutions
+
+ Add "Standardization Recommendations" subsection:
+
+Propose standard vocabulary size for open-vocab benchmarks (suggest: 10k+ words)
+Recommend confidence interval/standard deviation reporting
+Specify evaluation methodology best practice (held-out test > cross-validation)
+Define "generalization scope" labeling requirements
+ Add "Proposed Metrics" guidance:
+
+For text decoding: WER with specified vocabulary
+For classification: accuracy with cross-participant or cross-session notation
+For acoustic reconstruction: Pearson r with confidence intervals
+For all: provide performance range across participants
+ Reference standards to adopt:
+
+Brain-to-Text Benchmark 2024 initiative (you mention this—expand)
+LibriSpeech as analogy (explain adaptation needed)
+Propose standardized vocabulary datasets
+6. Section 7.2 Enhancement - Specificity & Actionability
+Current: Three priority directions (good)
+
+Needed: Concrete partnerships and resources
+
+Priority 1 - Standardized Evaluation:
+
+ Expand on Brain-to-Text Benchmark 2024 (you reference but don't elaborate)
+ Propose specific metrics to standardize (which 3-5 primary metrics?)
+ Recommend minimum reporting standard checklist
+Priority 2 - Multi-Participant Infrastructure:
+
+ Name specific consortia to contact:
+BrainGate Consortium (Stanford, MIT, Brown)
+UCSF BCI Laboratory
+Max Planck Institute speech BCI group
+Other active multi-site initiatives
+ Propose data-sharing agreements/standards
+ Specify recording protocol harmonization needed
+Priority 3 - Language Model Integration:
+
+ Propose "Brain-LLM Hub" infrastructure analogy (like Hugging Face)
+ Describe brain-language parallel corpus collection (cite Common Voice as model)
+ Recommend fine-tuning standardization approach
+ Specify which languages to prioritize (address your English-centric gap)
+7. Table Enhancements
+Table 2 (Core Performance Benchmarks):
+
+ Add column: "Generalization Scope" with labels:
+S-P = Single-Participant
+M-P = Multi-Participant
+C-P = Cross-Participant
+ This clarifies how much each benchmark generalizes
+Table 4 (Generalization Evidence):
+
+ Add column: "Performance Retention %" or "Performance Magnitude"
+ Examples:
+Card 2024: "97.5% accuracy sustained (8 months)"
+Degenhart 2020: "~95% of single-session performance maintained"
+d'Ascoli 2025: "Scaling law: performance ∝ log(n_participants)"
+Table 5 (Optional Enhancement):
+
+ Consider adding row: "Real-world deployment evaluation"
+Severity: CRITICAL
+Evidence: Most studies are lab-only; very few tested in home/clinical settings
+Implication: Clarifies clinical translation gap
+8. Reference Register Verification
+ Open Paper1_Reference_Register_Updated_April2026.xlsx
+ Spot-check 10% of entries (randomly selected 7-8 studies):
+ Author names spelled correctly
+ Publication year matches paper
+ Study appears in your references
+ Inclusion/exclusion decisions clearly documented
+ Verify no duplicate entries
+ Check for any inconsistencies in coding across modality groups
+🟡 MEDIUM PRIORITY (Polish & Completeness)
+9. Minor Content Refinements
+Section 7.3 - Clinical Translation Gap:
+
+ Add FDA regulatory pathway discussion
+Current status of intracortical BCI approvals
+Investigational Device Exemption (IDE) timeline
+Differences in pathway for ECoG vs. intracortical vs. non-invasive
+ Reference clinical trial landscape (BrainGate studies, ClinicalTrials.gov)
+Section 7.4 - Foundation Models:
+
+ Clarify the NLP scaling analogy limitations
+"Neural signals are not text"
+Neurosurgical access caps participant count (max realistic: 500-2000)
+Individual cortical anatomy variability may impose hard ceilings
+This is more cautious than pure NLP extrapolation
+Section 2.6 - Quality Assessment:
+
+ Expand description of why you adapted rather than used Cochrane RoB
+"Standard RCT tools don't fit observational AI studies"
+Your 7-item checklist is appropriate adaptation
+10. Formatting & Polish
+ Remove any yellow highlight text (Section 4)
+ Verify figure numbers are sequential (Fig. 1, 2, 3, 4)
+ Ensure table captions are complete sentences
+ Check all mathematical notation for consistency:
+Bold for vectors (x, w, h_t)
+Subscripts/superscripts formatted correctly
+Equation numbering consistent
+ Verify no em dashes (—) per your writing standards
+ Ensure all acronyms are defined at first use
+ECoG, sEEG, WER, PCC, etc. should be spelled out first time
+11. Citation Format Consistency
+ Spot-check 10 random IEEE-format citations for consistency
+Format: [#] Initial(s). Surname, "Title," Journal, vol. #, pp., Month Year, doi: ...
+All DOIs included where available
+Journal names abbreviated correctly
+✅ VERIFICATION CHECKLIST (Final Pass Before Submission)
+Before uploading to Nature Machine Intelligence:
+
+ PRISMA flow diagram complete with all numbers
+ ALL figure placeholder text removed or replaced
+ All appendices (A, B, C, D) complete and referenced
+ No yellow highlight text remaining
+ No em dashes in entire document
+ All 71 references verified and correctly formatted
+ Plagiarism check <10% (Turnitin)
+ All mathematical equations numbered and correct
+ Table captions are complete sentences
+ Section cross-references check (e.g., "see Table 5" exists)
+ No passive voice in abstract or conclusions
+ Cover letter drafted (reference the 3 key contributions)
+ Supplementary materials list prepared (appendices)
+ Co-author approval obtained (Dr. Osuagwu)
+📊 ESTIMATED TIMELINE
+Appendices (most time): 1 week
+Figure redraw/permissions: 1 week
+Content enhancements (Sections 5.5, 7.2, 7.3): 3-5 days
+Table refinements & reference verification: 2-3 days
+Final formatting & QA: 2-3 days
+Total: 2-3 weeks to publication-ready

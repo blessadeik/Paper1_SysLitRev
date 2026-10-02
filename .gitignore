@@ -29,3 +29,12 @@
 prompts.txt
 conversation_log.txt
 prompt_history.md
+
+# Working copy of the repo with extra files; important files are copied to source_materials/
+Paper 1_full docs and info/
+
+# Keep the review data, protocols and drafts (overrides the *.docx / *.xlsx rules above)
+!source_materials/**/*.docx
+!source_materials/**/*.xlsx
+!review/**/*.docx
+!review/**/*.xlsx
