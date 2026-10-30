@@ -1,0 +1,35 @@
+record_id,register_no_April2026,title,doi,abstract_source
+O001,43,A non-invasive brain–computer interface for real-time speech synthesis,,PubMed PMID 29641392 (A Noninvasive Brain-Computer Interface for Real-Ti)
+O002,58,MindLLM: a subject-agnostic and versatile model for fMRI-to-text decoding,10.5555/3780338.3782356,arXiv 2502.15786v2
+O003,6,Real-time decoding of question-and-answer speech dialogue using human cortical activity,10.1038/s41467-019-10994-4,Semantic Scholar
+O004,21,Imagined speech event detection from electrocorticography and its transfer between speech modes and subjects,10.1038/s42003-024-06518-6,Semantic Scholar
+O005,52,Generalized neural decoders for transfer learning across participants and recording modalities,10.1088/1741-2552/abda0b,Semantic Scholar
+O006,27,Cross-brain transfer of high-performance intracortical speech and handwriting BCIs,10.64898/2026.01.12.699110,Crossref
+O007,31,Spelling interface using intracortical signals in a completely locked-in patient enabled via auditory neurofeedback training,10.1038/s41467-022-28859-8,Semantic Scholar
+O008,59,Generative language reconstruction from brain recordings,10.1038/s42003-025-07731-7,Semantic Scholar
+O009,47,Guiding LLMs to decode text via aligning semantics in EEG signals and language,10.1016/j.eswa.2025.130300,Semantic Scholar
+O010,30,An instantaneous voice synthesis neuroprosthesis,10.1038/s41586-025-09127-3,Semantic Scholar
+O011,11,Brain-to-text: decoding spoken phrases from phone representations in the brain,10.3389/fnins.2015.00217,Semantic Scholar
+O012,7,Fully Implanted Brain–Computer Interface in a Locked-In Patient with ALS,10.1056/nejmoa1608085,Semantic Scholar
+O013,63,Shared computational principles for language processing in humans and deep language models,10.1038/s41593-022-01026-4,Semantic Scholar
+O014,71,Improving Speech Decoding from ECoG with Self-Supervised Pretraining,,arXiv 2405.18639v1
+O015,38,Open Vocabulary Electroencephalography-To-Text Decoding and Zero-shot Sentiment Classification,10.1609/aaai.v36i5.20472,Semantic Scholar
+O016,51,Continuous and discrete decoding of overt speech with electroencephalography,10.1101/2024.05.23.595510v1,PubMed
+O017,39,DeWave: Discrete EEG Waves Encoding for Brain Dynamics to Text Translation,,Semantic Scholar
+O018,22,An Accurate and Rapidly Calibrating Speech Neuroprosthesis,10.1056/nejmoa2314132,Semantic Scholar
+O019,61,Towards decoding individual words from non-invasive brain recordings,10.1038/s41467-025-65499-0,Semantic Scholar
+O020,14,Neural ensemble dynamics in dorsal motor cortex during speech in people with paralysis,10.7554/elife.46015,Semantic Scholar
+O021,60,Semantic language decoding across participants and stimulus modalities,10.1016/j.cub.2025.01.024,Semantic Scholar
+O022,23,Representation of internal speech by single neurons in human supramarginal gyrus,10.1038/s41562-024-01867-y,Semantic Scholar
+O023,8,Real-time synthesis of imagined speech processes from minimally invasive recordings of neural activity,10.1038/s42003-021-02578-0,Crossref
+O024,36,BENDR: Using Transformers and a Contrastive Self-Supervised Learning Task to Learn From Massive Amounts of EEG Data,10.3389/fnhum.2021.653659,Semantic Scholar
+O025,68,Towards optimizing electrode configurations for silent speech recognition based on high-density surface electromyography,10.1088/1741-2552/abca14,Semantic Scholar
+O026,67,A novel silent speech recognition approach based on parallel inception convolutional neural network and Mel frequency spectral coefficient,10.3389/fnbot.2022.971446,Semantic Scholar
+O027,53,Semantic reconstruction of continuous language from non-invasive brain recordings,10.1038/s41593-023-01304-9,Semantic Scholar
+O028,57,Decoding Continuous Character-based Language from Non-invasive Brain Recordings,10.1101/2024.03.19.585656,Semantic Scholar
+O029,17,Word pair classification during imagined speech using direct brain recordings,10.1038/srep25803,Semantic Scholar
+O030,26,Stabilization of a brain-computer interface via the alignment of low-dimensional spaces of neural activity,10.1038/s41551-020-0542-9,Semantic Scholar
+O031,70,BrainBERT: Self-supervised representation learning for intracranial recordings,,arXiv 2302.14367v1
+O032,56,Language Reconstruction with Brain Predictive Coding from fMRI Data,,arXiv 2405.11597v2
+O033,37,Neural decoding of speech with semantic-based classification.,10.1016/j.cortex.2022.05.018,Semantic Scholar
+O034,62,Brains and algorithms partially converge in natural language processing,10.1038/s42003-022-03036-1,Semantic Scholar

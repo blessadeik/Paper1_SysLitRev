@@ -2,9 +2,9 @@
 
 Prepared 1 October 2026 for the record "AI for brain-to-speech decoding: methods, performance benchmarks and generalisation across neural recording modalities (2015–2026)".
 
-**How to submit:** log in to PROSPERO, open the record and choose to amend it. Replace the text of each field below, then paste section 1 into the reason-for-amendment box. PROSPERO keeps the earlier version in the record's history; the changes are dated and visible.
+**How to submit:** log in to PROSPERO, open the record dashboard and choose **Create a major revision**. A minor amendment can't change the methods or the review team. Replace the text of each field below, matching fields by name because the new form may number them differently. Then paste section 1 into the revision note box. All authors must approve a major revision before it is published. PROSPERO keeps the earlier version in the record's history; the changes are dated and visible.
 
-**Submit this before formal screening starts.** An amendment made before any records are screened cannot have been influenced by results.
+**Submit this before you start your own screening.** The second reviewer has already screened, so the amendment says so. What matters is that it goes in before any decisions are compared or analysed; then it cannot have been influenced by results.
 
 The only item left to fill in is the date of acceptance, used in the manuscript text in section 4.
 
@@ -18,7 +18,7 @@ Your originals in `Paper 1_full docs and info/Additional docs/` are unchanged.
 
 ## 1. Reason for amendment (paste into the PROSPERO box)
 
-> This amendment is submitted before title and abstract screening has begun. (1) The formal database searches were executed on 13 April 2026 as planned, but the exported records were lost when the storage device holding them was damaged. The searches were therefore re-executed on 1 October 2026 using the identical registered strategy and the same eligible publication window (1 January 2015 to 13 April 2026); screening is based on the re-executed searches. (2) Web of Science Core Collection was not searched because the review team does not have institutional access; PubMed, Scopus, IEEE Xplore and arXiv were searched as planned. (3) bioRxiv, named in the original record as a source of preprints, is reclassified as a supplementary source reached through citation chaining and hand-searching rather than a systematically searched database. (4) Adeika Ebenezer Adeiza has joined the review team as second independent reviewer for screening, data extraction checking and quality assessment; Dr. Onyema Osuagwu continues as supervisor. (5) High-density surface electromyography (HD-sEMG), listed in the original record among hybrid and peripheral modalities, is now excluded: it records muscle rather than neural activity, which conflicts with the registered population criterion (neural or neuroimaging recording), and no sEMG terms appear in the registered search strategy. Studies that use neural recordings only to evaluate or improve language models, without decoding speech, are also explicitly excluded. (6) The anticipated completion date is revised. No other changes have been made to the review question, outcomes or synthesis methods.
+> This amendment is submitted after the second reviewer completed independent title and abstract screening, but before the first reviewer's screening and before any comparison or reconciliation of screening decisions; no screening results have been compared or analysed. (1) The formal database searches were executed on 13 April 2026 as planned, but the exported records were lost when the storage device holding them was damaged. The searches were therefore re-executed on 1 October 2026 using the identical registered strategy and the same eligible publication window (1 January 2015 to 13 April 2026); screening is based on the re-executed searches. (2) Web of Science Core Collection was not searched because the review team does not have institutional access; PubMed, Scopus, IEEE Xplore and arXiv were searched as planned. (3) bioRxiv, named in the original record as a source of preprints, is reclassified as a supplementary source reached through citation chaining and hand-searching rather than a systematically searched database. (4) Ebenezer Adeiza Adeika has joined the review team as co-author and second independent reviewer (screening, data extraction checking, quality assessment, and writing of the manuscript); Dr. Onyema Osuagwu continues as supervisor. (5) High-density surface electromyography (HD-sEMG), listed in the original record among hybrid and peripheral modalities, is now excluded: it records muscle rather than neural activity, which conflicts with the registered population criterion (neural or neuroimaging recording), and no sEMG terms appear in the registered search strategy. Studies that use neural recordings only to evaluate or improve language models, without decoding speech, are also explicitly excluded. (6) Records identified through other methods (citation searching and hand-searching) are screened as a separate stream and reported in the PRISMA 2020 "other methods" column. (7) The anticipated completion date is revised to 30 November 2026. No other changes have been made to the review question, outcomes or synthesis methods.
 
 ---
 
@@ -28,7 +28,7 @@ Your originals in `Paper 1_full docs and info/Additional docs/` are unchanged.
 
 | Registered | Amended |
 |---|---|
-| 31 July 2026 | 30 October 2026 |
+| 31 July 2026 | 30 November 2026 |
 
 ---
 
@@ -42,7 +42,7 @@ Your originals in `Paper 1_full docs and info/Additional docs/` are unchanged.
 >
 > Review team:
 > - Blessing Isoyiza Adeika (Department of Electrical and Computer Engineering, Morgan State University): protocol development, searching, screening, data extraction, quality assessment, synthesis and writing.
-> - Adeika Ebenezer Adeiza, BSc Psychology (University of Ilorin); Department of Internal Medicine, Federal Teaching Hospital, Gombe, Nigeria: independent title/abstract and full-text screening, independent cross-checking of data extraction, independent quality assessment, manuscript writing and approval of the final version.
+> - Ebenezer Adeiza Adeika (co-author), BSc Psychology (University of Ilorin); Department of Internal Medicine, Federal Teaching Hospital, Gombe, Nigeria: independent title/abstract and full-text screening, independent cross-checking of data extraction, independent quality assessment, drafting and revising manuscript sections, and approval of the final version.
 > - Dr. Onyema Osuagwu (Department of Electrical and Computer Engineering, Morgan State University): supervision and manuscript review.
 
 ---
@@ -104,7 +104,7 @@ These are not changes, so they do not go into the amendment text.
 > Stage 1: All records retrieved from database searches will be screened independently by both reviewers... Disagreements will be resolved by discussion and, where necessary, by consultation with a third reviewer. Data extraction will be performed by the primary reviewer and independently cross-checked by the secondary reviewer.
 
 **Amended:**
-> Title and abstract screening and full-text assessment are performed independently by two reviewers (B.I.A. and A.E.A.), each blinded to the other's decisions, using a standardised screening workbook with pre-specified exclusion reasons. Before formal screening, both reviewers screen a pilot set of 30 randomly selected records, compare decisions and agree on how the criteria apply; pilot records are excluded from the agreement statistics. At title/abstract stage, any record marked Include or Unsure by either reviewer proceeds to full-text assessment. At full-text stage, disagreements are resolved by discussion, and any that remain unresolved are referred to the supervising author (O.O.) for a final decision. Agreement is reported as Cohen's kappa at both stages. Data extraction is performed by B.I.A. and independently cross-checked against the source publications by A.E.A.; discrepancies are resolved by discussion.
+> Title and abstract screening and full-text assessment are performed independently by two reviewers (B.I.A. and E.A.A.), each blinded to the other's decisions, using a standardised screening workbook with pre-specified exclusion reasons. Each reviewer screens a pilot set of 30 randomly selected records before their main screening; the reviewers then compare pilot decisions and agree on how the criteria apply. The second reviewer completed the pilot and main screening before this calibration discussion; the first reviewer's main screening follows it. Main-screening decisions are not revised after calibration, and pilot records are excluded from the agreement statistics. At title/abstract stage, any record marked Include or Unsure by either reviewer proceeds to full-text assessment. At full-text stage, disagreements are resolved by discussion, and any that remain unresolved are referred to the supervising author (O.O.) for a final decision. Agreement is reported as Cohen's kappa at both stages. Data extraction is performed by B.I.A. and independently cross-checked against the source publications by E.A.A.; discrepancies are resolved by discussion.
 
 **Only if you will use AI-assisted checking** (Springer Nature requires disclosure), add:
 > A large language model (Claude, Anthropic) is used after both reviewers have completed independent screening, as an additional check that flags records for re-examination, and to pre-fill extraction fields with quoted source text for reviewer verification. All inclusion, exclusion and extraction decisions are made by the human reviewers.
@@ -114,7 +114,7 @@ These are not changes, so they do not go into the amendment text.
 ### Field 17: Risk of bias (quality assessment)
 
 **Replace "both reviewers" with:**
-> Quality assessment is performed independently by two reviewers (B.I.A. and A.E.A.) using the seven-dimension checklist described above; disagreements are resolved by discussion, with unresolved cases referred to the supervising author (O.O.).
+> Quality assessment is performed independently by two reviewers (B.I.A. and E.A.A.) using the seven-dimension checklist described above; disagreements are resolved by discussion, with unresolved cases referred to the supervising author (O.O.).
 
 Score against the registered seven dimensions exactly. The manuscript will be aligned to the protocol.
 
@@ -126,8 +126,8 @@ Score against the registered seven dimensions exactly. The manuscript will be al
 |---|---|
 | Preliminary searches | Completed |
 | Formal searches | Completed (executed 13 April 2026; re-executed 1 October 2026 after loss of exports) |
-| Piloting of study selection | Not started |
-| Formal screening of search results | Not started |
+| Piloting of study selection | Started (second reviewer completed; first reviewer not started) |
+| Formal screening of search results | Started (second reviewer completed title/abstract screening; first reviewer not started; no decisions compared) |
 | Data extraction | Not started |
 | Risk of bias assessment | Not started |
 | Data analysis | Not started |
@@ -150,4 +150,4 @@ Score against the registered seven dimensions exactly. The manuscript will be al
 
 ## 4. Matching text for the manuscript's Methods
 
-> The review protocol was registered with PROSPERO (CRD420261368521) and amended on [date of acceptance] before screening began. Searches executed on 13 April 2026 were re-run on 1 October 2026 with the identical strategy and publication window after the original exports were lost to a storage-device failure. The amendment also recorded the omission of Web of Science owing to lack of institutional access, the addition of a second independent reviewer, the exclusion of surface-electromyography studies (listed originally among peripheral modalities) and of encoding-only studies, and a revised completion date. No other deviations from the protocol occurred.
+> The review protocol was registered with PROSPERO (CRD420261368521) and amended on [date of acceptance], after the second reviewer had completed independent title and abstract screening but before the first reviewer's screening and before any comparison of decisions. Searches executed on 13 April 2026 were re-run on 1 October 2026 with the identical strategy and publication window after the original exports were lost to a storage-device failure. The amendment also recorded the omission of Web of Science owing to lack of institutional access, the addition of a second independent reviewer, the exclusion of surface-electromyography studies (listed originally among peripheral modalities) and of encoding-only studies, and a revised completion date. No other deviations from the protocol occurred.
